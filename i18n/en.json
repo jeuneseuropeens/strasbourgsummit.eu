@@ -1,0 +1,89 @@
+{
+  "PageLayout": {
+    "siteTitle": "Strasbourg Summit",
+    "siteDescription": "It is high time to change Europe. Let's move from words to actions in Strasbourg from 5 to 8 May 2022!",
+    "openMenu": "Open menu",
+    "copyright": "2022 Strasbourg Summit. All rights reserved."
+  },
+  "menu": {
+    "home": "Home",
+    "programme": "Programme",
+    "organisations": "They're in",
+    "takePart": "Take part"
+  },
+  "newsletter": {
+    "title": "Sign up for our newsletter",
+    "description": "texte motivant ici"
+  },
+  "pages": {
+    "Index": {
+      "title": "Strasbourg Summit",
+      "itIsTime": "Time to change Europe",
+      "description": "Strasbourg - May 5-8 2022",
+      "content": {
+        "lead": "<p>On 9 May 2022 will end the Conference on the Future of Europe. It is still uncertain whether the citizens' proposals will be taken into account.</p><p>We invite all Europeans to take part in the Strasbourg Summit from 5 to 8 May 2022 to make sure citizens’ expectations are followed with actions.</p>",
+        "text": "<p>Depuis le 9 mai 2021, tous les citoyens européens sont appelés à participer à la Conférence sur l’avenir de l’Europe pour débattre des priorités de l’Europe et réfléchir à l’avenir qu’ils souhaitent lui donner.</p>            <p>Si ce grand temps de débat est un moment inédit pour refonder l’Europe, plusieurs signaux inquiètent quant aux suites qui lui seront effectivement données. A ce jour, le calendrier et les modalités de prise en compte réelle des aspirations restent incertains. Par ailleurs, les suites infructueuses réservées aux précédentes consultations citoyennes en Europe donnent peu d’espoir quant à la considération donnée aux propositions faites dans le cadre de la Conférence sur l’avenir de l’Europe.</p>            <p>En effet, si la parole a été de nombreuses fois donnée aux citoyens européens pour connaître leurs attentes, leurs contributions sont bien souvent restées consignées dans des rapports. Ne laissons pas une nouvelle fois notre parole sans suite !</p>            <p>Loin de se résigner, la société civile européenne souhaite donc se mobiliser pour que ce moment de démocratie participative ne reste pas lettre morte. Les conclusions de la Conférence sur l’avenir de l’Europe en mai 2022 constituent une chance unique pour la société civile de définir l’Europe qu’elle veut et pour les dirigeants européens de la traduire en actes.</p>            <p>Les attentes sont fortes. La Conférence sur l’avenir de l’Europe peut déboucher sur une réforme sincère et profonde portée par les institutions européennes et impliquant ses citoyens, en particulier les plus jeunes. Elle peut enfin donner lieu aux changements qui permettront à l’Europe d’être en capacité de relever les défis de notre siècle et qui nous concernent tous, au premier rang desquels le changement climatique.</p>"
+      },
+      "readMore": "Read more...",
+      "demands": {
+        "title": "What we ask for",
+        "supportProposals": "Support citizens’ proposals made within the Conference on the Future of Europe",
+        "civilSociety": "Coordinate the European civil society in its actions and push European leaders to implement the proposals made during the Conference on the Future of Europe",
+        "reform": "Ask for the continuation of citizens’ works within a constituent Convention and push for an ambitious reform of the European Union"
+      }
+    },
+    "Programme": {
+      "title": "Programme",
+      "description": "Before the Conference on the Future of Europe ends, we invite all civil society organisations across Europe to take part to the Strasbourg Summit from May 5 to 8 2022."
+    },
+    "TakePart": {
+      "title": "Take part",
+      "description": "Plenty of organisations take part in the different highlights of the Summit. Like them, you can contribute to the programme with your own event (roundtable, debate, conference, workshop) and  share your expectations of the Conference on the future of Europe.",
+      "tabs": {
+        "organisation": {
+          "name": "As an organisation",
+          "opportunities": {
+            "delegation": {
+              "name": "Take part in the summit",
+              "description": "",
+              "actions": {
+                "register": {
+                  "title": "Register my delegation"
+                },
+                "openProgramme": {
+                  "title": "See the programme"
+                }
+              }
+            },
+            "event": {
+              "name": "Submit an event to the programme",
+              "description": "",
+              "actions": {
+                "suggestEvent": {
+                  "title": "J’inscris ma délégation"
+                }
+              }
+            },
+            "ideas": {
+              "name": "Share your ideas to change Europe",
+              "description": "",
+              "actions": {
+                "suggestIdeas": {
+                  "title": "Faire des propositions"
+                }
+              }
+            }
+          }
+        },
+        "individual": {
+          "name": "As an individual"
+        }
+      }
+    },
+    "Organisations": {
+      "title": "They’re in",
+      "description": "A movement launched in 2021, the Strasbourg Summit is based on the involvement of multiple European civil society organisations, active across the whole continent.",
+      "projectLedBy": "The project is led by"
+    }
+  }
+}
