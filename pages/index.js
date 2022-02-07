@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image'
 
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
@@ -8,8 +7,6 @@ import TemplateBase from '../components/layout/TemplateBase';
 import Container from '../components/layout/Container';
 import Demands from '../components/pages/index/demands';
 import NewsletterCTA from '../components/NewsletterCTA';
-
-import backgroundImage from '../public/DSC_0388-001.JPG'
 
 function ReadMore() {
   const t = useTranslations('pages.Index');
@@ -32,7 +29,8 @@ function ReadMore() {
               <Disclosure.Panel className="px-4 pb-2 text-gray-500">
                 <div>
                   {t.rich('content.text', {
-                    p: (children) => <p className="mt-4">{children}</p>
+                    p: (children) => <p className="mt-4">{children}</p>,
+                    bold: (children) => <span className="font-medium text-primary-500">{children}</span>
                   })}
                 </div>
               </Disclosure.Panel>
@@ -65,13 +63,6 @@ export default function Home() {
             />
             Your browser does not support the video tag.
           </video>
-
-          {/*<Image*/}
-          {/*  src={backgroundImage}*/}
-          {/*  alt=""*/}
-          {/*  layout="fill"*/}
-          {/*  objectFit="cover"*/}
-          {/*/>*/}
 
           <div className="absolute z-20 inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
         </div>
