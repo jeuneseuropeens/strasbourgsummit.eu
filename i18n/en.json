@@ -63,10 +63,7 @@
               "actions": {
                 "suggestEvent": {
                   "title": "Submit an event",
-                  "form": {
-                    "title": "Call for contributions",
-                    "id": "https://tally.so/r/3jYeJm"
-                  }
+                  "form": "https://tally.so/r/3jYeJm"
                 }
               }
             },
