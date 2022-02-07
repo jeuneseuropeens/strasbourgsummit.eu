@@ -82,7 +82,8 @@ export default function Home() {
         <div className="max-w-2xl mx-auto">
           <div className="text-xl text-gray-500">
             {t.rich('content.lead', {
-              p: (children) => <p className="mt-4">{children}</p>
+              p: (children) => <p className="mt-4">{children}</p>,
+              bold: (children) => <span className="font-medium text-primary-500">{children}</span>
             })}
           </div>
 
