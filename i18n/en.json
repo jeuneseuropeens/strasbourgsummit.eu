@@ -50,7 +50,7 @@
               "actions": {
                 "register": {
                   "title": "Register my delegation",
-                  "form": "https://tally.so/"
+                  "form": "https://tally.so/r/w4yaAn"
                 },
                 "openProgramme": {
                   "title": "See the programme"
@@ -65,7 +65,7 @@
                   "title": "Submit an event",
                   "form": {
                     "title": "Call for contributions",
-                    "id": "https://tally.so/"
+                    "id": "https://tally.so/r/3jYeJm"
                   }
                 }
               }
