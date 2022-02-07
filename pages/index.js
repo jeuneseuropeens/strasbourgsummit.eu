@@ -52,32 +52,32 @@ export default function Home() {
     <TemplateBase>
       <div className="relative z-0 flex items-center justify-center h-screen mb-12 overflow-hidden -mt-[96px] sm:-mt-[104px]">
         <div className="absolute inset-0">
-          {/*<video*/}
-          {/*  autoPlay*/}
-          {/*  loop*/}
-          {/*  muted*/}
-          {/*  className="absolute z-10 w-auto min-w-full min-h-full max-w-none"*/}
-          {/*>*/}
-          {/*  /!*w-full h-full object-cover*!/*/}
-          {/*  <source*/}
-          {/*    src="/March for Europe-FLUVORE.mp4"*/}
-          {/*    type="video/mp4"*/}
-          {/*  />*/}
-          {/*  Your browser does not support the video tag.*/}
-          {/*</video>*/}
+          <video
+            autoPlay
+            loop
+            muted
+            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          >
+            {/*w-full h-full object-cover*/}
+            <source
+              src="https://res.cloudinary.com/dw042ee9y/video/upload/v1644236955/Strasbourg%20Summit/Video-Homepage-Summit_yzrbqd.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
 
-          <Image
-            src={backgroundImage}
-            alt=""
-            layout="fill"
-            objectFit="cover"
-          />
+          {/*<Image*/}
+          {/*  src={backgroundImage}*/}
+          {/*  alt=""*/}
+          {/*  layout="fill"*/}
+          {/*  objectFit="cover"*/}
+          {/*/>*/}
 
-          <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
+          <div className="absolute z-20 inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
         </div>
 
         <div className="relative z-30 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold text-white sm:text-center sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold text-white sm:text-center sm:text-5xl lg:text-6xl">
             {t('itIsTime')}
           </h1>
 
