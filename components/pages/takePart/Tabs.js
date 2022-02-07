@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Tab } from '@headlessui/react'
 import Container from '../../layout/Container';
+import Link from 'next/link';
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')
@@ -19,11 +20,12 @@ export default function Tabs() {
 					actions: [
 						{
 							title: t('organisation.opportunities.delegation.actions.register.title'),
-							href: '#',
+							href: t('organisation.opportunities.delegation.actions.register.form'),
 						},
 						{
 							title: t('organisation.opportunities.delegation.actions.openProgramme.title'),
-							href: '#',
+							type: 'Link',
+							href: 'programme'
 						},
 					],
 				},
@@ -34,7 +36,7 @@ export default function Tabs() {
 					actions: [
 						{
 							title: t('organisation.opportunities.event.actions.suggestEvent.title'),
-							href: '#',
+							href: t('organisation.opportunities.event.actions.suggestEvent.form')
 						},
 					],
 				},
@@ -45,13 +47,13 @@ export default function Tabs() {
 				// 	actions: [
 				// 		{
 				// 			title: t('organisation.opportunities.ideas.actions.suggestEvent.title'),
-				// 			href: '#',
+				// 				href: '#',
 				// 		},
 				// 	],
 				// }
 			]
 		},
-		{
+		/*{
 			name: t('individual.name'),
 			opportunities: [
 				{
@@ -64,14 +66,16 @@ export default function Tabs() {
 					href: '#',
 					description: 'desc',
 				},
-				/*{
+				{
 					name: 'Partagez vos idées pour changer l’Europe',
 					href: '#',
 					description: 'All the basics for starting a new business',
-				}*/
+				}
 			]
-		},
+		},*/
 	]
+
+	const buttonStyles = 'block w-full border border-transparent rounded-md py-2 text-sm font-semibold text-center mt-4 text-primary-600 bg-primary-100 hover:bg-primary-200 first:mt-8 first:text-white first:bg-primary-500 first:hover:bg-primary-600'
 
 	return (
 		<Container>
@@ -109,15 +113,31 @@ export default function Tabs() {
 												<p className="mt-4 text-sm text-gray-500">{opportunity.description}</p>
 
 												<div>
-													{opportunity.actions && opportunity.actions.map((action) => (
-														<a
-															key={action.title}
-															href={action.href}
-															className="block w-full border border-transparent rounded-md py-2 text-sm font-semibold text-center mt-4 text-primary-600 bg-primary-100 hover:bg-primary-200 first:mt-8 first:text-white first:bg-primary-500 first:hover:bg-primary-600"
-														>
-															{action.title}
-														</a>
-													))}
+													{opportunity.actions && opportunity.actions.map((action) => {
+														if (action.type === 'Link') {
+															return (
+																<Link
+																	key={action.title}
+																	href={action.href}
+																>
+																	<a className={buttonStyles}>
+																		{action.title}
+																	</a>
+																</Link>
+															)
+														}
+
+														return (
+															<a
+																key={action.title}
+																href={action.href}
+																className={buttonStyles}
+																target="_blank" rel="noreferrer"
+															>
+																{action.title}
+															</a>
+														)
+													})}
 												</div>
 											</div>
 										</div>

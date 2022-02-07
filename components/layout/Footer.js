@@ -3,10 +3,10 @@ import {useRouter} from 'next/router';
 
 const navigation = {
 	main: [
-		{ name: 'Contact', href: '#' },
-		{ name: 'Plan du site', href: '#' },
-		{ name: 'Mentions légales', href: '#' },
-		{ name: 'Presse', href: '#' },
+		{ name: 'Contact', href: 'mailto:info@strasbourgsummit.eu' },
+		// { name: 'Plan du site', href: '#' },
+		{ name: 'Mentions légales', href: '/legal' },
+		{ name: 'Presse', href: 'mailto:info@strasbourgsummit.eu' },
 	],
 	social: [
 		// {
@@ -78,9 +78,9 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="mt-12 border-t border-gray-200 pt-8">
-					<p className="text-base text-gray-400 text-center">&copy; {t('copyright')}</p>
-				</div>
+				{/*<div className="mt-12 border-t border-gray-200 pt-8">*/}
+				{/*	<p className="text-base text-gray-400 text-center">&copy; {t('copyright')}</p>*/}
+				{/*</div>*/}
 			</div>
 		</footer>
 	)

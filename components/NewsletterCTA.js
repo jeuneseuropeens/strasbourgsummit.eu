@@ -1,7 +1,7 @@
 import {useTranslations} from 'next-intl';
 import {useRouter} from 'next/router';
 
-export default function NewletterCTA() {
+export default function NewsletterCTA() {
 	const t = useTranslations('newsletter');
 	const {locale} = useRouter()
 
@@ -14,23 +14,23 @@ export default function NewletterCTA() {
 		<div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
 			<div className="py-10 px-6 bg-gradient-to-br from-primary-700 to-primary-500 rounded-3xl sm:py-12 sm:px-12 lg:pl-16 lg:flex lg:items-center">
 				<div className="lg:w-0 lg:flex-1">
-					<h2 className="text-3xl font-extrabold tracking-tight text-white">{t('title')}</h2>
+					<h2 className="text-3xl font-bold text-white">{t('title')}</h2>
 					<p className="mt-4 max-w-3xl text-lg text-indigo-100">
 						{t('description')}
 					</p>
-					<p className="mt-6 text-xs text-indigo-100">
-						We care about the protection of your data. Read our{' '}
-						<a href="#" className="text-white font-medium underline">
-							Privacy Policy.
-						</a>
-					</p>
+					{/*<p className="mt-6 text-xs text-indigo-100">*/}
+					{/*	We care about the protection of your data. Read our{' '}*/}
+					{/*	<a href="#" className="text-white font-medium underline">*/}
+					{/*		Privacy Policy.*/}
+					{/*	</a>*/}
+					{/*</p>*/}
 				</div>
 				<div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
 					<div className="bg-white rounded-xl px-6">
 						<iframe
 							src={`https://tally.so/embed/${formId}?alignLeft=1&hideTitle=1&transparentBackground=1`}
 							width="100%"
-							height="200"
+							height="230"
 							frameBorder="0"
 							marginHeight="0"
 							marginWidth="0"

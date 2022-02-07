@@ -1,11 +1,15 @@
 import { useTranslations } from 'next-intl';
-import TemplateBase from '../components/layout/TemplateBase';
-import Container from '../components/layout/Container';
-import Demands from '../components/pages/index/demands';
+import Image from 'next/image'
 
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
-import NewletterCTA from '../components/NewletterCTA';
+
+import TemplateBase from '../components/layout/TemplateBase';
+import Container from '../components/layout/Container';
+import Demands from '../components/pages/index/demands';
+import NewsletterCTA from '../components/NewsletterCTA';
+
+import backgroundImage from '../public/DSC_0388-001.JPG'
 
 function ReadMore() {
   const t = useTranslations('pages.Index');
@@ -48,19 +52,26 @@ export default function Home() {
     <TemplateBase>
       <div className="relative z-0 flex items-center justify-center h-screen mb-12 overflow-hidden -mt-[96px] sm:-mt-[104px]">
         <div className="absolute inset-0">
-          <video
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-          >
-            {/*w-full h-full object-cover*/}
-            <source
-              src="/March for Europe-FLUVORE.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+          {/*<video*/}
+          {/*  autoPlay*/}
+          {/*  loop*/}
+          {/*  muted*/}
+          {/*  className="absolute z-10 w-auto min-w-full min-h-full max-w-none"*/}
+          {/*>*/}
+          {/*  /!*w-full h-full object-cover*!/*/}
+          {/*  <source*/}
+          {/*    src="/March for Europe-FLUVORE.mp4"*/}
+          {/*    type="video/mp4"*/}
+          {/*  />*/}
+          {/*  Your browser does not support the video tag.*/}
+          {/*</video>*/}
+
+          <Image
+            src={backgroundImage}
+            alt=""
+            layout="fill"
+            objectFit="cover"
+          />
 
           <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
         </div>
@@ -89,7 +100,7 @@ export default function Home() {
 
         <Demands />
 
-        <NewletterCTA />
+        <NewsletterCTA />
       </Container>
     </TemplateBase>
   )
