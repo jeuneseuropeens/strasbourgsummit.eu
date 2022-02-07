@@ -15,7 +15,7 @@ export default function TemplateBase({children, title}) {
 		<>
 			<Head>
 				<title>{joinedTitle}</title>
-				<meta name="description" content={"t(siteDescription)"} />
+				<meta name="description" content={t('siteDescription')} />
 				<link rel="icon" href="/favicon.ico?v=2" />
 			</Head>
 
