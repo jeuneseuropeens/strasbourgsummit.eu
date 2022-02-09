@@ -58,7 +58,7 @@ export default function Home() {
           >
             {/*w-full h-full object-cover*/}
             <source
-              src="https://res.cloudinary.com/dw042ee9y/video/upload/v1644236955/Strasbourg%20Summit/Video-Homepage-Summit_yzrbqd.mp4"
+              src="https://res.cloudinary.com/doz7pow8n/video/upload/v1644421076/Video-Homepage-Summit-compressed-NoSound_lucwuc.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
