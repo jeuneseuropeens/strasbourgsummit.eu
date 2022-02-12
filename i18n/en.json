@@ -27,9 +27,9 @@
       "readMore": "Read more...",
       "demands": {
         "title": "What we strive for:",
-        "supportProposals": "Support citizens’ proposals made within the Conference on the Future of Europe",
-        "civilSociety": "Coordinate the European civil society in its actions and push European leaders to implement the proposals made during the Conference on the Future of Europe",
-        "reform": "Ask for the continuation of citizens’ works within a constituent Convention and push for an ambitious reform of the European Union"
+        "supportProposals": "Support <bold>citizens’ proposals</bold> made within the Conference on the Future of Europe",
+        "civilSociety": "Coordinate the European civil society in its actions and push European leaders to <bold>implement the proposals</bold> made during the Conference on the Future of Europe",
+        "reform": "Ask for <bold>the continuation of citizens’ works</bold> within a constituent Convention and push for an <bold>ambitious reform of the European Union<bold>"
       }
     },
     "Programme": {

@@ -28,9 +28,9 @@
       "readMore": "Lire la suite...",
       "demands": {
         "title": "Mobilisons-nous pour :",
-        "supportProposals": "Soutenir les propositions des citoyens faites dans la Conférence sur l’avenir de l’Europe",
-        "civilSociety": "Coordonner la société civile européenne dans ses actions et pousser les dirigeants européens à s’engager dans la mise en oeuvre des propositions faites pendant la Conférence sur l’avenir de l’Europe",
-        "reform": "Demander la poursuite des travaux citoyens au sein d’une Convention constituante et appeler à une réforme ambitieuse de l’Union"
+        "supportProposals": "Soutenir les <bold>propositions des citoyens</bold> faites dans la Conférence sur l’avenir de l’Europe",
+        "civilSociety": "Coordonner la société civile européenne dans ses actions et pousser les dirigeants européens à s’engager dans la <bold>mise en oeuvre des propositions</bold> faites pendant la Conférence sur l’avenir de l’Europe",
+        "reform": "Demander <bold>la poursuite des travaux citoyens</bold> au sein d’une Convention constituante et appeler à une <bold>réforme ambitieuse de l’Union</bold>"
       }
     },
     "Programme": {

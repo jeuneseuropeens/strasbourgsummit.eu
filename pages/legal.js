@@ -11,7 +11,6 @@ export default function TakePart() {
 			description={t('description')}
 			bannerImage="/17547117_1115094925303458_1490815375177705789_o.jpeg"
 		>
-
 			<div className="relative py-16 overflow-hidden">
 				<div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
 					<div className="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
