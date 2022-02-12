@@ -56,7 +56,6 @@ export default function Home() {
             muted
             className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
           >
-            {/*w-full h-full object-cover*/}
             <source
               src="https://res.cloudinary.com/dw042ee9y/video/upload/v1644236955/Strasbourg%20Summit/Video-Homepage-Summit_yzrbqd.mp4"
               type="video/mp4"
