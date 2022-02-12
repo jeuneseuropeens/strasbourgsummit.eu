@@ -56,7 +56,6 @@ export default function Home() {
             muted
             className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
           >
-            {/*w-full h-full object-cover*/}
             <source
               src="https://res.cloudinary.com/doz7pow8n/video/upload/q_auto:low/v1644421076/Video-Homepage-Summit-compressed-NoSound_lucwuc.mp4"
               type="video/mp4"
