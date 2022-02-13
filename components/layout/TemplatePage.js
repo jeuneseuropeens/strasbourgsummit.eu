@@ -3,7 +3,7 @@ import Banner from './Banner';
 
 export default function TemplatePage({children, title, description, bannerImage}) {
 	return (
-		<TemplateBase>
+		<TemplateBase title={title}>
 			<Banner title={title} description={description} bannerImage={bannerImage} />
 
 			{children}
