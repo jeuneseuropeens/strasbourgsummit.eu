@@ -10,9 +10,9 @@ export default function TemplateBase({children, title}) {
 	const otherLocales = locales?.filter((cur) => cur !== locale && cur !== 'default');
 
 	const joinedTitle =
-		title !== t('siteTitle')
-			? [title, t('siteTitle')].join(' - ')
-			: title
+		!title
+			? t('siteTitle')
+			: [title, t('siteTitle')].join(' - ')
 
 	return (
 		<>
