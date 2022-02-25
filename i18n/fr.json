@@ -6,10 +6,21 @@
     "copyright": "2022 Sommet de Strasbourg. Tous droits réservés."
   },
   "menu": {
-    "home": "Accueil",
-    "programme": "Programme",
-    "organisations": "Elles y seront",
-    "takePart": "Participer"
+    "header": {
+      "home": "Accueil",
+      "programme": "Programme",
+      "organisations": "Elles y seront",
+      "takePart": "Participer"
+    },
+    "footer": {
+      "contact": "Nous contacter",
+      "legal": "Mentions légales",
+      "press": "Presse",
+      "sitemap": "Plan du site",
+      "facebook": "Événement Facebook",
+      "twitter": "Twitter",
+      "linkedin": "Événement LinkedIn"
+    }
   },
   "newsletter": {
     "title": "Tenez moi informé·e sur le Sommet de Strasbourg",

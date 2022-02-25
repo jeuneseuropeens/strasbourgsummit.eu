@@ -6,10 +6,21 @@
     "copyright": "2022 Strasbourg Summit. All rights reserved."
   },
   "menu": {
-    "home": "Home",
-    "programme": "Programme",
-    "organisations": "They're in",
-    "takePart": "Take part"
+    "header": {
+      "home": "Home",
+      "programme": "Programme",
+      "organisations": "They're in",
+      "takePart": "Take part"
+    },
+    "footer": {
+      "contact": "Contact us",
+      "legal": "Imprint",
+      "press": "Press",
+      "sitemap": "Sitemap",
+      "facebook": "Facebook event",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn event"
+    }
   },
   "newsletter": {
     "title": "Keep me updated about the Strasbourg Summit",
