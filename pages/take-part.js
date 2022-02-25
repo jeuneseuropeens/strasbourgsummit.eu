@@ -9,7 +9,6 @@ export default function TakePart() {
 		<TemplatePage
 			title={t('title')}
 			description={t('description')}
-			bannerImage="/17547117_1115094925303458_1490815375177705789_o.jpeg"
 		>
 			<Tabs></Tabs>
 		</TemplatePage>
