@@ -48,7 +48,7 @@ export default function Home() {
 
   return (
     <TemplateBase>
-      <div className="relative z-0 flex items-center justify-center h-screen mb-12 overflow-hidden -mt-[96px] sm:-mt-[104px]">
+      <div className="relative z-0 flex items-center justify-center h-home-full mb-12 overflow-hidden">
         <div className="absolute inset-0">
           <video
             autoPlay

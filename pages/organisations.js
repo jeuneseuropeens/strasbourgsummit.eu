@@ -84,7 +84,6 @@ export default function Organisations() {
 		<TemplatePage
 			title={t('title')}
 			description={t('description')}
-			bannerImage="/17547117_1115094925303458_1490815375177705789_o.jpeg"
 		>
 				<LeadingOrganisations />
 		</TemplatePage>

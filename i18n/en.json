@@ -43,6 +43,12 @@
         "reform": "Ask for <bold>the continuation of citizens’ works</bold> within a constituent Convention and push for an <bold>ambitious reform of the European Union<bold>"
       }
     },
+    "404": {
+      "error": "404 error",
+      "title": "Page not found",
+      "description": "It looks like the page you’re looking for doesn't exist.",
+      "button": "Go back home"
+    },
     "Programme": {
       "title": "Programme",
       "description": "Before the Conference on the Future of Europe ends, we invite all civil society organisations across Europe to take part to the Strasbourg Summit from May 5 to 8 2022.",

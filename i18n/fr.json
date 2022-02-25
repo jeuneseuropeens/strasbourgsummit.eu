@@ -44,6 +44,12 @@
         "reform": "Demander <bold>la poursuite des travaux citoyens</bold> au sein d’une Convention constituante et appeler à une <bold>réforme ambitieuse de l’Union</bold>"
       }
     },
+    "404": {
+      "error": "Erreur 404",
+      "title": "Page introuvable",
+      "description": "Il semble que la page que vous recherchez n'existe pas.",
+      "button": "Retourner à l'accueil"
+    },
     "Programme": {
       "title": "Programme",
       "description": "Avant que la Conférence sur l’avenir de l’Europe ne prenne fin, nous invitons tous les acteurs de société civile européenne à prendre part au Sommet de Strasbourg du 5 au 8 mai 2022.",

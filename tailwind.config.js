@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        'home-full': 'calc(100vh - 104px)'
+      },
       colors: {
         'primary': {
           50: '#e7edf5',
