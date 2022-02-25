@@ -50,25 +50,36 @@ export default function Home() {
     <TemplateBase>
       <div className="relative z-0 flex items-center justify-center h-screen mb-12 overflow-hidden -mt-[96px] sm:-mt-[104px]">
         <div className="absolute inset-0">
+          <img
+            className="w-full h-full object-cover"
+            src="/MarchForEuropeRome-156.jpg"
+            alt=""
+          />
+
+          <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" aria-hidden="true" />
+        </div>
+
+        <div className="hidden md:block absolute inset-0">
           <video
             autoPlay
             loop
             muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+            className="w-full h-full object-cover"
           >
             <source
               src="https://res.cloudinary.com/doz7pow8n/video/upload/q_auto:low/v1644421076/Video-Homepage-Summit-compressed-NoSound_lucwuc.mp4"
               type="video/mp4"
             />
-            Your browser does not support the video tag.
           </video>
 
-          <div className="absolute z-20 inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
+          <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
         </div>
 
-        <div className="relative z-30 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-white sm:text-center sm:text-5xl lg:text-6xl">
-            {t('itIsTime')}
+        <div className="relative max-w-7xl mx-auto mt-16 py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+          <h1 className="text-4xl text-white sm:text-center sm:text-5xl lg:text-6xl">
+            {t('itIsTime1')}{' '}
+            <br className="hidden sm:inline"/>
+            <span className="font-bold sm:text-6xl">{t('itIsTime2')}</span>
           </h1>
 
           <p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center sm:text-2xl lg:text-3xl">
