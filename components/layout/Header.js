@@ -10,7 +10,7 @@ function classNames(...classes) {
 }
 
 export default function Header() {
-	const t = useTranslations('menu')
+	const t = useTranslations('menu.header')
 	const {locale} = useRouter()
 	const pathTranslations = process.env.pathTranslations
 
