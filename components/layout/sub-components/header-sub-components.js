@@ -1,9 +1,9 @@
-import {useTranslations} from 'next-intl';
-import Link from 'next/link';
-import {Popover} from '@headlessui/react';
-import {MenuIcon} from '@heroicons/react/outline';
-import {useRouter} from 'next/router';
-import LocaleSwitcher from '../../locale-switcher';
+import {useTranslations} from 'next-intl'
+import Link from 'next-translate-routes/link'
+import {Popover} from '@headlessui/react'
+import {MenuIcon} from '@heroicons/react/outline'
+import {useRouter} from 'next/router'
+import LocaleSwitcher from '../../locale-switcher'
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')

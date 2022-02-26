@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import Link from 'next-translate-routes/link'
+import {useRouter} from 'next/router'
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')

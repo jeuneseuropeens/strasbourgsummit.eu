@@ -11,8 +11,6 @@ function classNames(...classes) {
 
 export default function Header() {
 	const t = useTranslations('menu.header')
-	const {locale} = useRouter()
-	const pathTranslations = process.env.pathTranslations
 
 	const menuItems = [
 		{
@@ -30,11 +28,7 @@ export default function Header() {
 	]
 
 	const listNavItems = menuItems.map((item) => {
-		const href = pathTranslations.find(el => el.en === item.slug)
-			? pathTranslations.find(el => el.en === item.slug)[locale]
-			: item.slug
-
-		return <NavItem key={item.title} href={href}>{item.title}</NavItem>
+		return <NavItem key={item.title} href={item.slug}>{item.title}</NavItem>
 	})
 
 	const {route} = useRouter()
@@ -64,5 +58,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
