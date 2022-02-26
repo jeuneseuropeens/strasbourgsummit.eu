@@ -1,7 +1,7 @@
-import { useTranslations } from 'next-intl';
-import { Tab } from '@headlessui/react'
-import Container from '../../layout/Container';
-import Link from 'next/link';
+import {useTranslations} from 'next-intl'
+import {Tab} from '@headlessui/react'
+import Container from '../../layout/Container'
+import Link from 'next-translate-routes/link'
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')

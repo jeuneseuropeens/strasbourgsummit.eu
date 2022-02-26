@@ -1,6 +1,6 @@
-import TemplatePage from '../components/layout/TemplatePage';
-import {useTranslations} from 'next-intl';
-import Link from 'next/link'
+import TemplatePage from '../components/layout/TemplatePage'
+import {useTranslations} from 'next-intl'
+import Link from 'next-translate-routes/link'
 
 export default function Custom404() {
 	const t = useTranslations('pages.404')
@@ -36,5 +36,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }

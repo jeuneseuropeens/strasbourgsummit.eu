@@ -1,7 +1,7 @@
-import App from "next/app";
+import App from 'next/app'
 import {NextIntlProvider} from 'next-intl'
-
-import { init } from "@socialgouv/matomo-next";
+import {withTranslateRoutes} from 'next-translate-routes'
+import {init} from '@socialgouv/matomo-next'
 
 import '../styles/globals.css'
 
@@ -22,4 +22,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp
+export default withTranslateRoutes(MyApp)
