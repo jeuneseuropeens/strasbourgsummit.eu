@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import {Tab} from '@headlessui/react'
-import Container from '../../layout/Container'
+import Container from '../layout/Container'
 import Link from 'next-translate-routes/link'
 
 function classNames(...classes) {
@@ -155,7 +155,7 @@ export default function Tabs() {
 export async function getStaticProps({locale}) {
 	return {
 		props: {
-			messages: (await import(`../../../i18n/${locale}.json`)).default
+			messages: (await import(`../../i18n/${locale}.json`)).default
 		}
 	}
 }

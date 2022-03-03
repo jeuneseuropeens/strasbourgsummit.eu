@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/outline'
+import {CheckIcon} from '@heroicons/react/outline'
 import {useTranslations} from 'next-intl'
 
 export default function Demands() {
@@ -37,7 +37,7 @@ export default function Demands() {
 export async function getStaticProps({locale}) {
 	return {
 		props: {
-			messages: (await import(`../../../i18n/${locale}.json`)).default
+			messages: (await import(`../../i18n/${locale}.json`)).default
 		}
 	}
 }
