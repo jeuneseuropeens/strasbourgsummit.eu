@@ -7,7 +7,7 @@ function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')
 }
 
-export default function Tabs() {
+export default function TakePartTabs() {
 	const t = useTranslations('pages.TakePart.tabs')
 
 	const tabs = [

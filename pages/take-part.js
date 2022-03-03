@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import TemplatePage from '../components/layout/TemplatePage'
-import Tabs from '../components/takePart/Tabs'
+import TakePartTabs from '../components/takePart/TakePartTabs'
 
 export default function TakePart() {
 	const t = useTranslations('pages.TakePart')
@@ -10,7 +10,7 @@ export default function TakePart() {
 			title={t('title')}
 			description={t('description')}
 		>
-			<Tabs></Tabs>
+			<TakePartTabs></TakePartTabs>
 		</TemplatePage>
 	)
 }
