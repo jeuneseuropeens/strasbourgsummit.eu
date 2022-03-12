@@ -29,7 +29,8 @@
   "pages": {
     "Index": {
       "title": "Strasbourg Summit",
-      "itIsTime": "Time to change Europe",
+      "itIsTime1": "Time to",
+      "itIsTime2": "change Europe",
       "description": "Strasbourg - May 5-8 2022",
       "content": {
         "lead": "<p>Before the Conference on the Future of Europe comes to an end, we invite all European civil society members to take part in <bold>the Strasbourg Summit from May 5 to 8 2022</bold>.</p><p>It is still uncertain whether the citizens' proposals made in the Conference will be taken into account. We will strive to ensure citizens' expectations are not left unheard and that European leaders follow and take action.</p>",
