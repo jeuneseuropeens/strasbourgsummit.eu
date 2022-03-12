@@ -46,25 +46,28 @@ function ReadMore() {
 export default function Home() {
   const t = useTranslations('pages.Index')
 
+  const staticImage = `${window.location.origin}/MarchForEuropeRome-156.jpg`
+
   return (
     <TemplateBase>
       <div className="relative z-0 flex items-center justify-center h-home-full mb-12 overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 sm:overflow-hidden sm:blur-sm sm:inset-4 sm:rounded-3xl">
           <img
             className="w-full h-full object-cover"
-            src="/MarchForEuropeRome-156.jpg"
+            src={staticImage}
             alt=""
           />
 
           <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" aria-hidden="true" />
         </div>
 
-        <div className="hidden md:block absolute inset-0">
+        <div className="hidden sm:block absolute inset-0 sm:overflow-hidden sm:blur-sm sm:inset-4 sm:rounded-3xl">
           <video
             autoPlay
             loop
             muted
             className="w-full h-full object-cover"
+            poster={staticImage}
           >
             <source
               src="https://res.cloudinary.com/doz7pow8n/video/upload/q_auto:low/v1644421076/Video-Homepage-Summit-compressed-NoSound_lucwuc.mp4"
