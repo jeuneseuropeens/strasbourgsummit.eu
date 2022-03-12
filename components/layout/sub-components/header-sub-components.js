@@ -10,7 +10,7 @@ function classNames(...classes) {
 }
 
 function NavigationLogo() {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 	const {locale} = useRouter()
 
 	return (
@@ -30,7 +30,7 @@ function NavigationLogo() {
 }
 
 function Burger() {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 
 	return (
 		<div className="-mr-2 -my-2 md:hidden">
@@ -82,5 +82,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }

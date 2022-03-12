@@ -1,5 +1,5 @@
-import {useTranslations} from 'next-intl';
-import Link from 'next-translate-routes/link';
+import {useTranslations} from 'next-intl'
+import Link from 'next-translate-routes/link'
 
 export default function FooterMenu() {
 	const t = useTranslations('menu.footer')

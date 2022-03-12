@@ -1,9 +1,9 @@
-import {useTranslations} from 'next-intl';
-import {Popover} from '@headlessui/react';
-import {useRouter} from 'next/router';
+import {useTranslations} from 'next-intl'
+import {Popover} from '@headlessui/react'
+import {useRouter} from 'next/router'
 
-import MobilePopoverNav from './sub-components/MobilePopoverNav';
-import {Burger, NavigationLogo, NavigationMenu, NavItem} from './sub-components/header-sub-components';
+import MobilePopoverNav from './sub-components/MobilePopoverNav'
+import {Burger, NavigationLogo, NavigationMenu, NavItem} from './sub-components/header-sub-components'
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')

@@ -1,13 +1,13 @@
-import {useTranslations} from 'next-intl';
-import Head from 'next/head';
-import Header from './Header';
-import Footer from './Footer';
-import {useRouter} from 'next/router';
+import {useTranslations} from 'next-intl'
+import Head from 'next/head'
+import Header from './Header'
+import Footer from './Footer'
+import {useRouter} from 'next/router'
 
 export default function TemplateBase({children, title}) {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 	const {locale, locales} = useRouter()
-	const otherLocales = locales?.filter((cur) => cur !== locale && cur !== 'default');
+	const otherLocales = locales?.filter((cur) => cur !== locale && cur !== 'default')
 
 	const joinedTitle =
 		!title
@@ -52,7 +52,7 @@ xxx
 
 			<Footer />
 		</>
-	);
+	)
 }
 
 export async function getStaticProps({locale}) {
@@ -60,5 +60,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }

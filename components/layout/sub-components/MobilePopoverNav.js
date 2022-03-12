@@ -1,12 +1,12 @@
-import {Fragment} from 'react';
-import {Popover, Transition} from '@headlessui/react';
-import {XIcon} from '@heroicons/react/outline';
-import {useRouter} from 'next/router';
-import {useTranslations} from 'next-intl';
-import LocaleSwitcher from '../../locale-switcher';
+import {Fragment} from 'react'
+import {Popover, Transition} from '@headlessui/react'
+import {XIcon} from '@heroicons/react/outline'
+import {useRouter} from 'next/router'
+import {useTranslations} from 'next-intl'
+import LocaleSwitcher from '../../locale-switcher'
 
 export default function MobilePopoverNav({listNavItems}) {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 	const {locale} = useRouter()
 
 	return (

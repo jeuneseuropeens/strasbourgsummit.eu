@@ -1,5 +1,5 @@
-import TemplateBase from './TemplateBase';
-import Banner from './Banner';
+import TemplateBase from './TemplateBase'
+import Banner from './Banner'
 
 export default function TemplatePage({children, title, description, bannerImage}) {
 	return (
@@ -10,7 +10,7 @@ export default function TemplatePage({children, title, description, bannerImage}
 
 			{children}
 		</TemplateBase>
-	);
+	)
 }
 
 TemplatePage.defaultProps = {

@@ -8,7 +8,7 @@ function classNames(...classes) {
 }
 
 export default function Tabs() {
-	const t = useTranslations('pages.TakePart.tabs');
+	const t = useTranslations('pages.TakePart.tabs')
 
 	const tabs = [
 		{
@@ -157,6 +157,6 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
 

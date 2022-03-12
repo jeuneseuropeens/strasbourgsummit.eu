@@ -1,9 +1,9 @@
-import { useTranslations } from 'next-intl';
-import TemplatePage from '../components/layout/TemplatePage';
-import Tabs from '../components/pages/takePart/Tabs';
+import {useTranslations} from 'next-intl'
+import TemplatePage from '../components/layout/TemplatePage'
+import Tabs from '../components/pages/takePart/Tabs'
 
 export default function TakePart() {
-	const t = useTranslations('pages.TakePart');
+	const t = useTranslations('pages.TakePart')
 
 	return (
 		<TemplatePage
@@ -20,6 +20,6 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
 

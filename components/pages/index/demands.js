@@ -1,8 +1,8 @@
 import { CheckIcon } from '@heroicons/react/outline'
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-intl'
 
 export default function Demands() {
-	const t = useTranslations('pages.Index.demands');
+	const t = useTranslations('pages.Index.demands')
 
 	const demands = [
 		'supportProposals',
@@ -39,5 +39,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }

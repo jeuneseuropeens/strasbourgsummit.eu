@@ -1,8 +1,8 @@
-import { useTranslations } from 'next-intl';
-import TemplatePage from '../components/layout/TemplatePage';
+import {useTranslations} from 'next-intl'
+import TemplatePage from '../components/layout/TemplatePage'
 
 function LeadingOrganisations() {
-	const t = useTranslations('pages.Organisations');
+	const t = useTranslations('pages.Organisations')
 
 	const organisations = [
 		{
@@ -78,7 +78,7 @@ function LeadingOrganisations() {
 }
 
 export default function Organisations() {
-	const t = useTranslations('pages.Organisations');
+	const t = useTranslations('pages.Organisations')
 
 	return (
 		<TemplatePage
@@ -95,6 +95,6 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
 

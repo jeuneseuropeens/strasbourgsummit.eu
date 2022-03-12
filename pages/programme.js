@@ -1,11 +1,11 @@
-import { useTranslations } from 'next-intl';
+import {useTranslations} from 'next-intl'
 
-import TemplatePage from '../components/layout/TemplatePage';
-import Container from '../components/layout/Container';
-import NewsletterCTA from '../components/NewsletterCTA';
+import TemplatePage from '../components/layout/TemplatePage'
+import Container from '../components/layout/Container'
+import NewsletterCTA from '../components/NewsletterCTA'
 
 function ComingSoon() {
-	const t = useTranslations('pages');
+	const t = useTranslations('pages')
 
 	const buttonStyles = 'block w-max m-auto border border-transparent rounded-md py-2 px-4 text-sm font-semibold text-center mt-4 text-primary-600 bg-primary-100 hover:bg-primary-200 first:mt-8 first:text-white first:bg-primary-500 first:hover:bg-primary-600'
 
@@ -31,7 +31,7 @@ function ComingSoon() {
 }
 
 export default function Programme() {
-	const t = useTranslations('pages.Programme');
+	const t = useTranslations('pages.Programme')
 
 	return (
 		<TemplatePage
@@ -52,6 +52,6 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
 

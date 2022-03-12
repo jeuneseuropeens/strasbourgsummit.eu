@@ -1,8 +1,8 @@
-import {useTranslations} from 'next-intl';
-import {useRouter} from 'next/router';
+import {useTranslations} from 'next-intl'
+import {useRouter} from 'next/router'
 
 export default function NewsletterCTA() {
-	const t = useTranslations('newsletter');
+	const t = useTranslations('newsletter')
 	const {locale} = useRouter()
 
 	const formId = locale === 'fr'
@@ -48,5 +48,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }

@@ -1,15 +1,15 @@
-import { useTranslations } from 'next-intl';
+import {useTranslations} from 'next-intl'
 
-import { Disclosure } from '@headlessui/react'
-import { ChevronUpIcon } from '@heroicons/react/solid'
+import {Disclosure} from '@headlessui/react'
+import {ChevronUpIcon} from '@heroicons/react/solid'
 
-import TemplateBase from '../components/layout/TemplateBase';
-import Container from '../components/layout/Container';
-import Demands from '../components/pages/index/demands';
-import NewsletterCTA from '../components/NewsletterCTA';
+import TemplateBase from '../components/layout/TemplateBase'
+import Container from '../components/layout/Container'
+import Demands from '../components/pages/index/demands'
+import NewsletterCTA from '../components/NewsletterCTA'
 
 function ReadMore() {
-  const t = useTranslations('pages.Index');
+  const t = useTranslations('pages.Index')
 
   return (
     <div className="w-full pt-10">
@@ -44,7 +44,7 @@ function ReadMore() {
 
 
 export default function Home() {
-  const t = useTranslations('pages.Index');
+  const t = useTranslations('pages.Index')
 
   return (
     <TemplateBase>
@@ -113,5 +113,5 @@ export async function getStaticProps({locale}) {
     props: {
       messages: (await import(`../i18n/${locale}.json`)).default
     }
-  };
+  }
 }
