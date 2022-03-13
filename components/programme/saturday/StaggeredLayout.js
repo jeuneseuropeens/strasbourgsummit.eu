@@ -1,5 +1,6 @@
 import {Feed} from '../../lib/feed/Feed'
 import {classNames} from '../../../helpers'
+import {Badge} from '../../lib/Badge'
 
 export const StaggeredLayout = ({event}) => (
 	<div className="group relative mt-24 first:mt-0">
@@ -7,9 +8,7 @@ export const StaggeredLayout = ({event}) => (
 			<div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 group-even:lg:col-start-2">
 				<div>
 					{event.time && (
-						<span className="inline-flex items-center px-4 py-1 rounded-md text-sm font-semibold tracking-wide bg-blue-100 text-blue-600">
-							{event.time}
-						</span>
+						<Badge>{event.time}</Badge>
 					)}
 				</div>
 				<div className="mt-6">
