@@ -25,7 +25,7 @@ export default function ProgrammeSaturday () {
 			time: t('march.time'),
 			title: t('march.title'),
 			description: t('march.description'),
-			imageSrc:'/DSC_0388-001.JPG',
+			imageSrc:'/marche.jpg',
 			timeline: [
 				{
 					id: 1,

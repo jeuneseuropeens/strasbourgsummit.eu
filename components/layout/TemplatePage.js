@@ -14,5 +14,5 @@ export default function TemplatePage({children, title, description, bannerImage}
 }
 
 TemplatePage.defaultProps = {
-	bannerImage: '/17547117_1115094925303458_1490815375177705789_o.jpeg'
+	bannerImage: '/banner.jpeg'
 }
