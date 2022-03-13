@@ -9,7 +9,7 @@
     "header": {
       "home": "Accueil",
       "programme": "Programme",
-      "organisations": "Elles y seront",
+      "organisations": "Nous y serons",
       "takePart": "Participer"
     },
     "footer": {
@@ -23,7 +23,7 @@
     }
   },
   "newsletter": {
-    "title": "Tenez moi informé·e sur le Sommet de Strasbourg",
+    "title": "Tenez moi informé·e sur le Sommet de Strasbourg",
     "description": "",
     "privacyPolicy": ""
   },

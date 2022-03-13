@@ -5,6 +5,6 @@ module.exports = withTranslateRoutes({
   i18n: {
     locales: ['en', 'fr'],
     defaultLocale: 'en',
-    localeDetection: true,
-  },
+    localeDetection: true
+  }
 })

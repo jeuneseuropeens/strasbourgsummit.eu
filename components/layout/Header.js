@@ -5,10 +5,6 @@ import {useRouter} from 'next/router'
 import MobilePopoverNav from './sub-components/MobilePopoverNav'
 import {Burger, NavigationLogo, NavigationMenu, NavItem} from './sub-components/header-sub-components'
 
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ')
-}
-
 export default function Header() {
 	const t = useTranslations('menu.header')
 

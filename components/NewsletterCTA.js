@@ -10,7 +10,7 @@ export default function NewsletterCTA() {
 		: 'wdVLrm' // form in English
 
 	return (
-		<div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+		<div className="max-w-5xl m-auto mt-12">
 			<div className="py-10 px-6 bg-gradient-to-br from-[#11509D] to-[#212F5A] rounded-3xl sm:py-12 sm:px-12 lg:pl-16 lg:flex lg:items-center">
 				<div className="lg:w-0 lg:flex-1">
 					<h2 className="text-3xl font-bold text-white">{t('title')}</h2>

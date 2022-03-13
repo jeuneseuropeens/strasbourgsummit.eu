@@ -1,9 +1,6 @@
 import Link from 'next-translate-routes/link'
 import {useRouter} from 'next/router'
-
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ')
-}
+import {classNames} from '../helpers'
 
 export default function LocaleSwitcher() {
 	const {locale, locales, route} = useRouter()
