@@ -1,8 +1,8 @@
 import {useTranslations} from 'next-intl'
-
 import TemplatePage from '../components/layout/TemplatePage'
 import Container from '../components/layout/Container'
 import NewsletterCTA from '../components/NewsletterCTA'
+import ProgrammeTabs from '../components/programme/ProgrammeTabs'
 
 function ComingSoon() {
 	const t = useTranslations('pages')
@@ -39,7 +39,7 @@ export default function Programme() {
 			description={t('description')}
 		>
 			<Container>
-				<ComingSoon/>
+				<ProgrammeTabs/>
 
 				<NewsletterCTA/>
 			</Container>

@@ -54,7 +54,51 @@
     "Programme": {
       "title": "Programme",
       "description": "Avant que la Conférence sur l’avenir de l’Europe ne prenne fin, nous invitons tous les acteurs de société civile européenne à prendre part au Sommet de Strasbourg du 5 au 8 mai 2022.",
-      "comingSoon": "Le programme se précise, revenez bientôt ou contribuez-y !"
+      "comingSoon": "Le programme se précise, revenez bientôt ou contribuez-y !",
+      "tabs": {
+        "thursday": {
+          "name": "Jeudi 5 mai"
+        },
+        "friday": {
+          "name": "Vendredi 6 mai"
+        },
+        "saturday": {
+          "name": "Samedi 7 mai"
+        },
+        "sunday": {
+          "name": "Dimanche 8 mai"
+        }
+      },
+      "events": {
+        "saturday": {
+          "convention": {
+            "time":"Samedi matin",
+            "title":"Convention de la société civile européenne",
+            "description":"Toutes les forces vives associatives, syndicales (associations, syndicats, ONG, fondations...) réunies au sein d’une Convention pour fixer la marche à suivre à l’issue de la Conférence sur l’avenir de l’Europe.",
+            "timeline": {
+              "location": {
+                "content": "Lieu :",
+                "target": "L'Aubette"
+              }
+            }
+          },
+          "march": {
+            "time":"Samedi après-midi",
+            "title":"Marche pour l’Europe",
+            "description":"Temps fort du Sommet, invitons les dirigeants européens à passer des paroles aux actes : rassemblons-nous pour un grand temps de mobilisation citoyenne en faveur du projet européen.",
+            "timeline": {
+              "location": {
+                "content": "Départ :",
+                "target": "place Kléber à Strasbourg"
+              },
+              "destination": {
+                "content": "Arrivée :",
+                "target": "Parlement européen"
+              }
+            }
+          }
+        }
+      }
     },
     "TakePart": {
       "title": "Participer",
