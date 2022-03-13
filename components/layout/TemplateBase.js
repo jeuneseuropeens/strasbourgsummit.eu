@@ -4,15 +4,33 @@ import Header from './Header'
 import Footer from './Footer'
 import {useRouter} from 'next/router'
 
-export default function TemplateBase({children, title}) {
+export default function TemplateBase({children, title, description}) {
 	const t = useTranslations('PageLayout')
 	const {locale, locales} = useRouter()
 	const otherLocales = locales?.filter((cur) => cur !== locale && cur !== 'default')
+
+	const domain = "strasbourgsummit.eu"
+	const basePath = `https://www.${domain}`
+
+	const localeUrl =
+		locale === 'fr'
+			? `${basePath}/fr`
+			: basePath
 
 	const joinedTitle =
 		!title
 			? t('siteTitle')
 			: [title, t('siteTitle')].join(' - ')
+
+	const pageDescription =
+		!description
+			? t('siteDescription')
+			: description
+
+	const image = `${basePath}/OG-Sommet-${locale}.png`
+
+	console.log(description)
+	console.log(pageDescription)
 
 	return (
 		<>
@@ -21,27 +39,27 @@ export default function TemplateBase({children, title}) {
 				<link rel="icon" href="/favicon.ico?v=2" />
 
 				{/*Primary Meta Tags*/}
-				<meta name="title" content={t('siteTitle')} />
-				<meta name="description" content={t('siteDescription')} />
+				<meta name="title" content={joinedTitle} />
+				<meta name="description" content={pageDescription} />
 
 				{/*Open Graph / Facebook*/}
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://www.strasbourgsummit.eu/" />
-				<meta property="og:title" content={t('siteTitle')} />
-				<meta property="og:description" content={t('siteDescription')} />
-				<meta property="og:image" content={`https://www.strasbourgsummit.eu/OG-Sommet-${locale}.png`} />
+				<meta property="og:url" content={localeUrl} />
+				<meta property="og:title" content={joinedTitle} />
+				<meta property="og:description" content={pageDescription} />
+				<meta property="og:image" content={image} />
 				<meta property="og:locale" content={locale} />
 				{otherLocales.map((otherLocale) => (
 					<meta key={otherLocale} property="og:locale:alternate" content={otherLocale} />
 				))}
-xxx
+
 				{/*Twitter*/}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:domain" content="strasbourgsummit.eu" />
-				<meta property="twitter:url" content="https://www.strasbourgsummit.eu/" />
-				<meta property="twitter:title" content={t('siteTitle')} />
-				<meta property="twitter:description" content={t('siteDescription')} />
-				<meta property="twitter:image" content={`https://www.strasbourgsummit.eu/OG-Sommet-${locale}.png`} />
+				<meta property="twitter:domain" content={domain} />
+				<meta property="twitter:url" content={localeUrl} />
+				<meta property="twitter:title" content={joinedTitle} />
+				<meta property="twitter:description" content={pageDescription} />
+				<meta property="twitter:image" content={image} />
 			</Head>
 
 			<Header />
