@@ -53,7 +53,51 @@
     "Programme": {
       "title": "Programme",
       "description": "Before the Conference on the Future of Europe ends, we invite all civil society organisations across Europe to take part to the Strasbourg Summit from May 5 to 8 2022.",
-      "comingSoon": "Programme in the making: come back soon or submit your own event!"
+      "comingSoon": "Programme in the making: come back soon or submit your own event!",
+      "tabs": {
+        "thursday": {
+          "name": "Thursday, May 5"
+        },
+        "friday": {
+          "name": "Friday, May 6"
+        },
+        "saturday": {
+          "name": "Saturday, May 7"
+        },
+        "sunday": {
+          "name": "Sunday, May 8"
+        }
+      },
+      "events": {
+        "saturday": {
+          "convention": {
+            "time":"Saturday morning",
+            "title":"The European Civil Society Convention",
+            "description":"Gathering all driving forces (associations, trade unions, NGOs, foundations, etc.) within a Convention to set the roadmap following the Conference on the Future of Europe.",
+            "timeline": {
+              "location": {
+                "content": "Venue :",
+                "target": "L'Aubette"
+              }
+            }
+          },
+          "march": {
+            "time":"Saturday afternoon",
+            "title":"March for Europe",
+            "description":"Milestone of the Summit: let’s push European leaders to move from words to action and hold a large-scale citizen mobilisation to support the continuation of the European project.",
+            "timeline": {
+              "location": {
+                "content": "Gathering :",
+                "target": "place Kléber in Strasbourg"
+              },
+              "destination": {
+                "content": "Destination :",
+                "target": "European Parliament"
+              }
+            }
+          }
+        }
+      }
     },
     "TakePart": {
       "title": "Take part",

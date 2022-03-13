@@ -1,6 +1,6 @@
 export default function Banner({title, description, bannerImage}) {
 	return (
-		<div className="relative bg-gray-500">
+		<div className="relative bg-zinc-500">
 			<div className="absolute inset-0">
 				<img
 					className="w-full h-full object-cover"
@@ -8,7 +8,7 @@ export default function Banner({title, description, bannerImage}) {
 					alt=""
 				/>
 
-				<div className="absolute z-20 inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
+				<div className="absolute z-20 inset-0 bg-zinc-500 mix-blend-multiply" aria-hidden="true" />
 			</div>
 
 			<div className="relative z-30 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">

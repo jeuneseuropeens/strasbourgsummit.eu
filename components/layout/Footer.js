@@ -1,6 +1,6 @@
-import {useTranslations} from 'next-intl';
-import {useRouter} from 'next/router';
-import FooterMenu from './sub-components/FooterMenu';
+import {useTranslations} from 'next-intl'
+import {useRouter} from 'next/router'
+import FooterMenu from './sub-components/FooterMenu'
 
 export default function Footer() {
 	const t = useTranslations('PageLayout')

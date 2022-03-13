@@ -1,50 +1,9 @@
 import Link from 'next-translate-routes/link'
 import {useRouter} from 'next/router'
-
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ')
-}
+import {classNames} from '../helpers'
 
 export default function LocaleSwitcher() {
-	const {locale, locales, route} = useRouter();
-	// const otherLocale = locales?.find((cur) => cur !== locale);
-	const otherLocales = locales?.filter((cur) => cur !== locale && cur !== 'default');
-
-	// console.log(pathTranslations)
-	// console.log(route.slice(1))
-	//
-	// const translatedPath = pathTranslations.find(el => el.en === route.slice(1))
-	// console.log('translatedPath : ', translatedPath)
-	//
-	// const listLocales = otherLocales.map((localeId) => {
-	// 	return (
-	// 		<li key={localeId}>
-	// 			<Link
-	// 				href={
-	// 					!translatedPath
-	// 						? route
-	// 						: translatedPath[localeId]
-	// 				}
-	// 				locale={localeId}
-	// 			>
-	// 				<a>{t('switchLocale', {locale: localeId})}</a>
-	// 			</Link>
-	// 		</li>
-	// 	)
-	// });
-
-	// const listLocales = otherLocales.map((localeId) => {
-	// 	return (
-	// 		<li key={localeId}>
-	// 			<Link
-	// 				href={route}
-	// 				locale={localeId}
-	// 			>
-	// 				<a>{t('switchLocale', {locale: localeId})}</a>
-	// 			</Link>
-	// 		</li>
-	// 	)
-	// });
+	const {locale, locales, route} = useRouter()
 
 	const siteLocales = locales?.filter((cur) => cur !== 'default')
 
@@ -70,6 +29,7 @@ export default function LocaleSwitcher() {
 					)
 				}
 
+				// Current locale
 				return (
 					<div
 						className={classNames(
@@ -83,5 +43,5 @@ export default function LocaleSwitcher() {
 				)
 			})}
 		</div>
-	);
+	)
 }

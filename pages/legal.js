@@ -1,15 +1,13 @@
-import { useTranslations } from 'next-intl';
-import TemplateBase from '../components/layout/TemplateBase';
-import Tabs from '../components/pages/takePart/Tabs';
+import {useTranslations} from 'next-intl'
+import TemplateBase from '../components/layout/TemplateBase'
 
-export default function TakePart() {
-	const t = useTranslations('pages.TakePart');
+export default function Legal() {
+	const t = useTranslations('pages.TakePart')
 
 	return (
 		<TemplateBase
 			title={t('title')}
 			description={t('description')}
-			bannerImage="/17547117_1115094925303458_1490815375177705789_o.jpeg"
 		>
 			<div className="relative py-16 overflow-hidden">
 				<div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -183,6 +181,6 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
 

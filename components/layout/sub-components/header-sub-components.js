@@ -3,14 +3,12 @@ import Link from 'next-translate-routes/link'
 import {Popover} from '@headlessui/react'
 import {MenuIcon} from '@heroicons/react/outline'
 import {useRouter} from 'next/router'
-import LocaleSwitcher from '../../locale-switcher'
 
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ')
-}
+import LocaleSwitcher from '../../locale-switcher'
+import {classNames} from '../../../helpers'
 
 function NavigationLogo() {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 	const {locale} = useRouter()
 
 	return (
@@ -30,7 +28,7 @@ function NavigationLogo() {
 }
 
 function Burger() {
-	const t = useTranslations('PageLayout');
+	const t = useTranslations('PageLayout')
 
 	return (
 		<div className="-mr-2 -my-2 md:hidden">
@@ -82,5 +80,5 @@ export async function getStaticProps({locale}) {
 		props: {
 			messages: (await import(`../../../i18n/${locale}.json`)).default
 		}
-	};
+	}
 }
