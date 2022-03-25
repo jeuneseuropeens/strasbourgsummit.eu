@@ -105,11 +105,11 @@
       "description": "De nombreux collectifs participent aux différents temps forts du Sommet. Comme eux, proposez votre propre événement (table-ronde, débat, atelier, conférence) pour partager vos attentes autour de la Conférence sur l’avenir de l’Europe.",
       "tabs": {
         "organisation": {
-          "name": "En tant qu'organisation",
+          "name": "Participer en tant qu'organisation",
           "opportunities": {
             "delegation": {
-              "name": "Participer au sommet",
-              "description": "De nombreux événements et initiatives ponctueront ces trois jours de rencontres. Vérifie-bien le programme pour participer à ceux qui te plaisent. Attention, certains mériteront que tu t’inscrives.",
+              "name": "Inscrire sa délégation",
+              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Vous aussi, participez au Sommet en inscrivant votre délégation !",
               "actions": {
                 "register": {
                   "title": "J’inscris ma délégation",
@@ -118,31 +118,118 @@
                 "openProgramme": {
                   "title": "Consulter le programme"
                 }
+              },
+              "faqs": {
+                "costs": {
+                  "question": "Les frais de transport et d’hébergement seront-ils pris en charge ?",
+                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Pour planifier au mieux la venue de votre délégation, nous sommes à votre disposition pour vous orienter si besoin dans vos choix de transport et d’hébergement. Inscrivez-vous puis contactez-nous !</p>"
+                },
+                "accommodation": {
+                  "question": "Où réserver un hébergement à Strasbourg ?",
+                  "answer": "<p>Vous avez le choix ! L’Office de tourisme vous propose de nombreuses possibilités d’hébergement à Strasbourg <LinkOt>à découvrir sur leur site</LinkOt>.</p><p>Vous cherchez un hébergement à bon prix pour votre délégation ? Voici quelques suggestions : l’<LinkCiarus>auberge de jeunesse Ciarus</LinkCiarus>, le <LinkCej>Centre européen de la jeunesse</LinkCej>, l’<LinkCap>hôtel Cap Europe</LinkCap>, l’<LinkPeople>auberge de jeunesse The People</LinkPeople>, l’<LinkRives>Auberge des Deux Rives</LinkRives>.</p>"
+                },
+                "come": {
+                  "question": "Comment venir à Strasbourg ?",
+                  "answer": "<p>Venir à Strasbourg est un jeu d’enfant ! La plupart des villes européennes proposent des liaisons en train, en bus ou en avion. L’aéroport de Strasbourg-Entzheim est accessible à 10 minutes en train depuis la gare centrale (proche du centre-ville et desservie par plusieurs lignes de tram).</p><p>Plus d’infos sont disponibles sur le <LinkOt>site de l’office de tourisme de Strasbourg et sa région</LinkOt>.</p>"
+                },
+                "move": {
+                  "question": "Comment se déplacer dans la ville ?",
+                  "answer": "<p>La distance entre les lieux du Sommet de Strasbourg vous permet de vous déplacer à pied.</p><p>Il est possible d’acheter un pass “3 jours” (9,30€) qui vous permettra de voyager en illimité sur l’ensemble du réseau de bus et de tram de l’Eurométropole. Renseignez-vous sur le <LinkCts>site de la CTS</LinkCts>.</p>"
+                }
               }
             },
             "event": {
               "name": "Proposer un événement au programme",
-              "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l'accompagnerons pour le mettre en place.",
+              "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l'accompagnerons pour le mettre en place.",
               "actions": {
                 "suggestEvent": {
                   "title": "Je propose un événement",
                   "form": "https://tally.so/r/mVAEjn"
                 }
+              },
+              "faqs": {
+                "venue": {
+                  "question": "Si j’organise un événement pendant le Sommet, une salle est-elle mise à disposition ?",
+                  "answer": "Oui ! Les organisateurs du Sommet de Strasbourg ont déjà pré-réservé plusieurs lieux pour vos événements. Une fois que votre événement est confirmé par notre équipe logistique, nous mettons à votre disposition un lieu approprié. Nous prenons en charge tous les frais de réservation. Vous n’avez pas à vous soucier des détails logistiques : vous pouvez vous focaliser sur le programme de votre événement, on s’occupe du reste !"
+                },
+                "confirmation": {
+                  "question": "Quand saurai-je si mon événement est intégré au programme ?",
+                  "answer": "Une fois votre demande déposée sur le formulaire, notre équipe prendra contact avec vous par courriel. Vous pourrez ainsi discuter des détails logistiques de votre événement."
+                },
+                "types": {
+                  "question": "Quels types d’événements peut-on organiser lors du Sommet ?",
+                  "answer": "<p>Vous pouvez organiser tout type d’événement en lien avec l’Europe : un débat, une conférence, un atelier participatif, une projection, un concert…</p><p>Vous êtes libres de proposer les événements que vous souhaitez, dans la limite bien sûr de la capacité des salles mises à votre disposition.</p>"
+                },
+                "online": {
+                  "question": "Est-il possible d’organiser un événement à distance dans le cadre du Sommet ?",
+                  "answer": "Non, tous les événements sont organisés sur place à Strasbourg."
+                }
               }
             },
-            "ideas": {
-              "name": "Share your ideas to change Europe",
-              "description": "",
-              "actions": {
-                "suggestIdeas": {
-                  "title": "Submit proposals"
+            "covid": {
+              "name": "\uD83D\uDE37 Coronavirus",
+              "faqs": {
+                "measures": {
+                  "question": "Quelles sont les mesures sanitaires en vigueur contre la COVID-19 ? Un passe sanitaire est-il demandé ?",
+                  "answer": "Depuis le 14 mars 2022, le port du masque et le passe sanitaire ne sont plus demandés pour des événements en intérieur en France. Nous suivons les consignes nationales qui sont susceptibles d’évoluer."
+                },
+                "cancel": {
+                  "question": "Que se passe-t-il si le Sommet est annulé pour raisons sanitaires ?",
+                  "answer": "Nous adapterons notre organisation en fonction de la situation sanitaire pour maintenir le Sommet dans les meilleures conditions. La loi française prévoit le remboursement des frais d’hébergement en hôtels en cas d’annulation pour cause de COVID."
                 }
               }
             }
           }
         },
         "individual": {
-          "name": "En tant qu'individuel"
+          "name": "Participer individuellement",
+          "opportunities": {
+            "delegation": {
+              "name": "Rejoindre une délégation",
+              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Les inscriptions individuelles en dehors d'une délégation ne sont pas possibles.",
+              "actions": {
+                "join": {
+                  "title": "Rejoindre une délégation"
+                }
+              },
+              "faqs": {
+                "how": {
+                  "question": "Comment participer ?",
+                  "answer": "Vous devez vous inscrire auprès d’une des organisations partenaires du Sommet. Cela nous permettra d’accueillir votre délégation dans les meilleures conditions et de vous tenir informé des événements proposés pendant le Sommet."
+                },
+                "online": {
+                  "question": "Est-il possible de participer aux événements du Sommet à distance ?",
+                  "answer": "Non, tous les événements sont organisés sur place à Strasbourg."
+                },
+                "costs": {
+                  "question": "Mes frais de transport et mon hébergement seront-ils pris en charge par le Sommet de Strasbourg ?",
+                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Plusieurs organisations partenaires prennent en charge les frais de leurs propres délégations et proposent une solution d’hébergement. Merci de contacter votre organisation pour en savoir plus.</p>"
+                }
+              }
+            },
+            "public": {
+              "name": "Le programme grand public",
+              "description": "<p>Certains événements organisés dans le cadre du Sommet sont ouverts au grand public (ils sont indiqués dans le programme).</p><p>La <bold>Marche pour l’Europe</bold> est ouverte à tous : rendez-vous samedi 7 mai à 15 heures place Kléber à Strasbourg en apportant votre plus beau drapeau européen ou fédéraliste.</p>",
+              "actions": {
+                "programme": {
+                  "title": "Consulter le programme"
+                }
+              }
+            },
+            "covid": {
+              "name": "\uD83D\uDE37 Coronavirus",
+              "faqs": {
+                "measures": {
+                  "question": "Quelles sont les mesures sanitaires en vigueur contre la COVID-19 ? Un passe sanitaire est-il demandé ?",
+                  "answer": "Depuis le 14 mars 2022, le port du masque et le passe sanitaire ne sont plus demandés pour des événements en intérieur en France. Nous suivons les consignes nationales qui sont susceptibles d’évoluer."
+                },
+                "cancel": {
+                  "question": "Que se passe-t-il si le Sommet est annulé pour raisons sanitaires ?",
+                  "answer": "Nous adapterons notre organisation en fonction de la situation sanitaire pour maintenir le Sommet dans les meilleures conditions. La loi française prévoit le remboursement des frais d’hébergement en hôtels en cas d’annulation pour cause de COVID."
+                }
+              }
+            }
+          }
         }
       }
     },

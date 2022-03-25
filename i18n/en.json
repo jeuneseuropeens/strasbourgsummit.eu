@@ -104,11 +104,11 @@
       "description": "Plenty of organisations take part in the different highlights of the Summit. Like them, you can contribute to the programme with your own event (roundtable, debate, conference, workshop) and  share your expectations of the Conference on the future of Europe.",
       "tabs": {
         "organisation": {
-          "name": "As an organisation",
+          "name": "Take part as an organisation",
           "opportunities": {
             "delegation": {
-              "name": "Take part in the summit",
-              "description": "There will be many events and initiatives during the 3-day Summit. Take a close look at the programme to participate in the ones you like. Some of them will ask you to register to attend.",
+              "name": "Register your delegation",
+              "description": "Each partner organisation of the Summit manages its own delegation. You too can participate in the Summit by registering your delegation!",
               "actions": {
                 "register": {
                   "title": "Register my delegation",
@@ -117,31 +117,118 @@
                 "openProgramme": {
                   "title": "See the programme"
                 }
+              },
+              "faqs": {
+                "costs": {
+                  "question": "Will accommodation and travel costs be covered?",
+                  "answer": "<p>The organisers of the Strasbourg Summit don’t cover the costs of accommodation and travel.</p><p>In order to plan your delegation's participation as well as possible, we are at your disposal to guide you in your choice of transport and accommodation. Please register and contact us!</p>"
+                },
+                "accommodation": {
+                  "question": "Where can I book accommodation in Strasbourg?",
+                  "answer": "<p>The choice is yours! The Tourist Office offers a wide range of accommodation options in Strasbourg, which you can <LinkOt>discover on their website</LinkOt>.</p><p>Looking for affordable accommodation for your delegation? Here are some suggestions: <LinkCiarus>Ciarus youth hostel</LinkCiarus>, the <LinkCej>European Youth Centre</LinkCej>, <LinkCap>Cap Europe hotel</LinkCap>, <LinkPeople>The People youth hostel</LinkPeople>, <LinkRives>Auberge des Deux Rives youth hostel</LinkRives>.</p>"
+                },
+                "come": {
+                  "question": "How can I get to Strasbourg?",
+                  "answer": "<p>Getting to Strasbourg is easy. It is possible to come from most European cities by train, bus or plane. Strasbourg-Entzheim airport is located 10 minutes away by direct train from Strasbourg central train station. The train station is near the city centre and accessible by several tramway lines.</p><p>You can check the <LinkOt>website of the Tourist Information Office</LinkOt> for more information.</p>"
+                },
+                "move": {
+                  "question": "How can I get around Strasbourg during the event?",
+                  "answer": "<p>It is possible to walk between most of the venues of the Strasbourg Summit.</p><p>However, you can buy a 3-days ticket for €9.30 and use the tramway and bus. For information about prices the and public transport network, visit the <LinkCts>CTS website</LinkCts>.</p>"
+                }
               }
             },
             "event": {
               "name": "Submit an event to the programme",
-              "description": "Your organisation wants to organise an event in Strasbourg during the Strasbourg Summit? Tell us about your project and your needs and we will help you to set it up.",
+              "description": "Your organisation would like to organise an event in Strasbourg during the Strasbourg Summit? Tell us about your project and your needs and we will help you set it up.",
               "actions": {
                 "suggestEvent": {
                   "title": "Submit an event",
                   "form": "https://tally.so/r/3jYeJm"
                 }
+              },
+              "faqs": {
+                "venue": {
+                  "question": "If I organise an event, will you provide a venue?",
+                  "answer": "Yes! The organisers of the Strasbourg Summit have booked venues for the events organising by participating organisations. Once your event is confirmed by our team, we will offer a venue for you and will detail your technical needs. You will have the space for arranging your event free of charge: you just have to take care of the programme!"
+                },
+                "confirmation": {
+                  "question": "When will I hear back when I submit my event?",
+                  "answer": "Once you submitted the application form, our content and logistics team will respond to you via email. You will be able to confirm the logistical details of your session by discussing with them."
+                },
+                "types": {
+                  "question": "What kind of events can I organise?",
+                  "answer": "<p>You can organise any kind of indoor event with a European dimension. A debate, a discussion workshop, a meeting, a concert…</p><p>You are free to propose any kind of event that fits the venues. In short: we provide a venue, you organise your event.</p>"
+                },
+                "online": {
+                  "question": "Can I organise an online event during the Summit?",
+                  "answer": "No, all the events will be taking place in Strasbourg only."
+                }
               }
             },
-            "ideas": {
-              "name": "Share your ideas to change Europe",
-              "description": "",
-              "actions": {
-                "suggestIdeas": {
-                  "title": "Faire des propositions"
+            "covid": {
+              "name": "\uD83D\uDE37 Coronavirus",
+              "faqs": {
+                "measures": {
+                  "question": "What will be the COVID-measures? Is a COVID pass mandatory?",
+                  "answer": "We will follow the national instructions. However, since March 14 2022, the mask and COVID pass are no longer mandatory indoor."
+                },
+                "cancel": {
+                  "question": "What happens if the event is canceled because of COVID?",
+                  "answer": "If the health situation deteriorates, we will adapt the organisation of the Summit to keep it in the best possible conditions. In the event of cancellation, French law provides for the reimbursement of accommodation costs by hotels in case of COVID."
                 }
               }
             }
           }
         },
         "individual": {
-          "name": "As an individual"
+          "name": "Take part individually",
+          "opportunities": {
+            "delegation": {
+              "name": "Join a delegation",
+              "description": "Each partner organisation of the Summit manages its own delegation. Individual registrations outside a delegation are not possible.",
+              "actions": {
+                "join": {
+                  "title": "Join a delegation"
+                }
+              },
+              "faqs": {
+                "how": {
+                  "question": "How do I join?",
+                  "answer": "You must register with one of the Summit's partner organisations. This will allow us to welcome your delegation in the best conditions and to keep you informed of the events proposed during the Summit."
+                },
+                "online": {
+                  "question": "Will it be possible to attend the event online?",
+                  "answer": "No, all the events will be taking place in Strasbourg only."
+                },
+                "costs": {
+                  "question": "Will my travel and accommodation costs be covered by the Strasbourg Summit?",
+                  "answer": "<p>The organisers of the Strasbourg Summit don’t cover the costs of accommodation and travel.</p><p>Several participating organisations support their participants with financial assistance. Please contact your organisation to have more information.</p>"
+                }
+              }
+            },
+            "public": {
+              "name": "The general public programme",
+              "description": "<p>Some events are open to the general public (they are indicated in the programme).</p><p>The <bold>March for Europe</bold> is open to all, you just need to show up on Saturday May 7 at 3 pm on place Kléber, Strasbourg wearing your most beautiful European or federalist flag!</p>",
+              "actions": {
+                "programme": {
+                  "title": "See the programme"
+                }
+              }
+            },
+            "covid": {
+              "name": "\uD83D\uDE37 Coronavirus",
+              "faqs": {
+                "measures": {
+                  "question": "What will be the COVID-measures? Is a COVID pass mandatory?",
+                  "answer": "We will follow the national instructions. However, since March 14 2022, the mask and COVID pass are no longer mandatory indoor."
+                },
+                "cancel": {
+                  "question": "What happens if the event is canceled because of COVID?",
+                  "answer": "If the health situation deteriorates, we will adapt the organisation of the Summit to keep it in the best possible conditions. In the event of cancellation, French law provides for the reimbursement of accommodation costs by hotels in case of COVID."
+                }
+              }
+            }
+          }
         }
       }
     },

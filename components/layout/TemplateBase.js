@@ -29,9 +29,6 @@ export default function TemplateBase({children, title, description}) {
 
 	const image = `${basePath}/OG-Sommet-${locale}.png`
 
-	console.log(description)
-	console.log(pageDescription)
-
 	return (
 		<>
 			<Head>
@@ -70,6 +67,7 @@ export default function TemplateBase({children, title, description}) {
 
 			<Footer />
 		</>
+
 	)
 }
 

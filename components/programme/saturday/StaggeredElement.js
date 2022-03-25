@@ -1,8 +1,9 @@
 import {Feed} from '../../lib/feed/Feed'
 import {classNames} from '../../../helpers'
 import {Badge} from '../../lib/Badge'
+import Title from '../../lib/Title'
 
-export const StaggeredLayout = ({event}) => (
+export const StaggeredElement = ({event}) => (
 	<div className="group relative mt-24 first:mt-0">
 		<div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
 			<div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 group-even:lg:col-start-2">
@@ -11,20 +12,24 @@ export const StaggeredLayout = ({event}) => (
 						<Badge>{event.time}</Badge>
 					)}
 				</div>
+
 				<div className="mt-6">
-					<h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+					<Title tag='h2' extrabold>
 						{event.title}
-					</h2>
+					</Title>
+
 					<p className="mt-4 text-lg text-gray-500">
 						{event.description}
 					</p>
 				</div>
+
 				{event.timeline && (
 					<div className="mt-6">
 						<Feed timeline={event.timeline}/>
 					</div>
 				)}
 			</div>
+
 			<div className="mt-12 sm:mt-16 lg:mt-0 group-even:lg:col-start-1">
 				<div className={classNames(
 					'lg:px-0 lg:m-0 lg:relative lg:h-full',

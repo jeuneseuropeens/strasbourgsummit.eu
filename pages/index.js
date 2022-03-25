@@ -7,6 +7,7 @@ import TemplateBase from '../components/layout/TemplateBase'
 import Container from '../components/layout/Container'
 import Demands from '../components/index/demands'
 import NewsletterCTA from '../components/NewsletterCTA'
+import {richTextConfig} from '../constants'
 
 function ReadMore() {
   const t = useTranslations('pages.Index')
@@ -28,10 +29,7 @@ function ReadMore() {
 
               <Disclosure.Panel className="px-4 pb-2 text-gray-500">
                 <div>
-                  {t.rich('content.text', {
-                    p: (children) => <p className="mt-4">{children}</p>,
-                    bold: (children) => <span className="font-medium text-primary-500">{children}</span>
-                  })}
+                  {t.rich('content.text', richTextConfig)}
                 </div>
               </Disclosure.Panel>
             </>
@@ -64,7 +62,7 @@ export default function Home() {
 
         <div className="hidden sm:block absolute inset-0 sm:overflow-hidden sm:blur-sm sm:inset-4 sm:rounded-3xl">
           <video
-            autoPlay
+            // autoPlay
             loop
             muted
             className="w-full h-full object-cover"
@@ -95,10 +93,7 @@ export default function Home() {
       <Container>
         <div className="max-w-2xl mx-auto">
           <div className="text-xl text-gray-500">
-            {t.rich('content.lead', {
-              p: (children) => <p className="mt-4">{children}</p>,
-              bold: (children) => <span className="font-medium text-primary-500">{children}</span>
-            })}
+            {t.rich('content.lead', richTextConfig)}
           </div>
 
           <ReadMore />
