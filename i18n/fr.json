@@ -10,7 +10,8 @@
       "home": "Accueil",
       "programme": "Programme",
       "organisations": "Nous y serons",
-      "takePart": "Participer"
+      "takePart": "Participer",
+      "map": "Carte"
     },
     "footer": {
       "contact": "Nous contacter",
@@ -102,7 +103,7 @@
     },
     "TakePart": {
       "title": "Participer",
-      "description": "De nombreux collectifs participent aux différents temps forts du Sommet. Comme eux, proposez votre propre événement (table-ronde, débat, atelier, conférence) pour partager vos attentes autour de la Conférence sur l’avenir de l’Europe.",
+      "description": "Rejoignez la société civile européenne à Strasbourg du 5 au 8 mai 2022 et prenez part aux temps forts du Sommet. Vous pouvez contribuer au programme et partager vos attentes pour l’avenir de l’Europe en proposant votre propre événement.",
       "tabs": {
         "organisation": {
           "name": "Participer en tant qu'organisation",
@@ -234,9 +235,12 @@
       }
     },
     "Organisations": {
-      "title": "Elles y seront",
+      "title": "Nous y serons",
       "description": "Mouvement lancé en 2021, le Sommet de Strasbourg repose sur l’implication d’un collectif de multiples organisations de la société civile européenne, actives à travers tout le continent.",
       "projectLedBy": "Un projet mené par"
+    },
+    "Map": {
+      "title": "Plan du Sommet de Strasbourg"
     }
   }
 }

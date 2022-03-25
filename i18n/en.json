@@ -10,7 +10,8 @@
       "home": "Home",
       "programme": "Programme",
       "organisations": "They're in",
-      "takePart": "Take part"
+      "takePart": "Take part",
+      "map": "Map"
     },
     "footer": {
       "contact": "Contact us",
@@ -101,7 +102,7 @@
     },
     "TakePart": {
       "title": "Take part",
-      "description": "Plenty of organisations take part in the different highlights of the Summit. Like them, you can contribute to the programme with your own event (roundtable, debate, conference, workshop) and  share your expectations of the Conference on the future of Europe.",
+      "description": "Join the European civil society in Strasbourg on 5-8 May 2022 and take part to the highlights of the Strasbourg Summit. You can also contribute to the programme by arranging your own event during the Summit in order to share your expectations for the future of Europe.",
       "tabs": {
         "organisation": {
           "name": "Take part as an organisation",
@@ -133,7 +134,7 @@
                 },
                 "move": {
                   "question": "How can I get around Strasbourg during the event?",
-                  "answer": "<p>It is possible to walk between most of the venues of the Strasbourg Summit.</p><p>However, you can buy a 3-days ticket for €9.30 and use the tramway and bus. For information about prices the and public transport network, visit the <LinkCts>CTS website</LinkCts>.</p>"
+                  "answer": "<p>It is possible to walk between most of the venues of the Strasbourg Summit.</p><p>However, you can buy a 3-days ticket for €9.30 and use the tramway and bus. For information about fares and the public transport network, visit the <LinkCts>CTS website</LinkCts>.</p>"
                 }
               }
             },
@@ -149,7 +150,7 @@
               "faqs": {
                 "venue": {
                   "question": "If I organise an event, will you provide a venue?",
-                  "answer": "Yes! The organisers of the Strasbourg Summit have booked venues for the events organising by participating organisations. Once your event is confirmed by our team, we will offer a venue for you and will detail your technical needs. You will have the space for arranging your event free of charge: you just have to take care of the programme!"
+                  "answer": "Yes! The organisers of the Strasbourg Summit have booked venues for the events arranged by participating organisations. Once your event is confirmed by our team, we will offer a venue for you and will detail your technical needs. You will have the space for arranging your event free of charge: you just have to take care of the programme!"
                 },
                 "confirmation": {
                   "question": "When will I hear back when I submit my event?",
@@ -236,6 +237,9 @@
       "title": "They’re in",
       "description": "A movement launched in 2021, the Strasbourg Summit is based on the involvement of multiple European civil society organisations, active across the whole continent.",
       "projectLedBy": "The project is led by"
+    },
+    "Map": {
+      "title": "Map of the Strasbourg Summit"
     }
   }
 }
