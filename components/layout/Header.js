@@ -21,6 +21,10 @@ export default function Header() {
 			title: t('takePart'),
 			slug: 'take-part'
 		},
+		{
+			title: t('map'),
+			slug: 'map'
+		},
 	]
 
 	const listNavItems = menuItems.map((item) => {

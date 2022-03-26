@@ -1,3 +1,5 @@
+import Title from '../lib/Title'
+
 export default function Banner({title, description, bannerImage}) {
 	return (
 		<div className="relative bg-zinc-500">
@@ -12,9 +14,7 @@ export default function Banner({title, description, bannerImage}) {
 			</div>
 
 			<div className="relative z-30 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-				<h1 className="text-4xl font-extrabold text-white sm:text-center sm:text-5xl lg:text-6xl">
-					{title}
-				</h1>
+				<Title tag="h1" darkMode center responsive>{title}</Title>
 
 				<p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center">
 					{description}

@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import {ChevronDoubleRightIcon, LocationMarkerIcon} from '@heroicons/react/solid'
-import {StaggeredLayout} from './StaggeredLayout'
+import {StaggeredElement} from './StaggeredElement'
 
 export default function ProgrammeSaturday () {
 	const t = useTranslations('pages.Programme.events.saturday')
@@ -48,7 +48,7 @@ export default function ProgrammeSaturday () {
 	return (
 		<div className="relative pt-16 pb-32">
 			{events.map(event => (
-				<StaggeredLayout
+				<StaggeredElement
 					key={event.title}
 					event={event}
 				/>

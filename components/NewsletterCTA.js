@@ -1,6 +1,8 @@
 import {useTranslations} from 'next-intl'
 import {useRouter} from 'next/router'
 
+import Title from './lib/Title'
+
 export default function NewsletterCTA() {
 	const t = useTranslations('newsletter')
 	const {locale} = useRouter()
@@ -13,7 +15,8 @@ export default function NewsletterCTA() {
 		<div className="max-w-5xl m-auto mt-12">
 			<div className="py-10 px-6 bg-gradient-to-br from-[#11509D] to-[#212F5A] rounded-3xl sm:py-12 sm:px-12 lg:pl-16 lg:flex lg:items-center">
 				<div className="lg:w-0 lg:flex-1">
-					<h2 className="text-3xl font-bold text-white">{t('title')}</h2>
+					<Title tag='h2' darkMode>{t('title')}</Title>
+
 					<p className="mt-4 max-w-3xl text-lg text-indigo-100">
 						{t('description')}
 					</p>

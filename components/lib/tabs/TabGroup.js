@@ -2,9 +2,6 @@ import {Tab} from '@headlessui/react'
 import {classNames} from '../../../helpers'
 
 export default function TabGroup({tabPanels, tabContent, defaultIndex, children}) {
-	console.log(tabPanels)
-	console.log(tabContent)
-
 	return (
 		<Tab.Group as={'div'} defaultIndex={defaultIndex} className="mb-10">
 			<div className="flex justify-center px-4">

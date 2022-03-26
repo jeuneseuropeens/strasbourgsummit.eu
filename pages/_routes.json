@@ -2,6 +2,9 @@
   "take-part": {
     "fr": "participer"
   },
+  "map": {
+    "fr": "plan"
+  },
   "legal": {
     "default": "imprint",
     "fr": "mentions-legales"
