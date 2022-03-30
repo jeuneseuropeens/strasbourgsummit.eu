@@ -62,7 +62,7 @@ export default function Home() {
 
         <div className="hidden sm:block absolute inset-0 sm:overflow-hidden sm:blur-sm sm:inset-4 sm:rounded-3xl">
           <video
-            // autoPlay
+            autoPlay
             loop
             muted
             className="w-full h-full object-cover"
