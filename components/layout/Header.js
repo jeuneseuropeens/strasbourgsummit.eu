@@ -34,7 +34,7 @@ export default function Header() {
 	const {route} = useRouter()
 
 	return (
-		<div className="relative z-50 mx-auto px-4 sm:px-6 lg:px-8 bg-white">
+		<header className="relative z-50 mx-auto px-4 sm:px-6 lg:px-8 bg-white">
 			<Popover as={'div'} className="max-w-7xl mx-auto">
 				<div className="flex justify-between items-center py-6 md:space-x-10 items-center">
 					<NavigationLogo/>
@@ -49,7 +49,7 @@ export default function Header() {
 
 				<MobilePopoverNav listNavItems={listNavItems} linkClass={'text-gray-900 hover:text-gray-700'} />
 			</Popover>
-		</div>
+		</header>
 	)
 }
 

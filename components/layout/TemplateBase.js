@@ -61,9 +61,9 @@ export default function TemplateBase({children, title, description}) {
 
 			<Header />
 
-			<div className="bg-gradient-to-b from-white to-gray-50">
+			<main className="bg-gradient-to-b from-white to-gray-50">
 				{children}
-			</div>
+			</main>
 
 			<Footer />
 		</>
