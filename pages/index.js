@@ -5,7 +5,7 @@ import {ChevronUpIcon} from '@heroicons/react/solid'
 
 import TemplateBase from '../components/layout/TemplateBase'
 import Container from '../components/layout/Container'
-import Demands from '../components/index/demands'
+import Demands from '../components/index/Demands'
 import NewsletterCTA from '../components/NewsletterCTA'
 import {richTextConfig} from '../constants'
 
