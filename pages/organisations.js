@@ -48,6 +48,11 @@ function LeadingOrganisations() {
 			image: 'https://www.alda-europe.eu/wp-content/uploads/2020/03/alda_logo2-01.svg',
 			website: 'https://www.alda-europe.eu/',
 		},
+		{
+			name: 'European Youth Forum',
+			image: '/YFJ-logo-blue-regular.png',
+			website: 'https://www.youthforum.org/'
+		}
 	]
 
 	return (
