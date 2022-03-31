@@ -1,5 +1,5 @@
 import {Tab} from '@headlessui/react'
-import {classNames} from '../../../helpers'
+import {classNames} from '../../../lib/helpers'
 
 export default function TabGroup({tabPanels, tabContent, defaultIndex, children}) {
 	return (

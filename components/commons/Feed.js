@@ -1,4 +1,4 @@
-import {classNames} from '../../../helpers'
+import {classNames} from '../../lib/helpers'
 
 export const Feed = ({timeline}) => (
 	<div className="flow-root">

@@ -1,4 +1,4 @@
-import {classNames} from '../../helpers'
+import {classNames} from '../../lib/helpers'
 
 export default function Title({children, tag, center, darkMode, responsive, extrabold}) {
 	const TagName = tag

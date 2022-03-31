@@ -1,6 +1,6 @@
 import TakePartElement from './sub-components/TakePartElement'
 import {useTranslations} from 'next-intl'
-import {richTextConfig} from '../../constants'
+import {richTextConfig} from '../../lib/constants'
 
 export default function TakePartIndividual() {
 	const t = useTranslations('pages.TakePart.tabs.individual')

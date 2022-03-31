@@ -1,4 +1,4 @@
-import Title from '../lib/Title'
+import Title from '../commons/Title'
 
 export default function Banner({title, description, bannerImage}) {
 	return (

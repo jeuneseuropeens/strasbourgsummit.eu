@@ -1,7 +1,7 @@
-import {Feed} from '../../lib/feed/Feed'
-import {classNames} from '../../../helpers'
-import {Badge} from '../../lib/Badge'
-import Title from '../../lib/Title'
+import {Feed} from '../../commons/Feed'
+import {classNames} from '../../../lib/helpers'
+import {Badge} from '../../commons/Badge'
+import Title from '../../commons/Title'
 
 export const StaggeredElement = ({event}) => (
 	<div className="group relative mt-24 first:mt-0">

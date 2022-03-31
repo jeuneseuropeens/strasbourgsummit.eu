@@ -1,7 +1,7 @@
-import Title from '../../lib/Title'
-import Button from '../../lib/Button'
+import Title from '../../commons/Title'
+import Button from '../../commons/Button'
 import TakePartFaq from './TakePartFaq'
-import {classNames} from '../../../helpers'
+import {classNames} from '../../../lib/helpers'
 
 export default function TakePartElement({data}) {
 	const {title, description, actions, faqs} = data

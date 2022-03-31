@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
-import TabGroup from '../lib/tabs/TabGroup'
-import TabPanel from '../lib/tabs/TabPanel'
+import TabGroup from '../commons/tabs/TabGroup'
+import TabPanel from '../commons/tabs/TabPanel'
 
 import ComingSoon from './ComingSoon'
 import ProgrammeSaturday from './saturday/ProgrammeSaturday'

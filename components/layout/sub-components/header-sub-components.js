@@ -5,7 +5,7 @@ import {MenuIcon} from '@heroicons/react/outline'
 import {useRouter} from 'next/router'
 
 import LocaleSwitcher from '../../locale-switcher'
-import {classNames} from '../../../helpers'
+import {classNames} from '../../../lib/helpers'
 
 function NavigationLogo() {
 	const t = useTranslations('PageLayout')

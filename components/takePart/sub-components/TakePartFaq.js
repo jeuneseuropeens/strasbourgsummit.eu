@@ -1,6 +1,6 @@
 import {Disclosure} from '@headlessui/react'
 import {ChevronDownIcon} from '@heroicons/react/outline'
-import {classNames} from '../../../helpers'
+import {classNames} from '../../../lib/helpers'
 
 export default function TakePartFaq({faqs}) {
 	return (

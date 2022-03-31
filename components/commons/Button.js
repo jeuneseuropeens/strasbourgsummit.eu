@@ -1,5 +1,5 @@
 import Link from 'next-translate-routes/link'
-import {classNames} from '../../helpers'
+import {classNames} from '../../lib/helpers'
 
 export default function Button({children, href, isExternal, type}) {
 	const typeStyles = () => {

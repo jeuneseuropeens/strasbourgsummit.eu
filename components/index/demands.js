@@ -1,7 +1,7 @@
 import {CheckIcon} from '@heroicons/react/outline'
 import {useTranslations} from 'next-intl'
-import Title from '../lib/Title'
-import {richTextConfig} from '../../constants'
+import Title from '../commons/Title'
+import {richTextConfig} from '../../lib/constants'
 
 export default function Demands() {
 	const t = useTranslations('pages.Index.demands')
