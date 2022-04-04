@@ -27,10 +27,10 @@ export default function TakePartElement({data}) {
 						<div className="mt-6">
 							{actions && actions.map((action) => (
 								<span key={action.id} className="inline-block mr-3 mb-3">
-								<Button href={action.href} isExternal={action.isExternal} type={action.type}>
-									{action.title}
-								</Button>
-							</span>
+									<Button href={action.href} isExternal={action.isExternal} type={action.type}>
+										{action.title}
+									</Button>
+								</span>
 							))}
 						</div>
 					</div>

@@ -3,8 +3,9 @@ import TemplatePage from '../components/layout/TemplatePage'
 import Container from '../components/layout/Container'
 import NewsletterCTA from '../components/NewsletterCTA'
 import ProgrammeTabs from '../components/programme/ProgrammeTabs'
+import {getAllEvents} from '../lib/api'
 
-export default function Programme() {
+export default function Programme({allEvents}) {
 	const t = useTranslations('pages.Programme')
 
 	return (
@@ -13,7 +14,7 @@ export default function Programme() {
 			description={t('description')}
 		>
 			<Container>
-				<ProgrammeTabs/>
+				<ProgrammeTabs allEvents={allEvents}/>
 
 				<NewsletterCTA/>
 			</Container>
@@ -21,11 +22,27 @@ export default function Programme() {
 	)
 }
 
+const eventFields = [
+	'locale',
+	'umbrellaId',
+	'title',
+	'date',
+	'startTime',
+	'endTime',
+	'location',
+	'links',
+	'excerpt',
+	'language',
+	'organisers'
+]
+
 export async function getStaticProps({locale}) {
+	const allEvents = getAllEvents(eventFields)
+
 	return {
 		props: {
+			allEvents,
 			messages: (await import(`../i18n/${locale}.json`)).default
 		}
 	}
 }
-
