@@ -19,14 +19,12 @@ export default function Demands() {
 			</div>
 			<dl className="mt-12 space-y-8 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-8">
 				{demands.map((demand, index) => (
-					<div key={index} className="relative">
-						<dt>
-							<CheckIcon className="absolute h-7 w-7 text-green-500" aria-hidden="true" />
-							<p className="ml-9 text-lg leading-6 text-gray-800">
-								{t.rich(demand, richTextConfig)}
-							</p>
-						</dt>
-					</div>
+					<dt key={index} className="relative">
+						<CheckIcon className="absolute h-7 w-7 text-green-500" aria-hidden="true" />
+						<p className="ml-9 text-lg leading-6 text-gray-800">
+							{t.rich(demand, richTextConfig)}
+						</p>
+					</dt>
 				))}
 			</dl>
 		</div>
