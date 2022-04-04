@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import {ChevronDoubleRightIcon, LocationMarkerIcon} from '@heroicons/react/solid'
-import {StaggeredElement} from './StaggeredElement'
+import StaggeredElement from './StaggeredElement'
 
 export default function ProgrammeSaturday () {
 	const t = useTranslations('pages.Programme.events.saturday')
