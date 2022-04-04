@@ -1,4 +1,4 @@
-import {Feed} from '../../commons/Feed'
+import {FeedListing} from '../../commons/feed/FeedListing'
 import {classNames} from '../../../lib/helpers'
 import {Badge} from '../../commons/Badge'
 import Title from '../../commons/Title'
@@ -25,7 +25,7 @@ export const StaggeredElement = ({event}) => (
 
 				{event.timeline && (
 					<div className="mt-6">
-						<Feed timeline={event.timeline}/>
+						<FeedListing timeline={event.timeline}/>
 					</div>
 				)}
 			</div>

@@ -29,15 +29,15 @@ export default function ProgrammeSaturday () {
 			timeline: [
 				{
 					id: 1,
-					content: t('march.timeline.location.content'),
-					target: t('march.timeline.location.target'),
+					before: t('march.timeline.location.content'),
+					main: t('march.timeline.location.target'),
 					icon: LocationMarkerIcon,
 					iconBackground: 'bg-primary-400',
 				},
 				{
 					id: 2,
-					content: t('march.timeline.destination.content'),
-					target: t('march.timeline.destination.target'),
+					before: t('march.timeline.destination.content'),
+					main: t('march.timeline.destination.target'),
 					icon: ChevronDoubleRightIcon,
 					iconBackground: 'bg-primary-300',
 				},
