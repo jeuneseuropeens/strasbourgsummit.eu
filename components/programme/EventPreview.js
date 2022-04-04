@@ -1,8 +1,6 @@
 import {classNames} from '../../lib/helpers'
 import SingleFeedItem from '../commons/feed/SingleFeedItem'
 import Title from '../commons/Title'
-
-import Link from 'next-translate-routes/link'
 import {ClockIcon, LocationMarkerIcon, TranslateIcon} from '@heroicons/react/solid'
 import {ArrowNarrowRightIcon} from '@heroicons/react/outline'
 
@@ -18,9 +16,10 @@ export default function EventPreview({event, umbrellas}) {
 	} : ''
 
 	const locationItem = location ? {
-		main: <Link href="/map">{location.main}</Link>,
+		main: location.main,
 		after: location.after,
 		icon: LocationMarkerIcon,
+		href: '/map',
 		iconBackground: 'bg-primary-300',
 	} : ''
 
