@@ -9,11 +9,11 @@ export default function LocaleSwitcher() {
 
 	return (
 		<div className="relative bg-gray-100 rounded-lg p-0.5 flex self-center uppercase mr-auto">
-			{siteLocales.map((loc) => {
+			{siteLocales.map((loc, index) => {
 				if (loc !== locale) {
 					return (
 						<Link
-							key={loc}
+							key={index}
 							href={route}
 							locale={loc}
 						>

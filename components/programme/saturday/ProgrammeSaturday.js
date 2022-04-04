@@ -13,7 +13,6 @@ export default function ProgrammeSaturday () {
 			imageSrc:'/aubette.jpg',
 			// timeline: [
 			// 	{
-			// 		id: 1,
 			// 		content: t('convention.timeline.location.content'),
 			// 		target: t('convention.timeline.location.target'),
 			// 		icon: LocationMarkerIcon,
@@ -28,14 +27,12 @@ export default function ProgrammeSaturday () {
 			imageSrc:'/marche.jpg',
 			timeline: [
 				{
-					id: 1,
 					before: t('march.timeline.location.content'),
 					main: t('march.timeline.location.target'),
 					icon: LocationMarkerIcon,
 					iconBackground: 'bg-primary-400',
 				},
 				{
-					id: 2,
 					before: t('march.timeline.destination.content'),
 					main: t('march.timeline.destination.target'),
 					icon: ChevronDoubleRightIcon,
@@ -47,9 +44,9 @@ export default function ProgrammeSaturday () {
 
 	return (
 		<div className="relative pt-16 pb-32">
-			{events.map(event => (
+			{events.map((event, index) => (
 				<StaggeredElement
-					key={event.title}
+					key={index}
 					event={event}
 				/>
 			))}
