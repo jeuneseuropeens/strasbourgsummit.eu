@@ -20,6 +20,7 @@ export default function ProgrammeTabs({allEvents}) {
 		{name: t('tabs.sunday.name'), icon: CalendarIcon},
 	]
 
+	allEvents = allEvents.sort((event1, event2) => (event1.startTime < event2.startTime ? -1 : 1))
 	const events = {
 		thursday: allEvents.filter(event => event.date === '2022-05-05' && event.locale === locale),
 		friday: allEvents.filter(event => event.date === '2022-05-06' && event.locale === locale),

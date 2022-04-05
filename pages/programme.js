@@ -1,9 +1,13 @@
+import fs from 'fs'
+import matter from 'gray-matter'
+import path from 'path'
 import {useTranslations} from 'next-intl'
+
 import TemplatePage from '../components/layout/TemplatePage'
 import Container from '../components/layout/Container'
 import NewsletterCTA from '../components/NewsletterCTA'
 import ProgrammeTabs from '../components/programme/ProgrammeTabs'
-import {getAllEvents} from '../lib/api'
+import {eventFilePaths, EVENTS_PATH} from '../lib/api'
 
 export default function Programme({allEvents}) {
 	const t = useTranslations('pages.Programme')
@@ -37,7 +41,16 @@ const eventFields = [
 ]
 
 export async function getStaticProps({locale}) {
-	const allEvents = getAllEvents(eventFields)
+	const allEvents = eventFilePaths.map((filePath) => {
+		const source = fs.readFileSync(path.join(EVENTS_PATH, filePath))
+		const { content, data } = matter(source)
+
+		return {
+			content,
+			...data,
+			filePath,
+		}
+	})
 
 	return {
 		props: {
