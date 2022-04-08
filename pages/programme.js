@@ -41,21 +41,26 @@ const eventFields = [
 ]
 
 export async function getStaticProps({locale}) {
-	const allEvents = eventFilePaths.map((filePath) => {
-		const source = fs.readFileSync(path.join(EVENTS_PATH, filePath))
-		const { content, data } = matter(source)
+	try {
+		const allEvents = eventFilePaths.map((filePath) => {
+			const source = fs.readFileSync(path.join(EVENTS_PATH, filePath), 'utf8')
+			const { content, data } = matter(source)
+
+			return {
+				content,
+				...data,
+				filePath,
+			}
+		})
 
 		return {
-			content,
-			...data,
-			filePath,
+			props: {
+				allEvents,
+				messages: (await import(`../i18n/${locale}.json`)).default
+			}
 		}
-	})
-
-	return {
-		props: {
-			allEvents,
-			messages: (await import(`../i18n/${locale}.json`)).default
-		}
+	} catch (err) {
+		console.error(err)
+		throw new Error(err)
 	}
 }
