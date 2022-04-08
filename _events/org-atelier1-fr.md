@@ -18,4 +18,4 @@ links:
   href: https://www.jeunes-europeens.org/
 - title: Inscriptions (avant le 25 avril)
   href: https://www.jeunes-europeens.org/
-
+---
