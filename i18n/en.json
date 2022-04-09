@@ -55,6 +55,10 @@
       "title": "Programme",
       "description": "Before the Conference on the Future of Europe ends, we invite all civil society organisations across Europe to take part to the Strasbourg Summit from May 5 to 8 2022.",
       "comingSoon": "Programme in the making: come back soon or submit your own event!",
+      "contribute": {
+        "title": "Your own event?",
+        "subtitle": "Join the Strasbourg Summit programme!"
+      },
       "tabs": {
         "thursday": {
           "name": "Thursday, May 5"

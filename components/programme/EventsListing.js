@@ -1,4 +1,5 @@
 import EventPreview from './EventPreview'
+import ContributeCTA from './ContributeCTA'
 
 export default function EventsListing({ events, umbrellas }) {
 	return (
@@ -11,6 +12,8 @@ export default function EventsListing({ events, umbrellas }) {
 						umbrellas={umbrellas}
 					/>
 				))}
+
+				<ContributeCTA />
 			</ul>
 		</section>
 	)
