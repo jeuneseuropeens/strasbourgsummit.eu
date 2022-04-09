@@ -13,8 +13,7 @@ export default function ContributeCTA() {
 	return (
 		<div className="flex justify-center items-center relative block p-12 border-2 border-gray-300 border-dashed rounded-lg text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 			<div>
-				<span className="mb-8 block text-lg font-bold text-gray-900">{t('Programme.contribute.title')}</span>
-				<br/>
+				<span className="mb-4 block text-lg font-bold text-gray-900">{t('Programme.contribute.title')}</span>
 				<span className="mb-8 block text-lg font-medium text-gray-900">{t('Programme.contribute.subtitle')}</span>
 				<a
 					href={data.href}
