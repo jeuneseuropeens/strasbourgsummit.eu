@@ -1,8 +1,28 @@
 import {useTranslations} from 'next-intl'
 import TemplatePage from '../components/layout/TemplatePage'
+import Title from '../components/commons/Title'
+import {useRouter} from 'next/router'
 
 function LeadingOrganisations() {
+	const {locale} = useRouter()
 	const t = useTranslations('pages.Organisations')
+
+	const medias = [
+		locale === 'fr' ? {
+			name: 'Le Taurillon',
+			image: '/Logo-Taurillon.png',
+			website: 'https://www.taurillon.org/',
+		} : {
+			name: 'The New Federalist',
+			image: '/Logo-TNF.svg',
+			website: 'https://www.thenewfederalist.eu/',
+		},
+		{
+			name: 'Euractiv',
+			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
+			website: 'https://www.euractiv.com/',
+		}
+	]
 
 	const organisations = [
 		{
@@ -48,7 +68,8 @@ function LeadingOrganisations() {
 		},
 		{
 			name: 'Open Diplomacy',
-			image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/45336/334405_19155.png',
+			// image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/45336/334405_19155.png',
+			image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Logo_Open_Diplomacy.png/320px-Logo_Open_Diplomacy.png',
 			website: 'https://www.open-diplomacy.eu/',
 		},
 		{
@@ -187,6 +208,29 @@ function LeadingOrganisations() {
 						<p className="text-center mt-2 text-gray-600">{partner.name}</p>
 					</a>
 				))}
+			</div>
+
+			<div className="mt-10 lg:mt-12">
+				<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
+
+				<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3">
+					{medias.map((partner, index) => (
+						<a
+							key={index}
+							href={partner.website}
+							target="_blank"
+							rel="noreferrer"
+							className="transition duration-500 block col-span-1 flex flex-col justify-center items-center p-8 bg-white rounded-lg drop-shadow-none hover:drop-shadow-lg"
+						>
+							<img
+								className={partner.maxHeight || 'max-h-20'}
+								src={partner.image}
+								alt={partner.name}
+							/>
+							<p className="text-center mt-2 text-gray-600">{partner.name}</p>
+						</a>
+					))}
+				</div>
 			</div>
 		</div>
 	)
