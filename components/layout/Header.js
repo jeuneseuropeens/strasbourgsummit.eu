@@ -27,8 +27,8 @@ export default function Header() {
 		},
 	]
 
-	const listNavItems = menuItems.map((item) => {
-		return <NavItem key={item.title} href={item.slug}>{item.title}</NavItem>
+	const listNavItems = menuItems.map((item, index) => {
+		return <NavItem key={index} href={item.slug}>{item.title}</NavItem>
 	})
 
 	const {route} = useRouter()

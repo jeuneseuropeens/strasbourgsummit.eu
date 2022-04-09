@@ -5,8 +5,8 @@ import {classNames} from '../../../lib/helpers'
 export default function TakePartFaq({faqs}) {
 	return (
 		<dl className="space-y-6">
-			{faqs.map((faq) => (
-				<Disclosure as="div" key={faq.question}>
+			{faqs.map((faq, index) => (
+				<Disclosure as="div" key={index}>
 					{({ open }) => (
 						<>
 							<dt className="text-lg leading-6">

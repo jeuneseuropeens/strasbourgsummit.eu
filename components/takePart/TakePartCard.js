@@ -14,11 +14,11 @@ export default function TakePartCard({data}) {
 				<p className="mt-4 text-md text-gray-500">{description}</p>
 
 				<div>
-					{actions && actions.map((action) => {
+					{actions && actions.map((action, index) => {
 						if (action.type === 'Link') {
 							return (
 								<Link
-									key={action.title}
+									key={index}
 									href={action.href}
 								>
 									<a className={buttonStyles}>
@@ -30,7 +30,7 @@ export default function TakePartCard({data}) {
 
 						return (
 							<a
-								key={action.title}
+								key={index}
 								href={action.href}
 								className={buttonStyles}
 								target="_blank" rel="noreferrer"

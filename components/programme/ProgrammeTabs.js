@@ -1,6 +1,7 @@
 import {CalendarIcon} from '@heroicons/react/outline'
 import {useRouter} from 'next/router'
 import {useTranslations} from 'next-intl'
+import isEmpty from 'just-is-empty'
 
 import TabGroup from '../commons/tabs/TabGroup'
 import TabPanel from '../commons/tabs/TabPanel'
@@ -19,6 +20,7 @@ export default function ProgrammeTabs({allEvents}) {
 		{name: t('tabs.sunday.name'), icon: CalendarIcon},
 	]
 
+	allEvents = allEvents.sort((event1, event2) => (event1.startTime < event2.startTime ? -1 : 1))
 	const events = {
 		thursday: allEvents.filter(event => event.date === '2022-05-05' && event.locale === locale),
 		friday: allEvents.filter(event => event.date === '2022-05-06' && event.locale === locale),
@@ -36,14 +38,14 @@ export default function ProgrammeTabs({allEvents}) {
 			tabContent={
 				<>
 					<TabPanel>
-						{events.thursday
+						{!isEmpty(events.thursday)
 							? <EventsListing events={events.thursday} umbrellas={umbrellas}/>
 							: <ComingSoon/>
 						}
 					</TabPanel>
 
 					<TabPanel>
-						{events.friday
+						{!isEmpty(events.friday)
 							? <EventsListing events={events.friday} umbrellas={umbrellas}/>
 							: <ComingSoon/>
 						}
@@ -54,7 +56,7 @@ export default function ProgrammeTabs({allEvents}) {
 					</TabPanel>
 
 					<TabPanel>
-						{events.sunday
+						{!isEmpty(events.sunday)
 							? <EventsListing events={events.sunday} umbrellas={umbrellas}/>
 							: <ComingSoon/>
 						}

@@ -28,8 +28,8 @@ export default function TakePartTabs() {
 			<TabGroup
 				tabPanels={categories}
 				tabContent={
-					categories.map((category) => (
-						<TabPanel key={category.id} className="mt-8 sm:mt-12 lg:max-w-4xl lg:mx-auto">
+					categories.map((category, index) => (
+						<TabPanel key={index} className="mt-8 sm:mt-12 lg:max-w-4xl lg:mx-auto">
 							{category.id === 'organisation' && <TakePartOrganisation/>}
 							{category.id === 'individual' && <TakePartIndividual/>}
 						</TabPanel>
