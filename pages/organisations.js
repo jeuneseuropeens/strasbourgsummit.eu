@@ -4,26 +4,6 @@ import Title from '../components/commons/Title'
 import {useRouter} from 'next/router'
 
 function LeadingOrganisations() {
-	const {locale} = useRouter()
-	const t = useTranslations('pages.Organisations')
-
-	const medias = [
-		locale === 'fr' ? {
-			name: 'Le Taurillon',
-			image: '/Logo-Taurillon.png',
-			website: 'https://www.taurillon.org/',
-		} : {
-			name: 'The New Federalist',
-			image: '/Logo-TNF.svg',
-			website: 'https://www.thenewfederalist.eu/',
-		},
-		{
-			name: 'Euractiv',
-			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
-			website: 'https://www.euractiv.com/',
-		}
-	]
-
 	const organisations = [
 		{
 			name: 'Les Jeunes Européens - France',
@@ -187,12 +167,54 @@ function LeadingOrganisations() {
 	]
 
 	return (
-		<div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-			{/*<p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">*/}
-			{/*	{t('projectLedBy')}*/}
-			{/*</p>*/}
-			<div className="mt-6 grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:mt-8">
-				{organisations.map((partner, index) => (
+		<div className="mt-6 grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 lg:mt-8">
+			{organisations.map((partner, index) => (
+				<a
+					key={index}
+					href={partner.website}
+					target="_blank"
+					rel="noreferrer"
+					className="transition duration-500 block col-span-1 flex flex-col justify-center items-center p-4 bg-white rounded-lg drop-shadow-none hover:drop-shadow-lg sm:p-6 md:p-8"
+				>
+					<img
+						className={partner.maxHeight || 'max-h-20'}
+						src={partner.image}
+						alt={partner.name}
+					/>
+					<p className="text-center mt-2 text-gray-600">{partner.name}</p>
+				</a>
+			))}
+		</div>
+	)
+}
+
+function MediaPartners() {
+	const t = useTranslations('pages.Organisations')
+	const {locale} = useRouter()
+
+	const medias = [
+		locale === 'fr' ? {
+			name: 'Le Taurillon',
+			image: '/Logo-Taurillon.png',
+			website: 'https://www.taurillon.org/',
+		} : {
+			name: 'The New Federalist',
+			image: '/Logo-TNF.svg',
+			website: 'https://www.thenewfederalist.eu/',
+		},
+		{
+			name: 'Euractiv',
+			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
+			website: 'https://www.euractiv.com/',
+		}
+	]
+
+	return (
+		<div className="mt-10 lg:mt-12">
+			<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
+
+			<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+				{medias.map((partner, index) => (
 					<a
 						key={index}
 						href={partner.website}
@@ -209,29 +231,6 @@ function LeadingOrganisations() {
 					</a>
 				))}
 			</div>
-
-			<div className="mt-10 lg:mt-12">
-				<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
-
-				<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3">
-					{medias.map((partner, index) => (
-						<a
-							key={index}
-							href={partner.website}
-							target="_blank"
-							rel="noreferrer"
-							className="transition duration-500 block col-span-1 flex flex-col justify-center items-center p-8 bg-white rounded-lg drop-shadow-none hover:drop-shadow-lg"
-						>
-							<img
-								className={partner.maxHeight || 'max-h-20'}
-								src={partner.image}
-								alt={partner.name}
-							/>
-							<p className="text-center mt-2 text-gray-600">{partner.name}</p>
-						</a>
-					))}
-				</div>
-			</div>
 		</div>
 	)
 }
@@ -244,7 +243,11 @@ export default function Organisations() {
 			title={t('title')}
 			description={t('description')}
 		>
+			<div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 				<LeadingOrganisations />
+
+				<MediaPartners />
+			</div>
 		</TemplatePage>
 	)
 }
