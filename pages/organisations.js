@@ -95,7 +95,7 @@ function LeadingOrganisations() {
 		{
 			name: 'AEDE France',
 			image: 'https://www.stemcoalition.eu/sites/default/files/logo_AEDE_bleu-jaune.png',
-			website: 'http://www.aede-france.org/',
+			website: 'https://www.aede-france.org/',
 		},
 		{
 			name: 'Mouvement Européen - Alsace',
@@ -135,12 +135,12 @@ function LeadingOrganisations() {
 		},
 		{
 			name: 'Students for Global Democracy Uganda',
-			image: 'http://uganda.studentsforglobaldemocracy.org/wp-content/uploads/elementor/thumbs/sgd-L1-p7arx32gmi4f5oeyqhj7v49y001cncfd9yd3mfn9ms.png',
-			website: 'http://uganda.studentsforglobaldemocracy.org/home/',
+			image: 'https://uganda.studentsforglobaldemocracy.org/wp-content/uploads/elementor/thumbs/sgd-L1-p7arx32gmi4f5oeyqhj7v49y001cncfd9yd3mfn9ms.png',
+			website: 'https://uganda.studentsforglobaldemocracy.org/home/',
 		},
 		{
 			name: 'Young European Swiss',
-			image: 'http://www.y-e-s.ch/wp-content/uploads/2021/06/yes-logo.png',
+			image: 'https://www.y-e-s.ch/wp-content/uploads/2021/06/yes-logo.png',
 			website: 'https://www.y-e-s.ch/',
 		},
 		{
