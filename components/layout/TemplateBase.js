@@ -46,8 +46,8 @@ export default function TemplateBase({children, title, description}) {
 				<meta property="og:description" content={pageDescription} />
 				<meta property="og:image" content={image} />
 				<meta property="og:locale" content={locale} />
-				{otherLocales.map((otherLocale) => (
-					<meta key={otherLocale} property="og:locale:alternate" content={otherLocale} />
+				{otherLocales.map((otherLocale, index) => (
+					<meta key={index} property="og:locale:alternate" content={otherLocale} />
 				))}
 
 				{/*Twitter*/}

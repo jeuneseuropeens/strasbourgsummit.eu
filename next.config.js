@@ -6,5 +6,14 @@ module.exports = withTranslateRoutes({
     locales: ['en', 'fr'],
     defaultLocale: 'en',
     localeDetection: true
+  },
+  webpack: (config) => {
+    config.experiments = config.experiments || {}
+    config.experiments.topLevelAwait = true
+    config.module.rules.push({
+      test: /\.md$/,
+      use: 'raw-loader',
+    })
+    return config
   }
 })

@@ -86,9 +86,9 @@ function LeadingOrganisations() {
 			{/*	{t('projectLedBy')}*/}
 			{/*</p>*/}
 			<div className="mt-6 grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:mt-8">
-				{organisations.map((partner) => (
+				{organisations.map((partner, index) => (
 					<a
-						key={partner.name}
+						key={index}
 						href={partner.website}
 						target="_blank"
 						rel="noreferrer"

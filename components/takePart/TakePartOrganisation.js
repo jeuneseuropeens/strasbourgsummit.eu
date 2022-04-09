@@ -1,6 +1,6 @@
 import TakePartElement from './sub-components/TakePartElement'
 import {useTranslations} from 'next-intl'
-import {richTextConfig} from '../../constants'
+import {richTextConfig} from '../../lib/constants'
 
 export default function TakePartOrganisation() {
 	const t = useTranslations('pages.TakePart.tabs.organisation')
@@ -11,13 +11,11 @@ export default function TakePartOrganisation() {
 			description: t.rich('opportunities.delegation.description', richTextConfig),
 			actions: [
 				{
-					id: 1,
 					title: t('opportunities.delegation.actions.register.title'),
 					href: t('opportunities.delegation.actions.register.form'),
 					isExternal: true
 				},
 				{
-					id: 2,
 					title: t('opportunities.delegation.actions.openProgramme.title'),
 					href: 'programme',
 					type: 'white'
@@ -25,12 +23,10 @@ export default function TakePartOrganisation() {
 			],
 			faqs: [
 				{
-					id: 1,
 					question: t('opportunities.delegation.faqs.costs.question'),
 					answer: t.rich('opportunities.delegation.faqs.costs.answer', richTextConfig),
 				},
 				{
-					id: 2,
 					question: t('opportunities.delegation.faqs.accommodation.question'),
 					answer: t.rich('opportunities.delegation.faqs.accommodation.answer', {
 						...richTextConfig,
@@ -43,7 +39,6 @@ export default function TakePartOrganisation() {
 					}),
 				},
 				{
-					id: 3,
 					question: t('opportunities.delegation.faqs.come.question'),
 					answer: t.rich('opportunities.delegation.faqs.come.answer', {
 						...richTextConfig,
@@ -51,7 +46,6 @@ export default function TakePartOrganisation() {
 					}),
 				},
 				{
-					id: 4,
 					question: t('opportunities.delegation.faqs.move.question'),
 					answer: t.rich('opportunities.delegation.faqs.move.answer', {
 						...richTextConfig,
@@ -65,29 +59,24 @@ export default function TakePartOrganisation() {
 			description: t('opportunities.event.description'),
 			actions: [
 				{
-					id: 1,
 					title: t('opportunities.event.actions.suggestEvent.title'),
 					href: t('opportunities.event.actions.suggestEvent.form'),
 				},
 			],
 			faqs: [
 				{
-					id: 1,
 					question: t('opportunities.event.faqs.venue.question'),
 					answer: t.rich('opportunities.event.faqs.venue.answer', richTextConfig),
 				},
 				{
-					id: 2,
 					question: t('opportunities.event.faqs.confirmation.question'),
 					answer: t.rich('opportunities.event.faqs.confirmation.answer', richTextConfig),
 				},
 				{
-					id: 3,
 					question: t('opportunities.event.faqs.types.question'),
 					answer: t.rich('opportunities.event.faqs.types.answer', richTextConfig),
 				},
 				{
-					id: 4,
 					question: t('opportunities.event.faqs.online.question'),
 					answer: t.rich('opportunities.event.faqs.online.answer', richTextConfig),
 				}
@@ -97,12 +86,10 @@ export default function TakePartOrganisation() {
 			title: t('opportunities.covid.name'),
 			faqs: [
 				{
-					id: 1,
 					question: t('opportunities.covid.faqs.measures.question'),
 					answer: t.rich('opportunities.covid.faqs.measures.answer', richTextConfig),
 				},
 				{
-					id: 2,
 					question: t('opportunities.covid.faqs.cancel.question'),
 					answer: t.rich('opportunities.covid.faqs.cancel.answer', richTextConfig),
 				},
@@ -112,8 +99,8 @@ export default function TakePartOrganisation() {
 
 	return (
 		<div>
-			{data.map(item => (
-				<TakePartElement key={item.id} data={item}/>
+			{data.map((item, index) => (
+				<TakePartElement key={index} data={item}/>
 			))}
 		</div>
 	)

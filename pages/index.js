@@ -7,7 +7,7 @@ import TemplateBase from '../components/layout/TemplateBase'
 import Container from '../components/layout/Container'
 import Demands from '../components/index/demands'
 import NewsletterCTA from '../components/NewsletterCTA'
-import {richTextConfig} from '../constants'
+import {richTextConfig} from '../lib/constants'
 
 function ReadMore() {
   const t = useTranslations('pages.Index')

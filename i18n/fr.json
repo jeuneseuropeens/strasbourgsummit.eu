@@ -71,6 +71,10 @@
         }
       },
       "events": {
+        "umbrellas": {
+          "economieSociale": "L’économie sociale, le futur de l’Europe",
+          "courses": "Courses de Strasbourg"
+        },
         "saturday": {
           "convention": {
             "time":"Samedi matin",

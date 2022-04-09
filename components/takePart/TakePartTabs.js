@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
-import TabGroup from '../lib/tabs/TabGroup'
-import TabPanel from '../lib/tabs/TabPanel'
+import TabGroup from '../commons/tabs/TabGroup'
+import TabPanel from '../commons/tabs/TabPanel'
 
 import {UserGroupIcon} from '@heroicons/react/solid'
 import {UserIcon} from '@heroicons/react/outline'
@@ -28,8 +28,8 @@ export default function TakePartTabs() {
 			<TabGroup
 				tabPanels={categories}
 				tabContent={
-					categories.map((category) => (
-						<TabPanel key={category.id} className="mt-8 sm:mt-12 lg:max-w-4xl lg:mx-auto">
+					categories.map((category, index) => (
+						<TabPanel key={index} className="mt-8 sm:mt-12 lg:max-w-4xl lg:mx-auto">
 							{category.id === 'organisation' && <TakePartOrganisation/>}
 							{category.id === 'individual' && <TakePartIndividual/>}
 						</TabPanel>

@@ -1,7 +1,7 @@
 import {useTranslations} from 'next-intl'
 import {useRouter} from 'next/router'
 
-import Title from './lib/Title'
+import Title from './commons/Title'
 
 export default function NewsletterCTA() {
 	const t = useTranslations('newsletter')
