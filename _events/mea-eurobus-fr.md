@@ -14,6 +14,6 @@ organisers:
 - Les Jeunes Européens - Strasbourg
 - Europe Direct Strasbourg
 links:
-- title: Inscription
+- title: En savoir plus
   href: https://www.facebook.com/MouvementEuropeenAlsace/
 ---
