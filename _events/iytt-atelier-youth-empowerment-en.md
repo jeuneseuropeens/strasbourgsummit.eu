@@ -11,6 +11,6 @@ location:
 organisers:
 - International Youth Think Tank (IYTT)
 links:
-- title: Plus d"infos
-  href: http://www.aede-france.org/
+- title: More info
+  href: https://iythinktank.com/
 ---
