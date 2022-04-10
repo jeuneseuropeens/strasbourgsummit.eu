@@ -1,7 +1,7 @@
 ---
 locale: fr
 umbrellaId: economieSociale
-title: "Plénière Tirer le meilleur du plan d’action de la Commission européenne pour l’économie sociale."
+title: "Plénière Tirer le meilleur du plan d’action européen pour l’économie sociale."
 excerpt: "Le point de vue des acteurs de terrain sur le plan d'action de la Commission européenne pour l’économie sociale."
 date: "2022-05-05"
 startTime: "10:45"
