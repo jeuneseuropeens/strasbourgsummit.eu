@@ -2,7 +2,7 @@
 locale: fr
 umbrellaId: economieSociale
 title: "Ateliers L'économie sociale, le futur de l'Europe"
-excerpt: "6 thématiques et des dizaines d'ateliers autour de la jeunesse, des transitions, des solutions d'avenir, des financements et des finnocations pour l'économie sociale."
+excerpt: "6 thématiques et des dizaines d'ateliers autour de la jeunesse, des transitions, des solutions d'avenir, des financements et innovations pour l'économie sociale."
 date: "2022-05-05"
 startTime: "13:30"
 endTime: "19:00"
