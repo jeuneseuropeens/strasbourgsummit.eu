@@ -14,7 +14,7 @@ organisers:
 - Manifestation européenne de l'ESS
 links:
 - title: More info
-  href: https://live.eventtia.com/en/economiesocialefutureen/Plen2
+  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen2
 - title: Registration
   href: https://live.eventtia.com/en/economiesocialefutureen/Registration
 ---
