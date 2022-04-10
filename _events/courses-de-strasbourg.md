@@ -13,5 +13,5 @@ organisers:
 - Office des Sports Strasbourg"
 links:
 - title: "Plus d'infos"
-  href: "https://www.coursesdestrasbourg.eu/les-epreuves/#inscription"
+  href: "https://www.coursesdestrasbourg.eu/"
 ---
