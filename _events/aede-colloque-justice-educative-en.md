@@ -12,6 +12,6 @@ location:
 organisers:
 - AEDE-France
 links:
-- title: Plus d"infos
+- title: Plus d'infos
   href: http://www.aede-france.org/
 ---
