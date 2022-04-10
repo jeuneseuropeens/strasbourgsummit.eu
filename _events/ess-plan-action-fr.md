@@ -16,5 +16,5 @@ links:
 - title: More info
   href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen2
 - title: Registration
-  href: https://live.eventtia.com/en/economiesocialefutureen/Registration
+  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/
 ---
