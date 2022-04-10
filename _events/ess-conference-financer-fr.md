@@ -1,8 +1,8 @@
 ---
 locale: fr
 umbrellaId: economieSociale
-title: "Etablir de nouvelles passerelles entre acteurs économiques pour soutenir le développement."
-excerpt: ""
+title: "Conférence : Financer l'économie sociale"
+excerpt: "Etablir de nouvelles passerelles entre acteurs économiques pour soutenir le développement de l'économie sociale."
 date: "2022-05-05"
 startTime: "15:30"
 endTime: "17:00"
