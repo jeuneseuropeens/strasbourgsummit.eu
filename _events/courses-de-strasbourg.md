@@ -1,7 +1,7 @@
 ---
 locale: fr
 umbrellaId: courses
-title: "Courses de Strasbourg"
+title: "Courses de Strasbourg Eurométropole"
 excerpt: "Les Courses de Strasbourg Eurométropole font leur grand retour le dimanche 8 mai ! 8 épreuves sont proposées pour que tout le monde puisse participer à cette journée sportive incontournable de Strasbourg."
 date: "2022-05-08"
 location:
