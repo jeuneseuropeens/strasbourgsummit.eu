@@ -5,7 +5,7 @@ excerpt: "Comment une justice éducative plus effective peut-elle contribuer à 
 date: "2022-05-05"
 startTime: "15:00"
 endTime: "17:00"
-language: Français
+language: French
 location:
   main: FEC,
   after: Place Saint-Etienne, Strasbourg
