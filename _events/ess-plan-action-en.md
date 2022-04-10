@@ -1,7 +1,7 @@
 ---
 locale: en
 umbrellaId: economieSociale
-title: "Plenary Making the most of the European Commission's action plan for social economy."
+title: "Plenary Making the most of the European action plan for social economy."
 excerpt: "The perspective of social economy stakeholders on the European Commission action plan for social economy."
 date: "2022-05-05"
 startTime: "10:45"
