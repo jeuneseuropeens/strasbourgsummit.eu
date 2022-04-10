@@ -5,7 +5,7 @@ excerpt: "Programme à venir."
 date: "2022-05-06"
 startTime: "18:30"
 endTime: "20:30"
-language: English/French
+language: Français/Anglais
 location:
   main: Aubette,
   after: Placé Kléber, Strasbourg
