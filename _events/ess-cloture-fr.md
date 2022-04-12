@@ -6,15 +6,15 @@ excerpt: "Présentation des contributions des jeunes, des acteurs du secteur de 
 date: "2022-05-06"
 startTime: "14:00"
 endTime: "15:00"
-language: Français/Anglais
+language: "Français/Anglais"
 location:
-  main: Palais de la Musique et des Congrès,
-  after: Strasbourg, Auditorium Schweitzer
+  main: "Palais de la Musique et des Congrès,"
+  after: "Strasbourg, Auditorium Schweitzer"
 organisers:
-- Manifestation européenne de l'ESS
+- "Manifestation européenne de l'ESS"
 links:
-- title: Plus d'info
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen3
-- title: Inscription
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/
+- title: "Plus d'info"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen3"
+- title: "Inscription"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/"
 ---

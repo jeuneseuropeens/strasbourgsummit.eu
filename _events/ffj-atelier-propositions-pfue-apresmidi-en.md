@@ -5,13 +5,13 @@ excerpt: "Quatre table-rondes (deux sessions d’1h30) où les jeunes pourront p
 date: "2022-05-06"
 startTime: "14:00"
 endTime: "17:00"
-language: French
+language: "French"
 location:
-  main: To be confirmed,
-  after: Strasbourg
+  main: "To be confirmed,"
+  after: "Strasbourg"
 organisers:
-- Forum Français de la Jeunesse (French Youth Forum)
+- "Forum Français de la Jeunesse (French Youth Forum)"
 links:
-- title: Registration
-  href: https://ffjeunesse.typeform.com/to/Ior0B8P0
+- title: "Registration"
+  href: "https://ffjeunesse.typeform.com/to/Ior0B8P0"
 ---

@@ -8,13 +8,13 @@ startTime: "13:30"
 endTime: "19:00"
 language: Français/Anglais
 location:
-  main: Palais de la Musique et des Congrès,
-  after: Strasbourg
+  main: "Palais de la Musique et des Congrès,"
+  after: "Strasbourg"
 organisers:
-- Manifestation européenne de l'ESS
+- "Manifestation européenne de l'ESS"
 links:
-- title: Plus d'info
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Programme-du-5-et-6-mai/
-- title: Inscription
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/
+- title: "Plus d'info"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Programme-du-5-et-6-mai/"
+- title: "Inscription"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/"
 ---

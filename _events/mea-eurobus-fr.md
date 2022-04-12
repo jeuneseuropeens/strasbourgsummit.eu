@@ -5,15 +5,15 @@ excerpt: "Activités ludiques et pédagogiques pour (re)découvrir l'Europe à t
 date: "2022-05-08"
 startTime: "11:00"
 endTime: "17:00"
-language: Français/Anglais
+language: "Français/Anglais"
 location:
-  main: A confirmer,
-  after: Strasbourg
+  main: "À confirmer,"
+  after: "Strasbourg"
 organisers:
-- Mouvement Européen - Alsace
-- Les Jeunes Européens - Strasbourg
-- Europe Direct Strasbourg
+- "Mouvement Européen - Alsace"
+- "Les Jeunes Européens - Strasbourg"
+- "Europe Direct Strasbourg"
 links:
-- title: En savoir plus
-  href: https://www.facebook.com/MouvementEuropeenAlsace/
+- title: "En savoir plus"
+  href: "https://www.facebook.com/MouvementEuropeenAlsace/"
 ---

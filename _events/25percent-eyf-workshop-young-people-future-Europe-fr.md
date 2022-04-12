@@ -5,14 +5,14 @@ excerpt: "Young people are the future of Europe, but do they have an equal say i
 date: "2022-05-06"
 startTime: "15:00"
 endTime: "17:00"
-language: Anglais
+language: "Anglais"
 location:
-  main: FEC,
-  after: Place Saint-Etienne, Strasbourg
+  main: "FEC,"
+  after: "Place Saint-Etienne, Strasbourg"
 organisers:
-- European Youth Forum
-- The 25 Percent
+- "European Youth Forum"
+- "The 25 Percent"
 links:
-- title: Plus d'infos
-  href: https://www.youthforum.org/
+- title: "Plus d'infos"
+  href: "https://www.youthforum.org/"
 ---

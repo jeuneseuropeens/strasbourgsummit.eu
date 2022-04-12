@@ -6,15 +6,15 @@ excerpt: "Le point de vue des acteurs de terrain sur le plan d'action de la Comm
 date: "2022-05-05"
 startTime: "10:45"
 endTime: "12:15"
-language: Français/Anglais
+language: "Français/Anglais"
 location:
-  main: Palais de la Musique et des Congrès,
-  after: Strasbourg, Auditorium Schweitzer
+  main: "Palais de la Musique et des Congrès,"
+  after: "Strasbourg, Auditorium Schweitzer"
 organisers:
-- Manifestation européenne de l'ESS
+- "Manifestation européenne de l'ESS"
 links:
-- title: More info
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen2
-- title: Registration
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/
+- title: "More info"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen2"
+- title: "Registration"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/"
 ---

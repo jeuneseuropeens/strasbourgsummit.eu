@@ -6,13 +6,13 @@ Is the UN enough to solve, for instance, the current climate crisis? Maybe we sh
 date: "2022-05-06"
 startTime: "14:00"
 endTime: "15:00"
-language: Anglais
+language: "Anglais"
 location:
-  main: Villa Schutzenberger,
-  after: 76 allée de la Robertsau, Strasbourg
+  main: "Villa Schutzenberger,"
+  after: "76 allée de la Robertsau, Strasbourg"
 organisers:
-- Young World Federalists
+- "Young World Federalists"
 links:
-- title: Plus d'info
-  href: https://www.ywf.world/
+- title: "Plus d'info"
+  href: "https://www.ywf.world/"
 ---

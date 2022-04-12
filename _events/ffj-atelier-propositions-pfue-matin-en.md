@@ -5,13 +5,13 @@ excerpt: "Activités pédagogiques le matin en petits groupes pour pour se famil
 date: "2022-05-06"
 startTime: "09:00"
 endTime: "12:00"
-language: French
+language: "French"
 location:
-  main: To be confirmed,
-  after: Strasbourg
+  main: "To be confirmed,"
+  after: "Strasbourg"
 organisers:
-- Forum Français de la Jeunesse (French Youth Forum)
+- "Forum Français de la Jeunesse (French Youth Forum)"
 links:
-- title: Registration
-  href: https://ffjeunesse.typeform.com/to/Ior0B8P0
+- title: "Registration"
+  href: "https://ffjeunesse.typeform.com/to/Ior0B8P0"
 ---

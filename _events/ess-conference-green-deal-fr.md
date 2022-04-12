@@ -6,15 +6,15 @@ excerpt: "Quelle doit être la place de l’économie sociale dans la transition
 date: "2022-05-05"
 startTime: "13:30"
 endTime: "15:00"
-language: Français/Anglais
+language: "Français/Anglais"
 location:
-  main: Palais de la Musique et des Congrès,
-  after: Strasbourg, Auditorium Cassin
+  main: "Palais de la Musique et des Congrès,"
+  after: "Strasbourg, Auditorium Cassin"
 organisers:
-- Manifestation européenne de l'ESS
+- "Manifestation européenne de l'ESS"
 links:
-- title: Plus d'info
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/conf1
-- title: Inscription
-  href: https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/
+- title: "Plus d'info"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/conf1"
+- title: "Inscription"
+  href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Inscription/"
 ---

@@ -5,14 +5,14 @@ excerpt: "In June 2021, the ECIT Foundation launched a cross-party group of MEPs
 date: "2022-05-05"
 startTime: "16:00"
 endTime: "18:30"
-language: English
+language: "English"
 location:
-  main: Villa Schutzenberger,
-  after: 76 allée de la Robertsau, Strasbourg
+  main: "Villa Schutzenberger,"
+  after: "76 allée de la Robertsau, Strasbourg"
 organisers:
-- ECIT Foundation
-- Voters Without Borders
+- "ECIT Foundation"
+- "Voters Without Borders"
 links:
-- title: More info
-  href: https://ecit-foundation.eu/
+- title: "More info"
+  href: "https://ecit-foundation.eu/"
 ---

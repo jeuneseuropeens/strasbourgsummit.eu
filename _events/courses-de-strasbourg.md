@@ -10,7 +10,7 @@ location:
   after: "Départ rue de l'Université, arrivée rue des Grandes Arcades"
 organisers:
 - "Association des Courses de Strasbourg Europe (ACSE)"
-- Office des Sports Strasbourg"
+- "Office des Sports Strasbourg"
 links:
 - title: "Plus d'infos"
   href: "https://www.coursesdestrasbourg.eu/"

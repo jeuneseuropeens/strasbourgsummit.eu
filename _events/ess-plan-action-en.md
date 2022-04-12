@@ -6,15 +6,15 @@ excerpt: "The perspective of social economy stakeholders on the European Commiss
 date: "2022-05-05"
 startTime: "10:45"
 endTime: "12:15"
-language: French/English 
+language: "French/English "
 location:
-  main: Palais de la Musique et des Congrès,
-  after: Strasbourg, Auditorium Schweitzer
+  main: "Palais de la Musique et des Congrès,"
+  after: "Strasbourg, Auditorium Schweitzer"
 organisers:
-- Social Economy, the future of Europe
+- "Social Economy, the future of Europe"
 links:
-- title: More info
-  href: https://live.eventtia.com/en/economiesocialefutureen/Plen2
-- title: Registration
-  href: https://live.eventtia.com/en/economiesocialefutureen/Registration
+- title: "More info"
+  href: "https://live.eventtia.com/en/economiesocialefutureen/Plen2"
+- title: "Registration"
+  href: "https://live.eventtia.com/en/economiesocialefutureen/Registration"
 ---
