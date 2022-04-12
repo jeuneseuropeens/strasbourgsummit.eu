@@ -55,7 +55,11 @@
     "Programme": {
       "title": "Programme",
       "description": "Avant que la Conférence sur l’avenir de l’Europe ne prenne fin, nous invitons tous les acteurs de société civile européenne à prendre part au Sommet de Strasbourg du 5 au 8 mai 2022.",
-      "comingSoon": "Le programme se précise, revenez bientôt ou contribuez-y !",
+      "comingSoon": "Le programme se précise, revenez bientôt ou contribuez-y !",
+      "contribute": {
+        "title": "Votre propre événement ?",
+        "subtitle": "Rejoignez le programme du Sommet de Strasbourg !"
+      },
       "tabs": {
         "thursday": {
           "name": "Jeudi 5 mai"
@@ -114,7 +118,7 @@
           "opportunities": {
             "delegation": {
               "name": "Inscrire sa délégation",
-              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Vous aussi, participez au Sommet en inscrivant votre délégation !",
+              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Vous aussi, participez au Sommet en inscrivant votre délégation !",
               "actions": {
                 "register": {
                   "title": "J’inscris ma délégation",
@@ -127,15 +131,15 @@
               "faqs": {
                 "costs": {
                   "question": "Les frais de transport et d’hébergement seront-ils pris en charge ?",
-                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Pour planifier au mieux la venue de votre délégation, nous sommes à votre disposition pour vous orienter si besoin dans vos choix de transport et d’hébergement. Inscrivez-vous puis contactez-nous !</p>"
+                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Pour planifier au mieux la venue de votre délégation, nous sommes à votre disposition pour vous orienter si besoin dans vos choix de transport et d’hébergement. Inscrivez-vous puis contactez-nous !</p>"
                 },
                 "accommodation": {
                   "question": "Où réserver un hébergement à Strasbourg ?",
-                  "answer": "<p>Vous avez le choix ! L’Office de tourisme vous propose de nombreuses possibilités d’hébergement à Strasbourg <LinkOt>à découvrir sur leur site</LinkOt>.</p><p>Vous cherchez un hébergement à bon prix pour votre délégation ? Voici quelques suggestions : l’<LinkCiarus>auberge de jeunesse Ciarus</LinkCiarus>, le <LinkCej>Centre européen de la jeunesse</LinkCej>, l’<LinkCap>hôtel Cap Europe</LinkCap>, l’<LinkPeople>auberge de jeunesse The People</LinkPeople>, l’<LinkRives>Auberge des Deux Rives</LinkRives>.</p>"
+                  "answer": "<p>Vous avez le choix ! L’Office de tourisme vous propose de nombreuses possibilités d’hébergement à Strasbourg <LinkOt>à découvrir sur leur site</LinkOt>.</p><p>Vous cherchez un hébergement à bon prix pour votre délégation ? Voici quelques suggestions : l’<LinkCiarus>auberge de jeunesse Ciarus</LinkCiarus>, le <LinkCej>Centre européen de la jeunesse</LinkCej>, l’<LinkCap>hôtel Cap Europe</LinkCap>, l’<LinkPeople>auberge de jeunesse The People</LinkPeople>, l’<LinkRives>Auberge des Deux Rives</LinkRives>.</p>"
                 },
                 "come": {
                   "question": "Comment venir à Strasbourg ?",
-                  "answer": "<p>Venir à Strasbourg est un jeu d’enfant ! La plupart des villes européennes proposent des liaisons en train, en bus ou en avion. L’aéroport de Strasbourg-Entzheim est accessible à 10 minutes en train depuis la gare centrale (proche du centre-ville et desservie par plusieurs lignes de tram).</p><p>Plus d’infos sont disponibles sur le <LinkOt>site de l’office de tourisme de Strasbourg et sa région</LinkOt>.</p>"
+                  "answer": "<p>Venir à Strasbourg est un jeu d’enfant ! La plupart des villes européennes proposent des liaisons en train, en bus ou en avion. L’aéroport de Strasbourg-Entzheim est accessible à 10 minutes en train depuis la gare centrale (proche du centre-ville et desservie par plusieurs lignes de tram).</p><p>Plus d’infos sont disponibles sur le <LinkOt>site de l’office de tourisme de Strasbourg et sa région</LinkOt>.</p>"
                 },
                 "move": {
                   "question": "Comment se déplacer dans la ville ?",
@@ -155,7 +159,7 @@
               "faqs": {
                 "venue": {
                   "question": "Si j’organise un événement pendant le Sommet, une salle est-elle mise à disposition ?",
-                  "answer": "Oui ! Les organisateurs du Sommet de Strasbourg ont déjà pré-réservé plusieurs lieux pour vos événements. Une fois que votre événement est confirmé par notre équipe logistique, nous mettons à votre disposition un lieu approprié. Nous prenons en charge tous les frais de réservation. Vous n’avez pas à vous soucier des détails logistiques : vous pouvez vous focaliser sur le programme de votre événement, on s’occupe du reste !"
+                  "answer": "Oui ! Les organisateurs du Sommet de Strasbourg ont déjà pré-réservé plusieurs lieux pour vos événements. Une fois que votre événement est confirmé par notre équipe logistique, nous mettons à votre disposition un lieu approprié. Nous prenons en charge tous les frais de réservation. Vous n’avez pas à vous soucier des détails logistiques : vous pouvez vous focaliser sur le programme de votre événement, on s’occupe du reste !"
                 },
                 "confirmation": {
                   "question": "Quand saurai-je si mon événement est intégré au programme ?",
@@ -241,7 +245,7 @@
     "Organisations": {
       "title": "Nous y serons",
       "description": "Mouvement lancé en 2021, le Sommet de Strasbourg repose sur l’implication d’un collectif de multiples organisations de la société civile européenne, actives à travers tout le continent.",
-      "projectLedBy": "Un projet mené par"
+      "medias": "Partenaires média"
     },
     "Map": {
       "title": "Plan du Sommet de Strasbourg"
