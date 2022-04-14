@@ -163,6 +163,11 @@ function LeadingOrganisations() {
 			name: 'Euractiv',
 			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
 			website: 'https://www.euractiv.com/',
+		},
+		{
+			name: 'European Alternatives',
+			image: 'https://euroalter.com/wp-content/themes/euroalter-astra-child/assets/images/svg/logo-red.svg',
+			website: 'https://euroalter.com/',
 		}
 	]
 
