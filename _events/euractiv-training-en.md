@@ -1,15 +1,15 @@
 ---
 locale: en
-title: "EurActiv Training session"
+title: "EURACTIV Training session"
 date: "2022-05-08"
 startTime: "14:00"
-language: "French"
+language: "English"
 location:
   main: "Euro Student Café, FEC,"
   after: "Place Saint-Etienne, Strasbourg"
 organisers:
-- "EurActiv"
+- "EURACTIV"
 links:
 - title: "More info"
-  href: "https://www.euractiv.fr/"
+  href: "https://www.euractiv.com/"
 ---
