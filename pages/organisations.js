@@ -200,9 +200,9 @@ function LeadingOrganisations() {
 			website: 'https://mouvement-europeen.eu/nord/',
 		},
 		{
-			name: 'JEF - Romania',
-			image: 'https://mouvement-europeen.eu/wp-content/uploads/2018/02/Logo_ME-F_2016_Nord_HD-700x356.png',
-			website: 'https://mouvement-europeen.eu/nord/',
+			name: 'JEF - Madrid',
+			image: 'https://lazaro-ongs.s3.eu-west-2.amazonaws.com/JefMadrid/logo.png',
+			website: 'https://www.jefmadrid.eu/',
 		},
 	]
 
