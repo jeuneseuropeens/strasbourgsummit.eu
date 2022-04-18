@@ -7,8 +7,8 @@ startTime: "09:00"
 endTime: "12:00"
 language: "French"
 location:
-  main: "To be confirmed,"
-  after: "Strasbourg"
+  main: "FEC,"
+  after: "Place Saint-Etienne, Strasbourg"
 organisers:
 - "Forum Français de la Jeunesse (French Youth Forum)"
 links:
