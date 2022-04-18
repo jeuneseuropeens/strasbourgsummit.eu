@@ -160,10 +160,50 @@ function LeadingOrganisations() {
 			website: 'https://citizenstakeover.eu/fr/',
 		},
 		{
-			name: 'Euractiv',
+			name: 'EURACTIV',
 			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
 			website: 'https://www.euractiv.com/',
-		}
+		},
+		{
+			name: 'AMSED',
+			image: 'https://network.amsed.fr/wp-content/uploads/2015/12/logo_amsed.png',
+			website: 'https://network.amsed.fr/',
+		},
+		{
+			name: 'The Polish Forum of Young Diplomats',
+			image: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGPzXmWuP9N9A/company-logo_200_200/0?e=2159024400&v=beta&t=_uNbijsA_9-x4triEWa5qxVFmBGoHcMfaiuxezL7be0',
+			website: 'http://www.diplomacy.pl/',
+		},
+		{
+			name: 'Europe Ecologie les Verts Alsace',
+			image: 'https://alsace.eelv.fr/files/2017/11/LOGO_EELV_Alsace_500px.jpg',
+			website: 'https://alsace.eelv.fr/',
+		},
+		{
+			name: 'JEF Hamburg',
+			image: 'https://www.jef-hamburg.de/wp-content/themes/jef-hamburg/header-img/JEF-HH-Schriftzug.png',
+			website: 'https://www.jef-hamburg.de/',
+		},
+		{
+			name: 'Solidarité Eau Europe - SEE',
+			image: 'https://www.pseau.org/gif/logo_see_swe.gif',
+			website: 'https://www.coalition-eau.org/ong-membres/solidarite-eau-europe/',
+		},
+		{
+			name: 'CIVICO Europa',
+			image: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEX_cvf_dafPQ/company-logo_200_200/0/1567176906429?e=2147483647&v=beta&t=IQUkpVQTL96azn3p67ojmuSgdgf7ug1UfY2oztLczjU',
+			website: 'https://civico.eu/',
+		},
+		{
+			name: 'Mouvement Européen - Nord',
+			image: 'https://mouvement-europeen.eu/wp-content/uploads/2018/02/Logo_ME-F_2016_Nord_HD-700x356.png',
+			website: 'https://mouvement-europeen.eu/nord/',
+		},
+		{
+			name: 'JEF - Romania',
+			image: 'https://mouvement-europeen.eu/wp-content/uploads/2018/02/Logo_ME-F_2016_Nord_HD-700x356.png',
+			website: 'https://mouvement-europeen.eu/nord/',
+		},
 	]
 
 	return (
@@ -203,7 +243,7 @@ function MediaPartners() {
 			website: 'https://www.thenewfederalist.eu/',
 		},
 		{
-			name: 'Euractiv',
+			name: 'EURACTIV',
 			image: 'https://www.euractiv.fr/wp-content/themes/euractiv/media/frontend/branding/logo_print.png',
 			website: 'https://www.euractiv.com/',
 		}
