@@ -204,6 +204,11 @@ function LeadingOrganisations() {
 			image: 'https://lazaro-ongs.s3.eu-west-2.amazonaws.com/JefMadrid/logo.png',
 			website: 'https://www.jefmadrid.eu/',
 		},
+    {
+			name: 'European Alternatives',
+			image: 'https://euroalter.com/wp-content/themes/euroalter-astra-child/assets/images/svg/logo-red.svg',
+			website: 'https://euroalter.com/',
+		}
 	]
 
 	return (
