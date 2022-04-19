@@ -4,7 +4,7 @@ title: "L'Eurobus fait étape près de chez vous !"
 excerpt: "Activités ludiques et pédagogiques pour (re)découvrir l'Europe à tout âge sur le village des Courses de Strasbourg Eurométropole."
 date: "2022-05-07"
 startTime: "11:00"
-endTime: "19:00"
+endTime: "15:30"
 language: "Français/Anglais"
 location:
   main: "Place Kléber,"
