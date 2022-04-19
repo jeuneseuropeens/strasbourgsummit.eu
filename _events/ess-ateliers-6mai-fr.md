@@ -10,8 +10,6 @@ language: "Français/Anglais"
 location:
   main: "Palais de la Musique et des Congrès,"
   after: "Strasbourg"
-organisers:
-- "Manifestation européenne de l'ESS"
 links:
 - title: "Plus d'info"
   href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/Programme-du-5-et-6-mai/"

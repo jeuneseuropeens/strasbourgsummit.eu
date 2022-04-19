@@ -10,8 +10,6 @@ language: "French/English"
 location:
   main: "Palais de la Musique et des Congrès,"
   after: "Strasbourg, Auditorium Schweitzer"
-organisers:
-- "Social Economy, the future of Europe"
 links:
 - title: "More info"
   href: "https://live.eventtia.com/en/economiesocialefutureen/Plen3"

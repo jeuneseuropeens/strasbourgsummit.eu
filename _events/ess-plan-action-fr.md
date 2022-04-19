@@ -10,8 +10,6 @@ language: "Français/Anglais"
 location:
   main: "Palais de la Musique et des Congrès,"
   after: "Strasbourg, Auditorium Schweitzer"
-organisers:
-- "Manifestation européenne de l'ESS"
 links:
 - title: "More info"
   href: "https://www.economiesociale-futur.eu/fr/economiesocialefutur/plen2"

@@ -10,8 +10,6 @@ language: "English/French"
 location:
   main: "Palais de la Musique et des Congrès,"
   after: "Strasbourg, Auditorium Cassin"
-organisers:
-- "Social economy, the future of Europe"
 links:
 - title: "More info"
   href: "https://live.eventtia.com/en/economiesocialefutureen/conf1"
