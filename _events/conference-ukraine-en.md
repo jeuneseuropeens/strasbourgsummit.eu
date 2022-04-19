@@ -1,5 +1,6 @@
 ---
 locale: en
+umbrellaId: ukraine
 title: "Solidarity with Ukraine - Testimonies of the conflict"
 excerpt: "As part of the Strasbourg Summit, Europe's civil society invites witnesses of the conflict in Ukraine to speak up. Refugees, humanitarian workers, local politicians will take the floor at the Aubette."
 date: "2022-05-06"
