@@ -1,6 +1,6 @@
 ---
 locale: en
-title: "Executive board of UEF France"
+title: "Executive board meeting of UEF France"
 excerpt: "UEF France members only event."
 date: "2022-05-08"
 startTime: "09:00"
