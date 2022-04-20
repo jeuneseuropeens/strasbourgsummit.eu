@@ -147,6 +147,7 @@
             "event": {
               "name": "Submit an event to the programme",
               "description": "Your organisation would like to organise an event in Strasbourg during the Strasbourg Summit? Tell us about your project and your needs and we will help you set it up.",
+              "full": "The Strasbourg Summit programme is almost full! For any further contribution request, please contact us by email. \n Thank you for your understanding. Looking forward to meeting you in Strasbourg on May 5-8, 2022!",
               "actions": {
                 "suggestEvent": {
                   "title": "Submit an event",

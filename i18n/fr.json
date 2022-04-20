@@ -150,6 +150,7 @@
             "event": {
               "name": "Proposer un événement au programme",
               "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l'accompagnerons pour le mettre en place.",
+              "full": "Le programme du Sommet de Strasbourg est quasi-complet ! Pour toute demande de contribution supplémentaire, merci de nous contacter par mail. \n Nous comptons sur votre compréhension et nous réjouissons de vous retrouver du 5 au 8 mai 2022 à Strasbourg.",
               "actions": {
                 "suggestEvent": {
                   "title": "Je propose un événement",

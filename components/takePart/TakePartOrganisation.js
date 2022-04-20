@@ -56,11 +56,13 @@ export default function TakePartOrganisation() {
 		},
 		{
 			title: t('opportunities.event.name'),
-			description: t('opportunities.event.description'),
+			description: t.rich('opportunities.event.description', richTextConfig),
+			full: t('opportunities.event.full'),
 			actions: [
 				{
 					title: t('opportunities.event.actions.suggestEvent.title'),
-					href: t('opportunities.event.actions.suggestEvent.form'),
+					href: 'mailto:info@strasbourgsummit.eu',
+					// href: t('opportunities.event.actions.suggestEvent.form'),
 				},
 			],
 			faqs: [
