@@ -57,7 +57,7 @@
       "comingSoon": "Programme in the making: come back soon or submit your own event!",
       "contribute": {
         "title": "Your own event?",
-        "subtitle": "Join the Strasbourg Summit programme!"
+        "subtitle": "The Strasbourg Summit programme is almost full! For any further contribution request, please contact us by email. \n Thank you for your understanding. Looking forward to meeting you in Strasbourg on May 5-8, 2022!"
       },
       "tabs": {
         "thursday": {
@@ -76,32 +76,30 @@
       "events": {
         "umbrellas": {
           "economieSociale": "Social economy, the future of Europe",
-          "courses": "Courses de Strasbourg"
+          "courses": "Courses de Strasbourg",
+          "ukraine": "Solidarity with Ukraine"
         },
         "saturday": {
           "convention": {
-            "time":"Saturday morning",
             "title":"The European Civil Society Convention",
             "description":"Gathering all driving forces (associations, trade unions, NGOs, foundations, etc.) within a Convention to set the roadmap following the Conference on the Future of Europe.",
-            "timeline": {
-              "location": {
-                "content": "Venue :",
-                "target": "L'Aubette"
-              }
+            "part1": "Discussion and round-tables with representatives of  European civil society organisations",
+            "part2": "Introducing the European civil society's joint declaration",
+            "location": {
+              "main": "L'Aubette"
             }
           },
           "march": {
-            "time":"Saturday afternoon",
             "title":"March for Europe",
             "description":"Milestone of the Summit: let’s push European leaders to move from words to action and hold a large-scale citizen mobilisation to support the continuation of the European project.",
             "timeline": {
               "location": {
-                "content": "Gathering :",
-                "target": "place Kléber in Strasbourg"
+                "before": "Gathering:",
+                "main": "4pm • place Kléber in Strasbourg"
               },
               "destination": {
-                "content": "Destination :",
-                "target": "European Parliament"
+                "before": "Destination:",
+                "main": "6pm • European Parliament"
               }
             }
           }
@@ -149,6 +147,7 @@
             "event": {
               "name": "Submit an event to the programme",
               "description": "Your organisation would like to organise an event in Strasbourg during the Strasbourg Summit? Tell us about your project and your needs and we will help you set it up.",
+              "full": "The Strasbourg Summit programme is almost full! For any further contribution request, please contact us by email. \n Thank you for your understanding. Looking forward to meeting you in Strasbourg on May 5-8, 2022!",
               "actions": {
                 "suggestEvent": {
                   "title": "Submit an event",

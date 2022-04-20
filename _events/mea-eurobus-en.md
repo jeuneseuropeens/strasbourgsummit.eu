@@ -1,13 +1,13 @@
 ---
 locale: en
 title: "The Eurobus makes a stop in downtown Strasbourg!"
-excerpt: "Come to discover Europe or refresh your memory in a fun way."
-date: "2022-05-08"
+excerpt: "Come to discover Europe or refresh your memory in a fun way in the midst of the run village (Courses de Strasbourg Eurométropole)."
+date: "2022-05-06"
 startTime: "11:00"
-endTime: "17:00"
+endTime: "19:00"
 language: "French/English"
 location:
-  main: "To be confirmed,"
+  main: "Place Kléber,"
   after: "Strasbourg"
 organisers:
 - "European Movement - Alsace"

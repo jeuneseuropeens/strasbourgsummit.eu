@@ -58,7 +58,7 @@
       "comingSoon": "Le programme se précise, revenez bientôt ou contribuez-y !",
       "contribute": {
         "title": "Votre propre événement ?",
-        "subtitle": "Rejoignez le programme du Sommet de Strasbourg !"
+        "subtitle": "Le programme du Sommet de Strasbourg est quasi-complet ! Pour toute demande de contribution supplémentaire, merci de nous contacter par mail. \n Nous comptons sur votre compréhension et nous réjouissons de vous retrouver du 5 au 8 mai 2022 à Strasbourg."
       },
       "tabs": {
         "thursday": {
@@ -77,18 +77,18 @@
       "events": {
         "umbrellas": {
           "economieSociale": "L’économie sociale, le futur de l’Europe",
-          "courses": "Courses de Strasbourg"
+          "courses": "Courses de Strasbourg",
+          "ukraine": "Solidarité avec l'Ukraine"
         },
         "saturday": {
           "convention": {
-            "time":"Samedi matin",
+            "time":"Samedi matin - de 9h à 12h30",
             "title":"Convention de la société civile européenne",
             "description":"Toutes les forces vives associatives, syndicales (associations, syndicats, ONG, fondations...) réunies au sein d’une Convention pour fixer la marche à suivre à l’issue de la Conférence sur l’avenir de l’Europe.",
-            "timeline": {
-              "location": {
-                "content": "Lieu :",
-                "target": "L'Aubette"
-              }
+            "part1": "Débats et table-rondes avec des représentants de la société civile européenne",
+            "part2": "Présentation de la déclaration commune de la société civile européenne",
+            "location": {
+              "main": "L'Aubette"
             }
           },
           "march": {
@@ -97,12 +97,12 @@
             "description":"Temps fort du Sommet, invitons les dirigeants européens à passer des paroles aux actes : rassemblons-nous pour un grand temps de mobilisation citoyenne en faveur du projet européen.",
             "timeline": {
               "location": {
-                "content": "Départ :",
-                "target": "place Kléber à Strasbourg"
+                "before": "Rassemblement :",
+                "main": "16h • place Kléber à Strasbourg"
               },
               "destination": {
-                "content": "Arrivée :",
-                "target": "Parlement européen"
+                "before": "Arrivée :",
+                "main": "18h • devant le Parlement européen"
               }
             }
           }
@@ -150,6 +150,7 @@
             "event": {
               "name": "Proposer un événement au programme",
               "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l'accompagnerons pour le mettre en place.",
+              "full": "Le programme du Sommet de Strasbourg est quasi-complet ! Pour toute demande de contribution supplémentaire, merci de nous contacter par mail. \n Nous comptons sur votre compréhension et nous réjouissons de vous retrouver du 5 au 8 mai 2022 à Strasbourg.",
               "actions": {
                 "suggestEvent": {
                   "title": "Je propose un événement",

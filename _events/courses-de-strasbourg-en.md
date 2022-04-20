@@ -2,7 +2,7 @@
 locale: en
 umbrellaId: courses
 title: "Courses de Strasbourg Eurométropole"
-excerpt: "Races of Strasbourg Eurométropole are back on Sunday, May 8! 8 races are organised for everybody to take part in this not-to-be-missed sport day in Strasbourg."
+excerpt: "Races of Strasbourg Eurométropole are back! 8 races are organised for everybody to take part in this not-to-be-missed sport day in Strasbourg."
 date: "2022-05-08"
 location:
   before : "Village"

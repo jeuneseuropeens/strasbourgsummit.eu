@@ -7,14 +7,15 @@ export default function ContributeCTA() {
 
 	const data = {
 		title: t('TakePart.tabs.organisation.opportunities.event.actions.suggestEvent.title'),
-		href: t('TakePart.tabs.organisation.opportunities.event.actions.suggestEvent.form'),
+		href: 'mailto:info@strasbourgsummit.eu',
+		// href: t('TakePart.tabs.organisation.opportunities.event.actions.suggestEvent.form'),
 	}
 
 	return (
 		<div className="flex justify-center items-center relative block p-12 border-2 border-gray-300 border-dashed rounded-lg text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 			<div>
 				<span className="mb-4 block text-lg font-bold text-gray-900">{t('Programme.contribute.title')}</span>
-				<span className="mb-8 block text-lg font-medium text-gray-900">{t('Programme.contribute.subtitle')}</span>
+				<span className="mb-8 block text-md font-medium text-gray-900 whitespace-pre-line">{t('Programme.contribute.subtitle')}</span>
 				<a
 					href={data.href}
 					className={buttonStyles}

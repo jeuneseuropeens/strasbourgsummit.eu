@@ -1,7 +1,7 @@
 import {classNames} from '../../lib/helpers'
 import SingleFeedItem from '../commons/feed/SingleFeedItem'
 import Title from '../commons/Title'
-import {ClockIcon, LocationMarkerIcon, TranslateIcon} from '@heroicons/react/solid'
+import {ClockIcon, LocationMarkerIcon, TranslateIcon, UserGroupIcon} from '@heroicons/react/solid'
 import {ArrowNarrowRightIcon} from '@heroicons/react/outline'
 
 export default function EventPreview({event, umbrellas}) {
@@ -29,6 +29,12 @@ export default function EventPreview({event, umbrellas}) {
 		iconBackground: 'bg-primary-300',
 	} : ''
 
+	const organisersItem = organisers ? {
+		main: organisers.map(organiser => organiser).join(' • '),
+		icon: UserGroupIcon,
+		iconBackground: 'bg-primary-300',
+	} : ''
+
 	return (
 		<li className="col-span-1 bg-white rounded-lg shadow">
 			{(umbrellaId && umbrella) && (
@@ -46,15 +52,12 @@ export default function EventPreview({event, umbrellas}) {
 					{title}
 				</Title>
 
-				{organisers && <p>
-					{organisers.map(organiser => organiser).join(', ')}
-				</p>}
-
-				{(dateItem || locationItem || language) && (
+				{(organisersItem || dateItem || locationItem || language) && (
 					<div className="mt-4">
 						{dateItem && <SingleFeedItem item={dateItem}/>}
 						{locationItem && <SingleFeedItem item={locationItem}/>}
 						{language && <SingleFeedItem item={languageItem}/>}
+						{organisers && <SingleFeedItem item={organisersItem}/>}
 					</div>
 				)}
 

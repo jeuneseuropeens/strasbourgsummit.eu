@@ -20,7 +20,7 @@ export default function SingleFeedItem({item}) {
 				<div>
 					<p className="text-md text-gray-500">
 						{item.before}{' '}
-						<a href={item.href} className="font-medium text-gray-900">
+						<a href={item.href} className="font-medium text-gray-900 whitespace-pre-line">
 							{item.main}
 						</a>
 						{' '}{item.after}

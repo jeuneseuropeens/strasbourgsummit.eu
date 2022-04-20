@@ -30,6 +30,7 @@ export default function ProgrammeTabs({allEvents}) {
 	const umbrellas = [
 		{id: 'economieSociale', title: t('events.umbrellas.economieSociale'), bgColor: 'bg-cyan-200', textColor: 'text-color-800'},
 		{id: 'courses', title: t('events.umbrellas.courses'), bgColor: 'bg-orange-200', textColor: 'text-orange-800'},
+		{id: 'ukraine', title: t('events.umbrellas.ukraine'), bgColor: 'bg-[#0057b7]', textColor: 'text-[#ffd700]'},
 	]
 
 	return (

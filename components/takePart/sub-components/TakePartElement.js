@@ -4,7 +4,7 @@ import TakePartFaq from './TakePartFaq'
 import {classNames} from '../../../lib/helpers'
 
 export default function TakePartElement({data}) {
-	const {title, description, actions, faqs} = data
+	const {title, description, actions, faqs, full} = data
 
 	return (
 		<div className="px-4 max-w-xl mx-auto py-10 border-b first:pt-0 lg:max-w-none lg:mx-0 lg:px-0">
@@ -20,9 +20,16 @@ export default function TakePartElement({data}) {
 			>
 				{(description || actions) &&
 					<div className={!faqs ? 'col-span-4' : 'col-span-3'}>
-						<div className="mt-4 text-lg text-gray-500">
+						<div className="mt-4 text-lg text-gray-500 whitespace-pre-line">
 							{description}
 						</div>
+
+						{full && (
+							<div className="mt-4 text-md italic text-gray-500 whitespace-pre-line">
+								{full}
+							</div>
+						)}
+
 
 						<div className="mt-6">
 							{actions && actions.map((action, index) => (
