@@ -1,6 +1,7 @@
 import {useTranslations} from 'next-intl'
 import {useRouter} from 'next/router'
 import FooterMenu from './sub-components/FooterMenu'
+import FooterSupporters from './sub-components/FooterSupporters'
 
 export default function Footer() {
 	const t = useTranslations('PageLayout')
@@ -21,6 +22,8 @@ export default function Footer() {
 							{t('siteDescription')}
 						</p>
 					</div>
+
+					<FooterSupporters/>
 
 					<FooterMenu/>
 				</div>

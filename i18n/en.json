@@ -14,6 +14,10 @@
       "map": "Map"
     },
     "footer": {
+      "supportedBy": "Supported by",
+      "labeledBy": "Labelled",
+      "ofaj": "The Franco-German Youth Office",
+      "eyy": "European year of Youth",
       "contact": "Contact us",
       "legal": "Imprint",
       "press": "Press",

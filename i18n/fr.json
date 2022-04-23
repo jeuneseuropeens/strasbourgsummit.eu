@@ -14,6 +14,10 @@
       "map": "Carte"
     },
     "footer": {
+      "supportedBy": "Soutenu par",
+      "labeledBy": "Labellisé",
+      "ofaj": "L’Office franco-allemand pour la Jeunesse",
+      "eyy": "Année européenne de la Jeunesse",
       "contact": "Nous contacter",
       "legal": "Mentions légales",
       "press": "Presse",
