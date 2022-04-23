@@ -14,7 +14,7 @@ function ImageElement({item}) {
 			rel="noreferrer"
 			className="transition duration-500 block col-span-1 p-4 bg-white rounded-lg drop-shadow-none hover:drop-shadow-lg sm:p-6 md:p-8"
 		>
-			<div className="relative w-full h-20">
+			<div className="relative h-20 w-full max-w-[15rem] mx-auto">
 				<Image
 					className={'h-20'}
 					src={item.image}
