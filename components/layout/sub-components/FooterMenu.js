@@ -1,5 +1,6 @@
 import {useTranslations} from 'next-intl'
 import Link from 'next-translate-routes/link'
+import FooterSectionWithBorder from './FooterSectionWithBorder'
 
 export default function FooterMenu() {
 	const t = useTranslations('menu.footer')
@@ -52,7 +53,7 @@ export default function FooterMenu() {
 	}
 
 	return (
-		<div className="mt-12 border-t border-gray-200 pt-8 max-w-7xl mx-auto pt-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+		<FooterSectionWithBorder>
 			<nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 				{navigation.main.map((item, index) => (
 					<div key={index} className="px-5 py-2">
@@ -80,6 +81,6 @@ export default function FooterMenu() {
 					</a>
 				))}
 			</div>
-		</div>
+		</FooterSectionWithBorder>
 	)
 }
