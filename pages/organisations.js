@@ -66,6 +66,7 @@ function MediaPartners() {
 			<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
 
 			<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+				<div className="hidden lg:block"/>
 				{medias.map((media, index) => (
 					<ImageElement key={index} item={media} />
 				))}
