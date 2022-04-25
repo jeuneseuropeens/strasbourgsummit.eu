@@ -15,5 +15,5 @@ organisers:
 - "Europe Direct Strasbourg"
 links:
 - title: "More info"
-  href: "https://www.facebook.com/MouvementEuropeenAlsace/"
+  href: "https://www.facebook.com/events/5126816530697204/5126816540697203/"
 ---
