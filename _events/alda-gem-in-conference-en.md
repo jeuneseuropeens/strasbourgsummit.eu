@@ -1,13 +1,13 @@
 ---
 locale: en
-title: "GEM IN Final international conference"
-excerpt: "Press conference that will present the results of the project GEMIN."
+title: "GEMIN Final international conference"
+excerpt: "Press conference that will present the results of the project GEMIN (Game to EMbrace INtercultural education)."
 date: "2022-05-05"
 startTime: "09:30"
 endTime: "17:00"
 language: "English/French"
 location:
-  main: "To be confirmed,"
+  main: "Maison de la Région Grand Est,"
   after: "Strasbourg"
 organisers:
 - "ALDA"
