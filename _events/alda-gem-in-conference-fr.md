@@ -8,7 +8,7 @@ endTime: "17:00"
 language: "Français/Anglais"
 location:
   main: "Maison de la Région Grand Est,"
-  after: "Strasbourg"
+  after: "1 place Adrien Zeller, Strasbourg"
 organisers:
 - "ALDA"
 links:
