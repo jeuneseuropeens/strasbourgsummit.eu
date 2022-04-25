@@ -4,11 +4,11 @@ title: "Conseil d'administration de l'UEF France"
 excerpt: "Evénément réservé aux administrateurs membres de l'UEF France (sur invitation)."
 date: "2022-05-08"
 startTime: "09:00"
-endTime: "17:00"
+endTime: "11:00"
 language: "Français"
 location:
-  main: "Lieu à confirmer,"
-  after: "Strasbourg"
+  main: "The People Hostel,"
+  after: "7 Rue de la Krutenau, Strasbourg"
 organisers:
 - "UEF France"
 links:
