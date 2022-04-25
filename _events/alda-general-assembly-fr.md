@@ -7,7 +7,7 @@ startTime: "09:00"
 endTime: "13:00"
 language: "Français/Anglais/Italien/Ukrainien/Serbe"
 location:
-  main: "En cours de confirmation,"
+  main: "Maison de la Région Grand Est,"
   after: "Strasbourg"
 organisers:
 - "ALDA"
