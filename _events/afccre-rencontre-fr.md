@@ -1,6 +1,6 @@
 ---
 locale: fr
-title: "Avenir de l’Europe : La vision des territoires"
+title: "Avenir de l’Europe : la vision des territoires"
 excerpt: "Jeanne BARSEGHIAN, Maire de Strasbourg, Présidente déléguée de l’AFCCRE, Philippe LAURENT, Maire de Sceaux, Président de l’AFCCRE, et Laurent WATRIN, Adjoint au Maire de Nancy, Président de la Commission Europe et Citoyenneté de l’AFCCRE, vous convient à une rencontre consacrée à l’expression des citoyens dans les territoires et à leurs attentes pour l’Europe de demain."
 date: "2022-05-05"
 startTime: "14:30"
