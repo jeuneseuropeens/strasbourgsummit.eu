@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import {useRouter} from 'next/router'
-import {Logo_Euractiv, Logo_Taurillon, Logo_TNF} from '../../lib/organisationsData'
+import {Logo_Euractiv, Logo_Euradio, Logo_RCF, Logo_Taurillon, Logo_TNF} from '../../lib/organisationsData'
 import Title from '../commons/Title'
 import ImageElement from './ImageElement'
 
@@ -22,6 +22,16 @@ export default function MediasListing() {
 			name: 'EURACTIV',
 			image: Logo_Euractiv,
 			website: 'https://www.euractiv.com/',
+		},
+		{
+			name: 'euradio',
+			image: Logo_Euradio,
+			website: 'https://euradio.fr/',
+		},
+		{
+			name: 'RCF Alsace',
+			image: Logo_RCF,
+			website: 'https://rcf.fr/pres-de-chez-moi/alsace',
 		}
 	]
 
@@ -30,7 +40,6 @@ export default function MediasListing() {
 			<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
 
 			<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-				<div className="hidden lg:block"/>
 				{medias.map((media, index) => (
 					<ImageElement key={index} item={media} />
 				))}
