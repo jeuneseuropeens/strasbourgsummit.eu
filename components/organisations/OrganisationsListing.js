@@ -1,4 +1,4 @@
-import {organisations} from '../../lib/organisationsData'
+import {organisations} from '../../data/organisationsData'
 import ImageElement from './ImageElement'
 
 export default function OrganisationsListing() {

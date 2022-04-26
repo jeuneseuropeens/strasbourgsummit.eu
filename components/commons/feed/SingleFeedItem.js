@@ -18,7 +18,7 @@ export default function SingleFeedItem({item}) {
 			</div>
 			<div className="min-w-0 flex-1 flex justify-between space-x-4">
 				<div>
-					<p className="text-md text-gray-500">
+					<p className="text-md text-gray-500 whitespace-pre-line">
 						{item.before}{' '}
 						<a href={item.href} className="font-medium text-gray-900 whitespace-pre-line">
 							{item.main}

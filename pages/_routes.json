@@ -8,5 +8,8 @@
   "legal": {
     "default": "imprint",
     "fr": "mentions-legales"
+  },
+  "press-room": {
+    "fr": "espace-presse"
   }
 }

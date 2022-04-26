@@ -20,7 +20,7 @@
       "eyy": "European year of Youth",
       "contact": "Contact us",
       "legal": "Imprint",
-      "press": "Press",
+      "press": "Press room",
       "sitemap": "Sitemap",
       "facebook": "Facebook event",
       "twitter": "Twitter",
@@ -251,6 +251,27 @@
     },
     "Map": {
       "title": "Map of the Strasbourg Summit"
+    },
+    "Legal": {
+      "title": "Imprint"
+    },
+    "Press": {
+      "title": "Press room",
+      "description": "All you need to know about the Strasbourg Summit and how to cover the event on May 5 to 8, 2022.",
+      "resources": {
+        "title": "Resources",
+        "description": "Thanks for your interest in the Strasbourg Summit!",
+        "kit": {
+          "title": "Press kit",
+          "description": "You can download the press kit below."
+        },
+        "contact": "We’re also happy to help with any questions you have. Just email us. You'll reach a real human who can arrange interviews and provide original materials \uD83D\uDE4C"
+      },
+      "conference": {
+        "title": "Press conference",
+        "date": "Monday 2 May at 3pm",
+        "confirm": "Confirm your attendance"
+      }
     }
   }
 }

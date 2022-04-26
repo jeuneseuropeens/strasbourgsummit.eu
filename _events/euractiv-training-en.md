@@ -6,7 +6,7 @@ date: "2022-05-08"
 startTime: "14:00"
 language: "English"
 location:
-  main: "Euro Student Café, FEC,"
+  main: "Salle Léon XIII, FEC,"
   after: "Place Saint-Etienne, Strasbourg"
 organisers:
 - "EURACTIV"

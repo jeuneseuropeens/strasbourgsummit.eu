@@ -7,8 +7,8 @@ startTime: "09:00"
 endTime: "13:00"
 language: "Français/Anglais/Italien/Ukrainien/Serbe"
 location:
-  main: "En cours de confirmation,"
-  after: "Strasbourg"
+  main: "Maison de la Région Grand Est,"
+  after: "1 place Adrien Zeller, Strasbourg"
 organisers:
 - "ALDA"
 links:
