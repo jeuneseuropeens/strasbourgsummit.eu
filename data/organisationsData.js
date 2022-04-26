@@ -41,7 +41,6 @@ import Logo_SGD_Uganda from '../public/logos/Logo-SGD-Uganda.png'
 import Logo_Spinelli_Group from '../public/logos/Logo-Spinelli-Group.png'
 import Logo_Taurillon from '../public/logos/Logo-Taurillon.png'
 import Logo_TNF from '../public/logos/Logo-TNF.png'
-import Logo_UEF_France from '../public/logos/Logo-UEF.jpg'
 import Logo_UEF from '../public/logos/Logo-UEF.jpg'
 import Logo_VC from '../public/logos/Logo-VC.jpeg'
 import Logo_VWB from '../public/logos/Logo-VWB.png'
@@ -57,7 +56,7 @@ const organisations = [
 	},
 	{
 		name: 'Union of European Federalists',
-		image: Logo_UEF_France,
+		image: Logo_UEF,
 		website: 'https://www.federalists.eu/',
 		maxHeight: 'max-h-16',
 	},
