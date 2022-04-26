@@ -1,4 +1,5 @@
 import Logo_AEDE from '../public/logos/Logo-AEDE.png'
+import Logo_Afccre from '../public/logos/Logo-Afccre.jpg'
 import Logo_ALDA from '../public/logos/Logo-ALDA.png'
 import Logo_Amsed from '../public/logos/Logo-Amsed.png'
 import Logo_Civico from '../public/logos/Logo-Civico.jpg'
@@ -31,17 +32,20 @@ import Logo_JE_France from '../public/logos/Logo-JE-France.png'
 import Logo_ME_Alsace from '../public/logos/Logo-ME-Alsace.png'
 import Logo_ME_France from '../public/logos/Logo-ME-France.png'
 import Logo_ME_Nord from '../public/logos/Logo-ME-Nord.png'
+import Logo_MESA from '../public/logos/Logo-MESA.jpg'
 import Logo_ME_Suisse from '../public/logos/Logo-ME-Suisse.png'
 import Logo_OJUEA from '../public/logos/Logo-OJUEA.png'
 import Logo_Open_Diplomacy from '../public/logos/Logo-Open-Diplomacy.png'
+import Logo_SEE_SWE from '../public/logos/Logo-SEE-SWE.png'
 import Logo_SGD_Uganda from '../public/logos/Logo-SGD-Uganda.png'
 import Logo_Spinelli_Group from '../public/logos/Logo-Spinelli-Group.png'
 import Logo_Taurillon from '../public/logos/Logo-Taurillon.png'
-import Logo_SEE_SWE from '../public/logos/Logo-SEE-SWE.png'
 import Logo_TNF from '../public/logos/Logo-TNF.png'
 import Logo_UEF_France from '../public/logos/Logo-UEF.jpg'
 import Logo_UEF from '../public/logos/Logo-UEF.jpg'
+import Logo_VC from '../public/logos/Logo-VC.jpeg'
 import Logo_VWB from '../public/logos/Logo-VWB.png'
+import Logo_YDE from '../public/logos/Logo-YDE.png'
 import Logo_YFJ from '../public/logos/Logo-YFJ.png'
 import Logo_YWF from '../public/logos/Logo-YWF.png'
 
@@ -263,6 +267,26 @@ const organisations = [
 		name: 'European Horizons',
 		image: Logo_European_Horizons,
 		website: 'https://www.europeanhorizons.org/',
+	},
+	{
+		name: 'AFCCRE',
+		image: Logo_Afccre,
+		website: 'http://afccre.org/',
+	},
+	{
+		name: 'Via Charlemagne',
+		image: Logo_VC,
+		website: 'https://via-charlemagne.eu/',
+	},
+	{
+		name: 'Maison de l’Europe Strasbourg-Alsace',
+		image: Logo_MESA,
+		website: 'https://www.mesa-strasbourg.eu/',
+	},
+	{
+		name: 'Young Democrats for Europe',
+		image: Logo_YDE,
+		website: 'https://www.youngdemocrats.eu/',
 	}
 ]
 

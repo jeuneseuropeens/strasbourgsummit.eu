@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl'
 import {useRouter} from 'next/router'
-import {Logo_Euractiv, Logo_Euradio, Logo_RCF, Logo_Taurillon, Logo_TNF} from '../../lib/organisationsData'
+import {Logo_Euractiv, Logo_Euradio, Logo_RCF, Logo_Taurillon, Logo_TNF} from '../../data/organisationsData'
 import Title from '../commons/Title'
 import ImageElement from './ImageElement'
 
