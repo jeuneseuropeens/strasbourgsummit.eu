@@ -27,12 +27,6 @@ export default function ProgrammeTabs({allEvents}) {
 		sunday: allEvents.filter(event => event.date === '2022-05-08' && event.locale === locale),
 	}
 
-	const umbrellas = [
-		{id: 'economieSociale', title: t('events.umbrellas.economieSociale'), bgColor: 'bg-cyan-200', textColor: 'text-color-800'},
-		{id: 'courses', title: t('events.umbrellas.courses'), bgColor: 'bg-orange-200', textColor: 'text-orange-800'},
-		{id: 'ukraine', title: t('events.umbrellas.ukraine'), bgColor: 'bg-[#0057b7]', textColor: 'text-[#ffd700]'},
-	]
-
 	return (
 		<TabGroup
 			tabPanels={days}
@@ -40,14 +34,14 @@ export default function ProgrammeTabs({allEvents}) {
 				<>
 					<TabPanel>
 						{!isEmpty(events.thursday)
-							? <EventsListing events={events.thursday} umbrellas={umbrellas}/>
+							? <EventsListing events={events.thursday}/>
 							: <ComingSoon/>
 						}
 					</TabPanel>
 
 					<TabPanel>
 						{!isEmpty(events.friday)
-							? <EventsListing events={events.friday} umbrellas={umbrellas}/>
+							? <EventsListing events={events.friday}/>
 							: <ComingSoon/>
 						}
 					</TabPanel>
@@ -58,7 +52,7 @@ export default function ProgrammeTabs({allEvents}) {
 
 					<TabPanel>
 						{!isEmpty(events.sunday)
-							? <EventsListing events={events.sunday} umbrellas={umbrellas}/>
+							? <EventsListing events={events.sunday}/>
 							: <ComingSoon/>
 						}
 					</TabPanel>

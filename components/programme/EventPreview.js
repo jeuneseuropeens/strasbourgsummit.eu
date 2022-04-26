@@ -3,9 +3,18 @@ import SingleFeedItem from '../commons/feed/SingleFeedItem'
 import Title from '../commons/Title'
 import {ClockIcon, LocationMarkerIcon, TranslateIcon, UserGroupIcon} from '@heroicons/react/solid'
 import {ArrowNarrowRightIcon} from '@heroicons/react/outline'
+import {useTranslations} from 'next-intl'
 
-export default function EventPreview({event, umbrellas}) {
+export default function EventPreview({event}) {
+	const t = useTranslations('pages.Programme.events')
+
 	const {title, startTime, endTime, location, links, excerpt, umbrellaId, language, organisers} = event
+
+	const umbrellas = [
+		{id: 'economieSociale', title: t('umbrellas.economieSociale'), bgColor: 'bg-cyan-200', textColor: 'text-color-800'},
+		{id: 'courses', title: t('umbrellas.courses'), bgColor: 'bg-orange-200', textColor: 'text-orange-800'},
+		{id: 'ukraine', title: t('umbrellas.ukraine'), bgColor: 'bg-[#0057b7]', textColor: 'text-[#ffd700]'},
+	]
 
 	const umbrella = umbrellas.find(item => item.id === umbrellaId)
 
@@ -36,7 +45,7 @@ export default function EventPreview({event, umbrellas}) {
 	} : ''
 
 	return (
-		<li className="col-span-1 bg-white rounded-lg shadow">
+		<div className="col-span-1 bg-white rounded-lg shadow">
 			{(umbrellaId && umbrella) && (
 				<div className={classNames(
 					'flex items-center justify-center font-medium rounded-t-md px-6 py-2',
@@ -76,6 +85,6 @@ export default function EventPreview({event, umbrellas}) {
 					</div>
 				}
 			</div>
-		</li>
+		</div>
 	)
 }
