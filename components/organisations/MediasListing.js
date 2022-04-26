@@ -36,7 +36,7 @@ export default function MediasListing() {
 	]
 
 	return (
-		<div className="mt-10 lg:mt-12">
+		<section className="mt-10 lg:mt-12">
 			<Title tag="h2" className="text-center mb-6">{t('medias')}</Title>
 
 			<div className="grid sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
@@ -44,6 +44,6 @@ export default function MediasListing() {
 					<ImageElement key={index} item={media} />
 				))}
 			</div>
-		</div>
+		</section>
 	)
 }

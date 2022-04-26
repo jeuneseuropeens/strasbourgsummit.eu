@@ -31,7 +31,7 @@ export default function FooterMenu() {
 		main: [
 			{ name: t('contact'), href: 'mailto:info@strasbourgsummit.eu' },
 			{ name: t('legal'), href: '/legal' },
-			{ name: t('press'), href: 'mailto:info@strasbourgsummit.eu' },
+			{ name: t('press'), href: '/press-room' },
 		],
 		social: [
 			{

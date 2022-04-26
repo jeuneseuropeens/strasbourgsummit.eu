@@ -20,7 +20,7 @@
       "eyy": "Année européenne de la Jeunesse",
       "contact": "Nous contacter",
       "legal": "Mentions légales",
-      "press": "Presse",
+      "press": "Espace presse",
       "sitemap": "Plan du site",
       "facebook": "Événement Facebook",
       "twitter": "Twitter",
@@ -254,6 +254,31 @@
     },
     "Map": {
       "title": "Plan du Sommet de Strasbourg"
+    },
+    "Legal": {
+      "title": "Mentions légales"
+    },
+    "Press": {
+      "title": "Espace presse",
+      "description": "Tout ce qu'il vous faut savoir sur le Sommet de Strasbourg et comment couvrir l'événement du 5 au 8 mai 2022.",
+      "resources": {
+        "title": "Ressources",
+        "description": "Merci de l'intérêt que vous portez au Sommet de Strasbourg !",
+        "kit": {
+          "title": "Dossier de presse",
+          "description": "Vous pouvez télécharger le dossier de presse ci-dessous."
+        },
+        "contact": "Nous sommes également heureux de répondre à toutes vos questions. Il suffit de nous envoyer un mail. Vous serez en contact avec un·e membre de l'équipe qui pourra organiser un entretien et vous fournir davantage d'informations. \uD83D\uDE4C"
+      },
+      "kit": {
+        "title": "Dossier de presse",
+        "description": "Télécharger le dossier de presse du Sommet de Strasbourg"
+      },
+      "conference": {
+        "title": "Conférence de presse",
+        "date": "Lundi 2 mai à 15h",
+        "confirm": "Confirmer votre présence"
+      }
     }
   }
 }
