@@ -3,12 +3,11 @@ import TemplateBase from '../components/layout/TemplateBase'
 import BackgroundDots from '../components/commons/BackgroundDots'
 
 export default function Legal() {
-	const t = useTranslations('pages.TakePart')
+	const t = useTranslations('pages.Legal')
 
 	return (
 		<TemplateBase
-			title={t('title')}
-			description={t('description')}
+			title="{t('title')}"
 		>
 			<div className="relative py-16 overflow-hidden">
 				<BackgroundDots/>
@@ -20,7 +19,7 @@ export default function Legal() {
 						<h2>Éditeur et directeur de publication</h2>
 
 						<p>
-							Ce site est édité par l’association loi 1901 Les Jeunes Européens-France et publié sous la direction d’Antoine Chabal, son Président.
+							Ce site est édité par l’association loi 1901 Les Jeunes Européens - France et publié sous la direction d’Antoine Chabal, son Président.
 						</p>
 						<p>
 							Les Jeunes Européens - France
@@ -56,8 +55,8 @@ export default function Legal() {
 
 						<h2>Contenus et droits de reproduction</h2>
 						<p>
-							En application des articles L. 111-1 et L. 123-1 du Code de la Propriété Intellectuelle, l’ensemble des contenus de ce site (textes, images, vidéos et tout média en général), sauf mention contraire explicite, est protégé par le droit d’auteur. La reproduction, même partielle, des contenus des pages de ce site sans accord préalable de l’Association loi 1901 Les Jeunes Européens-France est strictement interdite.
-							<br/>© Copyright 1992-2022 Les Jeunes Européens-France | Tous droits réservés.
+							En application des articles L. 111-1 et L. 123-1 du Code de la Propriété Intellectuelle, l’ensemble des contenus de ce site (textes, images, vidéos et tout média en général), sauf mention contraire explicite, est protégé par le droit d’auteur. La reproduction, même partielle, des contenus des pages de ce site sans accord préalable de l’Association loi 1901 Les Jeunes Européens - France est strictement interdite.
+							<br/>© Copyright 1992-2022 Les Jeunes Européens - France | Tous droits réservés.
 						</p>
 
 						<h3>Demande d’autorisation de reproduction du logo</h3>
@@ -77,12 +76,12 @@ export default function Legal() {
 						<h2>Collecte et traitement de données personnelles</h2>
 
 						<p>
-							<strong>Les informations recueillies par Les Jeunes Européens-France ne sont jamais revendues ni communiquées à des tiers.</strong>
+							<strong>Les informations recueillies par Les Jeunes Européens - France ne sont jamais revendues ni communiquées à des tiers.</strong>
 							<br/>Sauf cas particulier, ces informations proviennent de l’enregistrement volontaire d’une adresse courriel fournie par l’internaute, lui permettant de recevoir une documentation ou une newsletter, de demander son inscription à un événement ou de se renseigner sur un point quelconque.
 						</p>
 
 						<p>
-							En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’internaute dispose d’un droit d’accès, de rectification et de suppression des informations personnelles le concernant stockées par Les Jeunes Européens - France, qu’il peut exercer à tout moment en adressant un courrier à l’Association loi 1901 Les Jeunes Européens-France ou en envoyant un e-mail à <a
+							En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’internaute dispose d’un droit d’accès, de rectification et de suppression des informations personnelles le concernant stockées par Les Jeunes Européens - France, qu’il peut exercer à tout moment en adressant un courrier à l’Association loi 1901 Les Jeunes Européens - France ou en envoyant un e-mail à <a
 							href="mailto:info@strasbourgsummit.eu">info@strasbourgsummit.eu</a>.
 						</p>
 
