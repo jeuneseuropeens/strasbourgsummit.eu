@@ -9,9 +9,29 @@ export default function FooterSupporters() {
 	const navigation = {
 		funding: [
 			{
+				name: t('city'),
+				href: 'https://www.strasbourg.eu/',
+				image: '/logos/Logo-Strasbourg.svg',
+			},
+			{
+				name: t('cea'),
+				href: 'https://www.alsace.eu/',
+				image: '/logos/Logo-CEA-H.png',
+			},
+			{
+				name: t('region'),
+				href: 'https://www.grandest.fr/',
+				image: '/logos/Logo-RGE.png',
+			},
+			{
+				name: t('prefet'),
+				href: 'https://www.bas-rhin.gouv.fr',
+				image: '/logos/Logo-Prefet-Bas-Rhin.svg',
+			},
+			{
 				name: t('ofaj'),
+				href: locale === 'en' ? 'https://www.fgyo.org/' : 'https://www.ofaj.org/',
 				image: '/logos/Logo-OFAJ.png',
-				href: locale === 'en' ? 'https://www.fgyo.org/' : 'https://www.ofaj.org/'
 			},
 		],
 		label: {
@@ -23,41 +43,37 @@ export default function FooterSupporters() {
 
 	return (
 		<FooterSectionWithBorder>
-			<div className="sm:flex sm:justify-evenly sm:gap-8">
+			<div className="sm:flex sm:flex-wrap sm:justify-between sm:gap-8">
 				<div>
-					<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">{t('supportedBy')}</h3>
+					<h3 className="text-sm font-semibold text-gray-500 tracking-wider uppercase">{t('supportedBy')}</h3>
 
-					<div className="flex flex-wrap gap-8 mt-4">
-						{navigation.funding.map((item) => (
-							<a
-								key={item.name}
-								href={item.href}
-								className="relative block flex justify-center"
-							>
-								<img
-									src={item.image}
-									alt={item.name}
-									className="h-20"
-								/>
-							</a>
-						))}
+					<div className="flow-root mt-4 lg:mt-6">
+						<div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
+							{navigation.funding.map((item, index) => (
+								<a
+									key={index}
+									href={item.href}
+									className="block mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4"
+								>
+									<img className="h-16" src={item.image} alt={item.name} />
+								</a>
+							))}
+						</div>
 					</div>
 				</div>
 
 				<div className="mt-12 sm:mt-0">
-					<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">{t('labeledBy')}</h3>
+					<h3 className="text-sm font-semibold text-gray-500 tracking-wider uppercase">{t('labeledBy')}</h3>
 
-					<div className="mt-4 w-[150px]">
-						<a
-							key={navigation.label.name}
-							href={navigation.label.href}
-							className="relative block flex justify-center"
-						>
-							<img
-								src={navigation.label.image}
-								alt={navigation.label.name}
-							/>
-						</a>
+					<div className="flow-root mt-4 lg:mt-6">
+						<div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
+							<a
+								href={navigation.label.href}
+								className="block mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4"
+							>
+								<img className="h-24" src={navigation.label.image} alt={navigation.label.name} />
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
