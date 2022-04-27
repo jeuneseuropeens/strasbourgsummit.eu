@@ -123,7 +123,7 @@ export default function PressRoom() {
 		<TemplatePage
 			title={t('title')}
 			description={t('description')}
-			bannerImage="/_MG_6038.jpg"
+			bannerImage="/_MG_6038-min.jpg"
 		>
 				<Container>
 					<div className="max-w-xl mx-auto">
