@@ -5,6 +5,7 @@ import Logo_Amsed from '../public/logos/Logo-Amsed.png'
 import Logo_Civico from '../public/logos/Logo-Civico.jpg'
 import Logo_CSE from '../public/logos/Logo-CSE.png'
 import Logo_CTOE from '../public/logos/Logo-CTOE.jpg'
+import Logo_Democracy_Inter from '../public/logos/Logo-democracy-international.png'
 import Logo_DRJUG from '../public/logos/Logo-DRJUG.webp'
 import Logo_ECIT from '../public/logos/Logo-ECIT.webp'
 import Logo_EELV_Alsace from '../public/logos/Logo-EELV-Alsace.jpg'
@@ -286,6 +287,11 @@ const organisations = [
 		name: 'Young Democrats for Europe',
 		image: Logo_YDE,
 		website: 'https://www.youngdemocrats.eu/',
+	},
+	{
+		name: 'Democracy International',
+		image: Logo_Democracy_Inter,
+		website: 'https://www.democracy-international.org/',
 	}
 ]
 
