@@ -6,7 +6,7 @@ excerpt: "Dans le cadre du Sommet de Strasbourg, la société civile européenne
 date: "2022-05-06"
 startTime: "18:30"
 endTime: "20:30"
-language: "Français/Anglais"
+language: "Français/Anglais/Ukrainien - traduction avec votre smartphone et écouteurs"
 location:
   main: "Aubette,"
   after: "Placé Kléber, Strasbourg"
