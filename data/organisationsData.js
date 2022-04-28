@@ -30,6 +30,8 @@ import Logo_JEF_Suisse from '../public/logos/Logo-JEF-Suisse.png'
 import Logo_JEF_UK from '../public/logos/Logo-JEF-UK.png'
 import Logo_JE_Strasbourg from '../public/logos/Logo-JE-Strasbourg.png'
 import Logo_JE_France from '../public/logos/Logo-JE-France.png'
+import Logo_Le1Hebdo from '../public/logos/Logo-Le1Hebdo.png'
+import Logo_MakeOrg from '../public/logos/Logo-MakeOrg.png'
 import Logo_ME_Alsace from '../public/logos/Logo-ME-Alsace.png'
 import Logo_ME_France from '../public/logos/Logo-ME-France.png'
 import Logo_ME_Nord from '../public/logos/Logo-ME-Nord.png'
@@ -292,6 +294,11 @@ const organisations = [
 		name: 'Democracy International',
 		image: Logo_Democracy_Inter,
 		website: 'https://www.democracy-international.org/',
+	},
+	{
+		name: 'Make.org',
+		image: Logo_MakeOrg,
+		website: 'https://make.org/',
 	}
 ]
 
@@ -301,5 +308,6 @@ export {
 	Logo_Taurillon,
 	Logo_TNF,
 	Logo_Euradio,
-	Logo_RCF
+	Logo_RCF,
+	Logo_Le1Hebdo
 }
