@@ -3,24 +3,30 @@ import Logo_Afccre from '../public/logos/Logo-Afccre.jpg'
 import Logo_ALDA from '../public/logos/Logo-ALDA.png'
 import Logo_Amsed from '../public/logos/Logo-Amsed.png'
 import Logo_Civico from '../public/logos/Logo-Civico.jpg'
+import Logo_CroixRouge from '../public/logos/Logo-CroixRouge.png'
 import Logo_CSE from '../public/logos/Logo-CSE.png'
 import Logo_CTOE from '../public/logos/Logo-CTOE.jpg'
 import Logo_Democracy_Inter from '../public/logos/Logo-democracy-international.png'
 import Logo_DRJUG from '../public/logos/Logo-DRJUG.webp'
 import Logo_ECIT from '../public/logos/Logo-ECIT.webp'
+import Logo_ECF from '../public/logos/Logo-European-Civic-Forum.jpg'
 import Logo_EELV_Alsace from '../public/logos/Logo-EELV-Alsace.jpg'
+import Logo_Eumans from '../public/logos/Logo-Eumans.jpeg'
 import Logo_EMI from '../public/logos/Logo-EMI.png'
+import Logo_EPSA from '../public/logos/Logo-EPSA.png'
+import Logo_ETUC from '../public/logos/Logo-ETUC.jpg'
 import Logo_Euractiv from '../public/logos/Logo-Euractiv.png'
 import Logo_Euradio from '../public/logos/Logo-Euradio.png'
-import Logo_RCF from '../public/logos/Logo-RCF.webp'
 import Logo_EuroAlter from '../public/logos/Logo-EuroAlter.png'
 import Logo_European_Horizons from '../public/logos/Logo-European-Horizons.png'
 import Logo_EU_Saar from '../public/logos/Logo-EU-Saar.png'
 import Logo_EU_BW from '../public/logos/Logo-EU-BW.png'
 import Logo_FFJ from '../public/logos/Logo-FFJ.png'
 import Logo_FMD from '../public/logos/Logo-FMD.jpg'
+import Logo_Generation_Maastricht from '../public/logos/Logo-Génération-Maastricht.png'
 import Logo_GFE from '../public/logos/Logo-GFE.png'
 import Logo_GYLO from '../public/logos/Logo-GYLO.jpg'
+import Logo_Institut_Engagement from '../public/logos/Logo-Institut-Engagement.png'
 import Logo_IYTT from '../public/logos/Logo-IYTT.png'
 import Logo_JEF_Europe from '../public/logos/Logo-JEF-Europe.png'
 import Logo_JEF_Deutschland from '../public/logos/Logo-JEF-Deutschland.png'
@@ -39,11 +45,15 @@ import Logo_MESA from '../public/logos/Logo-MESA.jpg'
 import Logo_ME_Suisse from '../public/logos/Logo-ME-Suisse.png'
 import Logo_OJUEA from '../public/logos/Logo-OJUEA.png'
 import Logo_Open_Diplomacy from '../public/logos/Logo-Open-Diplomacy.png'
+import Logo_PRG from '../public/logos/Logo-PRG.png'
+import Logo_RCF from '../public/logos/Logo-RCF.webp'
+import Logo_SCE from '../public/logos/Logo-Service-Civique-Europeen.jpeg'
 import Logo_SEE_SWE from '../public/logos/Logo-SEE-SWE.png'
 import Logo_SGD_Uganda from '../public/logos/Logo-SGD-Uganda.png'
 import Logo_Spinelli_Group from '../public/logos/Logo-Spinelli-Group.png'
 import Logo_Taurillon from '../public/logos/Logo-Taurillon.png'
 import Logo_TNF from '../public/logos/Logo-TNF.png'
+import Logo_TSA from '../public/logos/Logo-Territoires-Solidaires-Avenir.png'
 import Logo_UEF from '../public/logos/Logo-UEF.jpg'
 import Logo_VC from '../public/logos/Logo-VC.jpeg'
 import Logo_VWB from '../public/logos/Logo-VWB.png'
@@ -299,6 +309,56 @@ const organisations = [
 		name: 'Make.org',
 		image: Logo_MakeOrg,
 		website: 'https://make.org/',
+	},
+	{
+		name: 'European Civic Forum',
+		image: Logo_ECF,
+		website: 'https://civic-forum.eu/',
+	},
+	{
+		name: 'European Trade Union Confederation',
+		image: Logo_ETUC,
+		website: 'https://www.etuc.org/',
+	},
+	{
+		name: 'PRG Alsace',
+		image: Logo_PRG,
+		website: 'https://www.partiradicaldegauche.fr/',
+	},
+	{
+		name: 'European Pharmaceutical Students’ Association',
+		image: Logo_EPSA,
+		website: 'https://www.epsa-online.org/',
+	},
+	{
+		name: 'Croix-Rouge française',
+		image: Logo_CroixRouge,
+		website: 'https://www.croix-rouge.fr/',
+	},
+	{
+		name: 'Génération Maastricht',
+		image: Logo_Generation_Maastricht,
+		website: 'https://www.generationmaastricht.org',
+	},
+	{
+		name: 'Territoires Solidaires d’Avenir',
+		image: Logo_TSA,
+		website: 'https://territoiressolidairesdavenir.com/',
+	},
+	{
+		name: 'EUMANS',
+		image: Logo_Eumans,
+		website: 'https://territoiressolidairesdavenir.com/',
+	},
+	{
+		name: 'Collectif pour un Service Civique Européen',
+		image: Logo_SCE,
+		website: 'https://service-civique-europeen.com/',
+	},
+	{
+		name: 'Institut de l’engagement',
+		image: Logo_Institut_Engagement,
+		website: 'https://www.engagement.fr/',
 	}
 ]
 

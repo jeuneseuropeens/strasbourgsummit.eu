@@ -6,7 +6,7 @@ excerpt: "As part of the Strasbourg Summit, Europe's civil society invites witne
 date: "2022-05-06"
 startTime: "18:30"
 endTime: "20:30"
-language: "English/French"
+language: "English/French/Ukrainian - translation provided, bring your smartphone and headphones"
 location:
   main: "Aubette,"
   after: "Placé Kléber, Strasbourg"
