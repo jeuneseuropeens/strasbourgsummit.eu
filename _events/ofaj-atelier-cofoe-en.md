@@ -5,7 +5,7 @@ excerpt: "Trinational dialogue between young Germans, French and Italians to dis
 date: "2022-05-06"
 startTime: "13:00"
 endTime: "14:30"
-language: "English"
+language: "English/French/German"
 location:
   main: "Villa Schutzenberger,"
   after: "76 allée de la Robertsau, Strasbourg"
