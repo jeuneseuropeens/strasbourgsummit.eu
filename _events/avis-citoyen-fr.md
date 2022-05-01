@@ -3,8 +3,8 @@ locale: fr
 title: "Restitution de la Convention citoyenne locale sur l’Europe"
 excerpt: "100 citoyens représentatifs de l'Eurométropole de Strasbourg ont participé à une Convention citoyenne locale entre février et mars 2022 pour imaginer l'avenir de l'Europe. Ils vous présenteront l'avis issu de cette expérience de participation citoyenne : leur constat sur les défis que l'Union européenne doit relever et leurs recommandations de réforme pour y parvenir."
 date: "2022-05-05"
-startTime: "19:30"
-endTime: "21:30"
+startTime: "19:00"
+endTime: "21:00"
 language: "Français"
 location:
   main: "L'Aubette,"
