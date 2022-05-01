@@ -14,4 +14,7 @@ organisers:
 - "JEF Europe"
 - "ALDA"
 - "Mouvement Européen - Alsace"
+links:
+- title: "Plus d'info"
+  href: "https://www.facebook.com/events/1910554819333317"
 ---
