@@ -3,12 +3,12 @@ locale: en
 title: "Climate of Change Dissemination event"
 excerpt: "Presenting the ways to get engaged to fight climate change."
 date: "2022-05-06"
-startTime: "14:00"
-endTime: "15:30"
+startTime: "16:00"
+endTime: "17:30"
 language: "French/English"
 location:
-  main: "To be confirmed,"
-  after: "Strasbourg"
+  main: "Villa Schutzenberger,"
+  after: "76 allée de la Robertsau, Strasbourg"
 organisers:
 - "ALDA"
 links:
