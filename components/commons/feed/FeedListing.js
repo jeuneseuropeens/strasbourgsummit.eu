@@ -1,4 +1,5 @@
 import SingleFeedItem from './SingleFeedItem'
+import Title from '../Title'
 
 export default function FeedListing ({timeline}) {
 	return (
@@ -13,7 +14,14 @@ export default function FeedListing ({timeline}) {
 									: null
 							}
 
-							<SingleFeedItem item={item}/>
+							<SingleFeedItem item={item}>
+								{item.title && (
+									<Title tag="h4" className="">{item.title}</Title>
+								)}
+								{item.description && (
+									<p className="mt-4 text-sm text-gray-700 list-disc">{item.description}</p>
+								)}
+							</SingleFeedItem>
 						</div>
 					</li>
 				))}

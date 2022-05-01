@@ -17,7 +17,7 @@
       "supportedBy": "Soutenu par",
       "labeledBy": "Labellisé",
       "city": "Ville de Strasbourg",
-      "cea": "Collectivité européenne d'Alsace",
+      "cea": "Collectivité européenne d’Alsace",
       "region": "Région Grand Est",
       "prefet": "Préfet du Bas-Rhin",
       "ofaj": "L’Office franco-allemand pour la Jeunesse",
@@ -57,8 +57,8 @@
     "404": {
       "error": "Erreur 404",
       "title": "Page introuvable",
-      "description": "Il semble que la page que vous recherchez n'existe pas.",
-      "button": "Retourner à l'accueil"
+      "description": "Il semble que la page que vous recherchez n’existe pas.",
+      "button": "Retourner à l’accueil"
     },
     "Programme": {
       "title": "Programme",
@@ -86,17 +86,33 @@
         "umbrellas": {
           "economieSociale": "L’économie sociale, le futur de l’Europe",
           "courses": "Courses de Strasbourg",
-          "ukraine": "Solidarité avec l'Ukraine"
+          "ukraine": "Solidarité avec l’Ukraine"
         },
         "saturday": {
           "convention": {
             "time":"Samedi matin - de 9h à 12h30",
             "title":"Assemblée de la société civile européenne",
             "description":"Toutes les forces vives associatives, syndicales (associations, syndicats, ONG, fondations...) réunies au sein d’une Assemblée pour fixer la marche à suivre à l’issue de la Conférence sur l’avenir de l’Europe.",
-            "part1": "Débats et table-rondes avec des représentants de la société civile européenne",
-            "part2": "Présentation de la déclaration commune de la société civile européenne",
+            "welcome": "Accueil des participants",
+            "opening": "Ouverture de l’Assemblée",
+            "roundtable1": {
+              "title": "1ère table-ronde : La société civile dresse le bilan de la Conférence sur l’avenir de l’Europe (CoFoE)",
+              "description": "Discussion avec :<ul><li>Milosh Ristovski, Secrétaire général de JEF Europe, Co-président de la Civil Society Convention</li><li>Anna Echterhoff, Secrétaire générale de l’UEF (Union of European Federalists)</li><li>Antonella Valmorbida, Secrétaire générale de l’ALDA</li><li>Chloé Bourguignon, Membre du Comité des jeunes de la Confédération européenne des syndicats</li><li>Suzana Carp, ECIT Foundation Board Member (Voters without Borders)</li></ul><p>Traduction : Anglais, Français</p><p></p>"
+            },
+            "roundtable2": {
+              "title": "2ème table-ronde : quelles perspectives pour la Conférence sur l’avenir de l’Europe ?",
+              "description": "Discussion avec :<ul><li>Alexandrina Najmowicz, Secrétaire générale, European Civic Forum</li><li>Antonio Argenziano, Président des Jeunes Européens Fédéralistes (JEF Europe)</li><li>Petros Fassoulas, Secrétaire général, Mouvement Européen International</li><li>Frédérique Berrod, Professeur à l’Université de Strasbourg et au Collège d’Europe</li></ul><p></p>"
+            },
+            "lunch": {
+              "title": "Débat déjeunatoire avec Citizens Take Over Europe - L’avenir de la participation citoyenne en Europe",
+              "description": "Langue : Anglais<p></p>"
+            },
+            "adoption": {
+              "title": "Adoption d'une déclaration commune avec les membres de la société civile et des députés européens"
+            },
             "location": {
-              "main": "L'Aubette"
+              "main": "L’Aubette,",
+              "after": "place Kléber"
             }
           },
           "march": {
@@ -122,7 +138,7 @@
       "description": "Rejoignez la société civile européenne à Strasbourg du 5 au 8 mai 2022 et prenez part aux temps forts du Sommet. Vous pouvez contribuer au programme et partager vos attentes pour l’avenir de l’Europe en proposant votre propre événement.",
       "tabs": {
         "organisation": {
-          "name": "Participer en tant qu'organisation",
+          "name": "Participer en tant qu’organisation",
           "opportunities": {
             "delegation": {
               "name": "Inscrire sa délégation",
@@ -139,7 +155,7 @@
               "faqs": {
                 "costs": {
                   "question": "Les frais de transport et d’hébergement seront-ils pris en charge ?",
-                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Pour planifier au mieux la venue de votre délégation, nous sommes à votre disposition pour vous orienter si besoin dans vos choix de transport et d’hébergement. Inscrivez-vous puis contactez-nous !</p>"
+                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d’hébergement et de votre trajet.</p><p>Pour planifier au mieux la venue de votre délégation, nous sommes à votre disposition pour vous orienter si besoin dans vos choix de transport et d’hébergement. Inscrivez-vous puis contactez-nous !</p>"
                 },
                 "accommodation": {
                   "question": "Où réserver un hébergement à Strasbourg ?",
@@ -157,7 +173,7 @@
             },
             "event": {
               "name": "Proposer un événement au programme",
-              "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l'accompagnerons pour le mettre en place.",
+              "description": "Ton organisation souhaite organiser un évènement citoyen à Strasbourg dans le cadre du Sommet de Strasbourg ? Renseigne-nous ton projet et tes besoins et nous l’accompagnerons pour le mettre en place.",
               "full": "Le programme du Sommet de Strasbourg est quasi-complet ! Pour toute demande de contribution supplémentaire, merci de nous contacter par mail. \n Nous comptons sur votre compréhension et nous réjouissons de vous retrouver du 5 au 8 mai 2022 à Strasbourg.",
               "actions": {
                 "suggestEvent": {
@@ -204,7 +220,7 @@
           "opportunities": {
             "delegation": {
               "name": "Rejoindre une délégation",
-              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Les inscriptions individuelles en dehors d'une délégation ne sont pas possibles.",
+              "description": "Chaque organisation partenaire du Sommet gère sa propre délégation. Les inscriptions individuelles en dehors d’une délégation ne sont pas possibles.",
               "actions": {
                 "join": {
                   "title": "Rejoindre une délégation"
@@ -221,7 +237,7 @@
                 },
                 "costs": {
                   "question": "Mes frais de transport et mon hébergement seront-ils pris en charge par le Sommet de Strasbourg ?",
-                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d'hébergement et de votre trajet.</p><p>Plusieurs organisations partenaires prennent en charge les frais de leurs propres délégations et proposent une solution d’hébergement. Merci de contacter votre organisation pour en savoir plus.</p>"
+                  "answer": "<p>Les organisateurs du Sommet de Strasbourg ne couvrent pas les coûts d’hébergement et de votre trajet.</p><p>Plusieurs organisations partenaires prennent en charge les frais de leurs propres délégations et proposent une solution d’hébergement. Merci de contacter votre organisation pour en savoir plus.</p>"
                 }
               }
             },
@@ -264,15 +280,15 @@
     },
     "Press": {
       "title": "Espace presse",
-      "description": "Tout ce qu'il vous faut savoir sur le Sommet de Strasbourg et comment couvrir l'événement du 5 au 8 mai 2022.",
+      "description": "Tout ce qu’il vous faut savoir sur le Sommet de Strasbourg et comment couvrir l’événement du 5 au 8 mai 2022.",
       "resources": {
         "title": "Ressources",
-        "description": "Merci de l'intérêt que vous portez au Sommet de Strasbourg !",
+        "description": "Merci de l’intérêt que vous portez au Sommet de Strasbourg !",
         "kit": {
           "title": "Dossier de presse",
           "description": "Vous pouvez télécharger le dossier de presse ci-dessous."
         },
-        "contact": "Nous sommes également heureux de répondre à toutes vos questions. Il suffit de nous envoyer un mail. Vous serez en contact avec un·e membre de l'équipe qui pourra organiser un entretien et vous fournir davantage d'informations. \uD83D\uDE4C"
+        "contact": "Nous sommes également heureux de répondre à toutes vos questions. Il suffit de nous envoyer un mail. Vous serez en contact avec un·e membre de l’équipe qui pourra organiser un entretien et vous fournir davantage d’informations. \uD83D\uDE4C"
       },
       "kit": {
         "title": "Dossier de presse",
