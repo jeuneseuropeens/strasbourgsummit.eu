@@ -5,7 +5,7 @@ excerpt: "Presenting the ways to get engaged to fight climate change."
 date: "2022-05-06"
 startTime: "16:00"
 endTime: "17:30"
-language: "French/English"
+language: "French"
 location:
   main: "Villa Schutzenberger,"
   after: "76 allée de la Robertsau, Strasbourg"
