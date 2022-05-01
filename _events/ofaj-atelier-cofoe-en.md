@@ -13,7 +13,4 @@ organisers:
 - "Jeunes Européens France"
 - "Junge Europäische Föderalisten Deutschland"
 - "Gioventù Federalista Europea"
-links:
-- title: "More info"
-  href: "https://www.youthforum.org/"
 ---
