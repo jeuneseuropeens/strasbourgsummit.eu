@@ -4,7 +4,7 @@ title: "Restitution of the project Destination Jeun'ECE : Ecologie, Citoyenneté
 excerpt: "Quatre table-rondes (deux sessions d’1h30) où les jeunes pourront présenter à des décideurs européens, leurs propositions issues des ateliers organisés dans le cadre du projet Jeun'ECE pendant 2 mois dans quatre villes différentes."
 date: "2022-05-06"
 startTime: "14:00"
-endTime: "17:00"
+endTime: "18:30"
 language: "French"
 location:
   main: "FEC,"

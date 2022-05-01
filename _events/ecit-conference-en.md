@@ -11,7 +11,6 @@ location:
   after: "76 allée de la Robertsau, Strasbourg"
 organisers:
 - "ECIT Foundation"
-- "Voters Without Borders"
 links:
 - title: "More info"
   href: "https://ecit-foundation.eu/"

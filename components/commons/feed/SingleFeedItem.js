@@ -1,6 +1,6 @@
 import {classNames} from '../../../lib/helpers'
 
-export default function SingleFeedItem({item}) {
+export default function SingleFeedItem({item, children}) {
 	return (
 		<div className={classNames(
 			'relative flex items-top space-x-2',
@@ -25,6 +25,7 @@ export default function SingleFeedItem({item}) {
 						</a>
 						{' '}{item.after}
 					</p>
+					<div>{children}</div>
 				</div>
 				<div className="text-right text-sm whitespace-nowrap text-gray-500">
 					<time dateTime={item.datetime}>{item.date}</time>

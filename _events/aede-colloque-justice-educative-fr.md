@@ -7,7 +7,7 @@ startTime: "15:00"
 endTime: "17:00"
 language: "Français"
 location:
-  main: "FEC,"
+  main: "FEC, Salle Léon XIII,"
   after: "Place Saint-Etienne, Strasbourg"
 organisers:
 - "AEDE-France"

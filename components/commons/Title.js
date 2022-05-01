@@ -3,6 +3,12 @@ import {classNames} from '../../lib/helpers'
 export default function Title({children, tag, className, center, darkMode, responsive, extrabold}) {
 	const TagName = tag
 
+	const bold = () => {
+		if (TagName === 'h4') return 'font-semibold'
+		if (extrabold) return 'font-extrabold'
+		return 'font-bold'
+	}
+
 	const fontSize = () => {
 		if (TagName === 'h1') return !responsive ? 'text-4xl' : 'text-4xl sm:text-5xl lg:text-6xl'
 		if (TagName === 'h2') return 'text-3xl'
@@ -14,8 +20,8 @@ export default function Title({children, tag, className, center, darkMode, respo
 			className={classNames(
 				className,
 				fontSize(),
+				bold(),
 				!!center && 'sm:text-center',
-				extrabold ? 'font-extrabold' : 'font-bold',
 				darkMode ? 'text-white' :  'text-gray-900',
 			)}
 		>

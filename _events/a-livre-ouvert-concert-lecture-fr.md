@@ -13,6 +13,7 @@ organisers:
 - "A livre ouvert/wie ein offenes Buch"
 - "Amicale du Conseil de l’Europe"
 - "Bibliothèques idéales"
+- "Mouvement Européen Alsace"
 links:
 - title: "Plus d'infos"
   href: "http://www.a-livre-ouvert.com/"

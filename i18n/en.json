@@ -91,10 +91,26 @@
           "convention": {
             "title":"The European civil society Assembly",
             "description":"Gathering all driving forces (associations, trade unions, NGOs, foundations, etc.) within an Assembly to set the roadmap following the Conference on the Future of Europe.",
-            "part1": "Discussion and round-tables with representatives of  European civil society organisations",
-            "part2": "Introducing the European civil society's joint declaration",
+            "welcome": "Welcome of participants",
+            "opening": "Official Opening",
+            "roundtable1": {
+              "title": "Round table 1: Civil Society takeaways from the Conference on the future of Europe (CoFoE)",
+              "description": "Panel discussion with:<ul><li>Milosh Ristovski, Secretary General of JEF Europe, Co-chair Civil Society Convention</li><li>Anna Echterhoff, Secretary General of UEF (Union of European Federalists)</li><li>Antonella Valmorbida, Secretary General of ALDA</li><li>Chloé Bourguignon, ETUC Youth Bureau Member</li><li>Suzana Carp, ECIT Foundation Board Member (Voters without Borders)</li></ul><p>Translation: French/English</p><p></p>"
+            },
+            "roundtable2": {
+              "title": "Round table 2: What are the next steps and how can we engage in the follow up?",
+              "description": "Panel discussion with:<ul><li>Alexandrina Najmowicz, Secretary General, European Civic Forum</li><li>Antonio Argenziano, President of JEF Europe</li><li>Petros Fassoulas, Secretary General, European Movement International</li><li>Professor Frédérique Berrod, University of Strasbourg, College of Europe</li></ul><p></p>"
+            },
+            "lunch": {
+              "title": "Lunch discussion by Citizens Take Over Europe - Convention for a people-powered Europe: The future of democratic participation",
+              "description": "Language: English<p></p>"
+            },
+            "adoption": {
+              "title": "Adoption of the joint Declaration with Civil Society members and MEPs"
+            },
             "location": {
-              "main": "L'Aubette"
+              "main": "L'Aubette,",
+              "after": "place Kléber"
             }
           },
           "march": {

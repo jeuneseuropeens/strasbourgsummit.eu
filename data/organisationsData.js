@@ -59,6 +59,7 @@ import Logo_VC from '../public/logos/Logo-VC.jpeg'
 import Logo_VWB from '../public/logos/Logo-VWB.png'
 import Logo_YDE from '../public/logos/Logo-YDE.png'
 import Logo_YFJ from '../public/logos/Logo-YFJ.png'
+import Logo_YFJ_25Percent from '../public/logos/Logo-YFJ-25Percent.png'
 import Logo_YWF from '../public/logos/Logo-YWF.png'
 
 const organisations = [
@@ -82,6 +83,11 @@ const organisations = [
 		name: 'European Youth Forum',
 		image: Logo_YFJ,
 		website: 'https://www.youthforum.org/'
+	},
+	{
+		name: 'The 25 Percent',
+		image: Logo_YFJ_25Percent,
+		website: 'https://the25percent.eu/'
 	},
 	{
 		name: 'Forum Français de la Jeunesse',

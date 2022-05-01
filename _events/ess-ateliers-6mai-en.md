@@ -3,7 +3,7 @@ locale: en
 umbrellaId: economieSociale
 title: "Workshops on social economy in Europe"
 excerpt: "6 topics and tens of workshops to discuss youth engagement, transitions, innovation, fundings and policies for social economy in Europe."
-date: "2022-05-05"
+date: "2022-05-06"
 startTime: "09:15"
 endTime: "12:30"
 language: "English/French"
