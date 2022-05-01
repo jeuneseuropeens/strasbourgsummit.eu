@@ -13,4 +13,5 @@ organisers:
 - "Jeunes Européens France"
 - "Junge Europäische Föderalisten Deutschland"
 - "Gioventù Federalista Europea"
+- "Make.org"
 ---
