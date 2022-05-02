@@ -8,7 +8,8 @@ startTime: "14:30"
 endTime: "15:30"
 language: "English"
 location:
- 
+  main: "Villa Schutzenberger,"
+  after: "76 allée de la Robertsau, Strasbourg"
 organisers:
 - "Young World Federalists"
 links:
