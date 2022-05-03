@@ -46,6 +46,7 @@ import Logo_ME_Suisse from '../public/logos/Logo-ME-Suisse.png'
 import Logo_OJUEA from '../public/logos/Logo-OJUEA.png'
 import Logo_Open_Diplomacy from '../public/logos/Logo-Open-Diplomacy.png'
 import Logo_PRG from '../public/logos/Logo-PRG.png'
+import Logo_Renaissance from '../public/logos/Logo-Renaissance-europeenne.png'
 import Logo_RCF from '../public/logos/Logo-RCF.webp'
 import Logo_SCE from '../public/logos/Logo-Service-Civique-Europeen.jpeg'
 import Logo_SEE_SWE from '../public/logos/Logo-SEE-SWE.png'
@@ -365,6 +366,11 @@ const organisations = [
 		name: 'Institut de l’engagement',
 		image: Logo_Institut_Engagement,
 		website: 'https://www.engagement.fr/',
+	},
+	{
+		name: 'Association pour une Renaissance européenne',
+		image: Logo_Renaissance,
+		website: 'https://renaissanceeuropeenne.eu/',
 	}
 ]
 
