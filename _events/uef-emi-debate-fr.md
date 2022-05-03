@@ -15,5 +15,7 @@ organisers:
 - "Le Groupe Spinelli"
 links:
 - title: "Plus d'info"
-  href: "https://www.federalists.eu/"
+  href: "https://www.federalists.eu/news-uef/view/event-for-a-federal-europe-sovereign-and-democratic-the-time-is-now"
+- title: "Inscription"
+  href: "https://bit.ly/strasbourg_timeISnow" 
 ---
