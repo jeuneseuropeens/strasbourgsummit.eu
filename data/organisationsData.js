@@ -32,6 +32,7 @@ import Logo_JEF_Europe from '../public/logos/Logo-JEF-Europe.png'
 import Logo_JEF_Deutschland from '../public/logos/Logo-JEF-Deutschland.png'
 import Logo_JEF_Hamburg from '../public/logos/Logo-JEF-Hamburg.png'
 import Logo_JEF_Madrid from '../public/logos/Logo-JEF-Madrid.png'
+import Logo_JEF_Spain from '../public/logos/Logo-JEF-Spain.png'
 import Logo_JEF_Suisse from '../public/logos/Logo-JEF-Suisse.png'
 import Logo_JEF_UK from '../public/logos/Logo-JEF-UK.png'
 import Logo_JE_Strasbourg from '../public/logos/Logo-JE-Strasbourg.png'
@@ -272,6 +273,11 @@ const organisations = [
 		name: 'JEF - Madrid',
 		image: Logo_JEF_Madrid,
 		website: 'https://www.jefmadrid.eu/',
+	},
+	{
+		name: 'Jóvenes Europeos Federalistas de España',
+		image: Logo_JEF_Spain,
+		website: 'https://jef.eu/nationalsection/jef-spain/',
 	},
 	{
 		name: 'European Alternatives',
