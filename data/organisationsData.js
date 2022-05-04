@@ -254,6 +254,11 @@ const organisations = [
 		website: 'https://www.coalition-eau.org/ong-membres/solidarite-eau-europe/',
 	},
 	{
+		name: 'Association pour une Renaissance européenne',
+		image: Logo_Renaissance,
+		website: 'https://renaissanceeuropeenne.eu/',
+	},
+	{
 		name: 'CIVICO Europa',
 		image: Logo_Civico,
 		website: 'https://civico.eu/',
@@ -369,10 +374,6 @@ const organisations = [
 		website: 'https://www.engagement.fr/',
 	},
 	{
-		name: 'Association pour une Renaissance européenne',
-		image: Logo_Renaissance,
-		website: 'https://renaissanceeuropeenne.eu/',
-	}
 		name: 'Missions publiques',
 		image: Logo_Missions_publiques,
 		website: 'https://missionspubliques.org/',
