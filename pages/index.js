@@ -69,7 +69,7 @@ export default function Home() {
             poster={staticImage}
           >
             <source
-              src="https://res.cloudinary.com/doz7pow8n/video/upload/q_auto:low/v1644421076/Video-Homepage-Summit-compressed-NoSound_lucwuc.mp4"
+              src="https://res.cloudinary.com/dmx5l9r9l/video/upload/q_auto:low/v1651678711/Video-Homepage-Summit-compressed-NoSound_lucwuc_uqtvvo.mp4"
               type="video/mp4"
             />
           </video>
