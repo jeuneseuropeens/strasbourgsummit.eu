@@ -44,10 +44,11 @@ import Logo_ME_France from '../public/logos/Logo-ME-France.png'
 import Logo_ME_Nord from '../public/logos/Logo-ME-Nord.png'
 import Logo_MESA from '../public/logos/Logo-MESA.jpg'
 import Logo_ME_Suisse from '../public/logos/Logo-ME-Suisse.png'
-import Logo_Missions_publiques from '../public/logos/Logo-Missions-publiques.jpg'
+import Logo_Missions_publiques from '../public/logos/Logo-Missions-publiques.png'
 import Logo_OJUEA from '../public/logos/Logo-OJUEA.png'
 import Logo_Open_Diplomacy from '../public/logos/Logo-Open-Diplomacy.png'
 import Logo_PRG from '../public/logos/Logo-PRG.png'
+import Logo_Provox from '../public/logos/Logo-Provox.png'
 import Logo_Renaissance from '../public/logos/Logo-Renaissance-europeenne.png'
 import Logo_RCF from '../public/logos/Logo-RCF.webp'
 import Logo_SCE from '../public/logos/Logo-Service-Civique-Europeen.jpeg'
@@ -383,6 +384,11 @@ const organisations = [
 		name: 'Missions publiques',
 		image: Logo_Missions_publiques,
 		website: 'https://missionspubliques.org/',
+	},
+	{
+		name: 'Provox',
+		image: Logo_Provox,
+		website: 'https://provox-jeunesse.fr/',
 	},
 ]
 
