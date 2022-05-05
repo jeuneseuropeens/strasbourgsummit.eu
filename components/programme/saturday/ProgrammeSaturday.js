@@ -27,7 +27,8 @@ export default function ProgrammeSaturday () {
 			main: "10:00",
 			icon: MicrophoneIcon,
 			iconBackground: 'bg-primary-300',
-			title: t('convention.opening'),
+			title: t('convention.opening.title'),
+			description: t.rich('convention.opening.description', richTextConfig),
 		},
 		{
 			main: "10:10",
@@ -59,6 +60,7 @@ export default function ProgrammeSaturday () {
 			icon: StarIcon,
 			iconBackground: 'bg-primary-300',
 			title: t('convention.adoption.title'),
+			description: t.rich('convention.adoption.description', richTextConfig),
 		},
 	]
 
