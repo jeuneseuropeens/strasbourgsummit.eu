@@ -92,21 +92,25 @@
             "title":"The European civil society Assembly",
             "description":"Gathering all driving forces (associations, trade unions, NGOs, foundations, etc.) within an Assembly to set the roadmap following the Conference on the Future of Europe.",
             "welcome": "Welcome of participants",
-            "opening": "Official Opening",
+            "opening": {
+              "title": "Official Opening",
+              "description": "<ul><li>Welcoming speech by Jeanne Barseghian, Mayor of Strasbourg</li><li>Anne Tallineau, Secretary general of the Franco-German Youth Office</li><li>Roberta Metsola, President of the European Parliament</li></ul><p></p>"
+            },
             "roundtable1": {
               "title": "Round table 1: Civil Society takeaways from the Conference on the future of Europe (CoFoE)",
-              "description": "Panel discussion with:<ul><li>Milosh Ristovski, Secretary General of JEF Europe, Co-chair Civil Society Convention</li><li>Anna Echterhoff, Secretary General of UEF (Union of European Federalists)</li><li>Antonella Valmorbida, Secretary General of ALDA</li><li>Chloé Bourguignon, ETUC Youth Bureau Member</li><li>Suzana Carp, ECIT Foundation Board Member (Voters without Borders)</li></ul><p>Translation: French/English</p><p></p>"
+              "description": "Panel discussion with:<ul><li>Milosh Ristovski, Secretary General of JEF Europe, Co-chair Civil Society Convention</li><li>Anna Echterhoff, Secretary General of UEF (Union of European Federalists)</li><li>Seamus Boland, EESC Diversity Europe President</li><li>Antonella Valmorbida, Secretary General of ALDA</li><li>Chloé Bourguignon, ETUC Youth Bureau Member</li></ul><p>Translation: French/English</p><p></p>"
             },
             "roundtable2": {
               "title": "Round table 2: What are the next steps and how can we engage in the follow up?",
-              "description": "Panel discussion with:<ul><li>Alexandrina Najmowicz, Secretary General, European Civic Forum</li><li>Antonio Argenziano, President of JEF Europe</li><li>Petros Fassoulas, Secretary General, European Movement International</li><li>Professor Frédérique Berrod, University of Strasbourg, College of Europe</li></ul><p></p>"
+              "description": "Panel discussion with:<ul><li>Alexandrina Najmowicz, Secretary General, European Civic Forum</li><li>Antonio Argenziano, President of JEF Europe</li><li>Petros Fassoulas, Secretary General, European Movement International</li><li>Professor Frédérique Berrod, University of Strasbourg, College of Europe</li><li>Suzana Carp, ECIT Foundation Board Member (Voters without Borders)</li><li>Patrizia Heidegger, Director for Global Policies and Sustainability, European Environmental Bureau</li></ul><p>Translation: French/English</p><p></p>"
             },
             "lunch": {
-              "title": "Lunch discussion by Citizens Take Over Europe - Convention for a people-powered Europe: The future of democratic participation",
-              "description": "Language: English<p></p>"
+              "title": "Lunch Reception & Debate - The Role of Citizens for the Future of Europe",
+              "description": "<ul><li>Daniela Vancic, Democracy International</li><li>Michele Fiorillo, Civico Europe</li><li>Ophélie Masson, European Alternatives</li><li>Jan Birkman, Volt Europa COFE Lead</li><li>Dave Levy, Another Europe, National Committee Member, </li><li>Léonidas Kalogeropoulos, president of République des Citoyens d’Europe (tbc)</li><li>Facilitated by : Virginia Fiume, Co-president of EUMANS</li></ul><p></p>"
             },
             "adoption": {
-              "title": "Adoption of the joint Declaration with Civil Society members and MEPs"
+              "title": "Adoption of the joint Declaration with Civil Society members and MEPs",
+              "description": "Panel with:<ul><li>Milosh Ristovski, JEF Europe, Co-chair Civil Society Convention for the Conference on the Future of Europe</li><li>Jo Leinen, former S&D MEP, former member of the AFCO committee and the federalist intergroup</li><li>Pascal Durand, Renew MEP, member of the AFCO committee</li></ul><p></p>"
             },
             "location": {
               "main": "L'Aubette,",

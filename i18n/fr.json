@@ -94,21 +94,25 @@
             "title":"Assemblée de la société civile européenne",
             "description":"Toutes les forces vives associatives, syndicales (associations, syndicats, ONG, fondations...) réunies au sein d’une Assemblée pour fixer la marche à suivre à l’issue de la Conférence sur l’avenir de l’Europe.",
             "welcome": "Accueil des participants",
-            "opening": "Ouverture de l’Assemblée",
+            "opening": {
+              "title": "Ouverture de l’Assemblée",
+              "description": "<ul><li>Discours d'accueil par Jeanne Barseghian, Maire de Strasbourg</li><li>Anne Tallineau, Secrétaire générale de l'Office franco-allemand pour la Jeunesse</li><li>Roberta Metsola, Présidente du Parlement européen</li></ul><p></p>"
+            },
             "roundtable1": {
               "title": "1ère table-ronde : La société civile dresse le bilan de la Conférence sur l’avenir de l’Europe (CoFoE)",
-              "description": "Discussion avec :<ul><li>Milosh Ristovski, Secrétaire général de JEF Europe, Co-président de la Civil Society Convention</li><li>Anna Echterhoff, Secrétaire générale de l’UEF (Union of European Federalists)</li><li>Antonella Valmorbida, Secrétaire générale de l’ALDA</li><li>Chloé Bourguignon, Membre du Comité des jeunes de la Confédération européenne des syndicats</li><li>Suzana Carp, ECIT Foundation Board Member (Voters without Borders)</li></ul><p>Traduction : Anglais, Français</p><p></p>"
+              "description": "Discussion avec :<ul><li>Milosh Ristovski, Secrétaire général de JEF Europe, Co-président de la Civil Society Convention</li><li>Anna Echterhoff, Secrétaire générale de l’UEF (Union of European Federalists)</li><li>Seamus Boland, Président du groupe « Diversité Europe » au CESE</li><li>Antonella Valmorbida, Secrétaire générale de l’ALDA</li><li>Chloé Bourguignon, Membre du Comité des jeunes de la Confédération européenne des syndicats</li></ul><p>Traduction : Anglais, Français</p><p></p>"
             },
             "roundtable2": {
               "title": "2ème table-ronde : quelles perspectives pour la Conférence sur l’avenir de l’Europe ?",
-              "description": "Discussion avec :<ul><li>Alexandrina Najmowicz, Secrétaire générale, European Civic Forum</li><li>Antonio Argenziano, Président des Jeunes Européens Fédéralistes (JEF Europe)</li><li>Petros Fassoulas, Secrétaire général, Mouvement Européen International</li><li>Frédérique Berrod, Professeur à l’Université de Strasbourg et au Collège d’Europe</li></ul><p></p>"
+              "description": "Discussion avec :<ul><li>Alexandrina Najmowicz, Secrétaire générale, European Civic Forum</li><li>Antonio Argenziano, Président des Jeunes Européens Fédéralistes (JEF Europe)</li><li>Frédérique Berrod, Professeur à l’Université de Strasbourg et au Collège d’Europe</li><li>Suzana Carp, Membre du bureau de la Fondation ECIT (Voters without Borders)</li><li>Patrizia Heidegger, Directeur des politiques mondiales et du développement durable, Bureau européen de l'environnement</li></ul><p>Traduction : Anglais, Français</p><p></p>"
             },
             "lunch": {
-              "title": "Débat déjeunatoire avec Citizens Take Over Europe - L’avenir de la participation citoyenne en Europe",
-              "description": "Langue : Anglais<p></p>"
+              "title": "Déjeuner-réception et débat - Le rôle des citoyens pour l'avenir de l'Europe",
+              "description": "<ul><li>Daniela Vancic, Democracy International</li><li>Michele Fiorillo, Civico Europe</li><li>Ophélie Masson, European Alternatives</li><li>Jan Birkman, Volt Europa</li><li>Dave Levy, membre du comité national d'Another Europe</li><li>Léonidas Kalogeropoulos, Président de République des Citoyens d’Europe (tbc)</li><li>Animé par : Virginia Fiume, Co-président d'EUMANS</li></ul><p></p>"
             },
             "adoption": {
-              "title": "Adoption d'une déclaration commune avec les membres de la société civile et des députés européens"
+              "title": "Adoption d'une déclaration commune avec les membres de la société civile et des députés européens",
+              "description": "Discussion avec :<ul><li>Milosh Ristovski, JEF Europe, Co-président de la Civil Society Convention</li><li>Jo Leinen, ancien eurodéputé S&D, ancien membre de la commission AFCO et de l'intergroupe fédéraliste</li><li>Pascal Durand, eurodéputé Renew, membre de la commission AFCO</li></ul><p></p>"
             },
             "location": {
               "main": "L’Aubette,",
