@@ -11,6 +11,7 @@ import Logo_DRJUG from '../public/logos/Logo-DRJUG.webp'
 import Logo_ECIT from '../public/logos/Logo-ECIT.webp'
 import Logo_ECF from '../public/logos/Logo-European-Civic-Forum.jpg'
 import Logo_EELV_Alsace from '../public/logos/Logo-EELV-Alsace.jpg'
+import Logo_EESC from '../public/logos/Logo-EESC.png'
 import Logo_Eumans from '../public/logos/Logo-Eumans.jpeg'
 import Logo_EMI from '../public/logos/Logo-EMI.png'
 import Logo_EPSA from '../public/logos/Logo-EPSA.png'
@@ -50,6 +51,7 @@ import Logo_Open_Diplomacy from '../public/logos/Logo-Open-Diplomacy.png'
 import Logo_PRG from '../public/logos/Logo-PRG.png'
 import Logo_Provox from '../public/logos/Logo-Provox.png'
 import Logo_Renaissance from '../public/logos/Logo-Renaissance-europeenne.png'
+import Logo_RCE from '../public/logos/Logo-RCE.png'
 import Logo_RCF from '../public/logos/Logo-RCF.webp'
 import Logo_SCE from '../public/logos/Logo-Service-Civique-Europeen.jpeg'
 import Logo_SEE_SWE from '../public/logos/Logo-SEE-SWE.png'
@@ -389,6 +391,16 @@ const organisations = [
 		name: 'Provox',
 		image: Logo_Provox,
 		website: 'https://provox-jeunesse.fr/',
+	},
+	{
+		name: 'European Economic and Social Committee',
+		image: Logo_EESC,
+		website: 'https://www.eesc.europa.eu/',
+	},
+	{
+		name: 'La République des Citoyens d\'Europe',
+		image: Logo_RCE,
+		website: 'https://confrontations.org/sarahdelhaie/la-republique-des-citoyens-deurope-au-service-de-la-paix-et-dun-cessez-le-feu-immediat-en-ukraine/',
 	},
 ]
 
