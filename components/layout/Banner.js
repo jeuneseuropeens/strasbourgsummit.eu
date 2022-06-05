@@ -16,9 +16,11 @@ export default function Banner({title, description, bannerImage}) {
 			<div className="relative z-30 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
 				<Title tag="h1" darkMode center responsive>{title}</Title>
 
-				<p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center">
-					{description}
-				</p>
+				{description &&
+					<p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center">
+						{description}
+					</p>
+				}
 			</div>
 		</div>
 	)
