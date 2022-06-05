@@ -8,6 +8,7 @@ import Container from '../components/layout/Container'
 import Demands from '../components/index/demands'
 import NewsletterCTA from '../components/NewsletterCTA'
 import {richTextConfig} from '../lib/constants'
+import Button from '../components/commons/Button'
 
 function ReadMore() {
   const t = useTranslations('pages.Index')
@@ -69,7 +70,7 @@ export default function Home() {
             poster={staticImage}
           >
             <source
-              src="https://res.cloudinary.com/dmx5l9r9l/video/upload/q_auto:low/v1651678711/Video-Homepage-Summit-compressed-NoSound_lucwuc_uqtvvo.mp4"
+              src="https://res.cloudinary.com/dmx5l9r9l/video/upload/q_auto:low/e_accelerate:50/v1654447063/AFTERMOVIE_MARCHE_EUROPE_CLEAN_1_rwmghn.mp4"
               type="video/mp4"
             />
           </video>
@@ -84,9 +85,15 @@ export default function Home() {
             <span className="font-bold sm:text-6xl">{t('itIsTime2')}</span>
           </h1>
 
-          <p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center sm:text-2xl lg:text-3xl">
+          {/*<p className="mt-6 text-xl text-white max-w-prose m-auto sm:text-center sm:text-2xl lg:text-3xl">
             {t('description')}
-          </p>
+          </p>*/}
+
+          <div className="mt-12 sm:flex sm:justify-center sm:text-lg md:text-xl">
+            <Button href="/declaration" isExternal={false} type="white">
+              {t('declaration')}
+            </Button>
+          </div>
         </div>
       </div>
 

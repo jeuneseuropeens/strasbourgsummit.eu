@@ -18,13 +18,17 @@ export default function Header() {
 			slug: 'organisations'
 		},
 		{
-			title: t('takePart'),
-			slug: 'take-part'
+			title: t('declaration'),
+			slug: 'declaration'
 		},
-		{
-			title: t('map'),
-			slug: 'map'
-		},
+		// {
+		// 	title: t('takePart'),
+		// 	slug: 'take-part'
+		// },
+		// {
+		// 	title: t('map'),
+		// 	slug: 'map'
+		// },
 	]
 
 	const listNavItems = menuItems.map((item, index) => {

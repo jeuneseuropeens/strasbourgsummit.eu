@@ -9,9 +9,10 @@
     "header": {
       "home": "Accueil",
       "programme": "Programme",
-      "organisations": "Nous y serons",
+      "organisations": "Nous y étions",
       "takePart": "Participer",
-      "map": "Carte"
+      "map": "Carte",
+      "declaration": "La déclaration"
     },
     "footer": {
       "supportedBy": "Soutenu par",
@@ -37,11 +38,21 @@
     "privacyPolicy": ""
   },
   "pages": {
+    "Declaration": {
+      "title": "Il est temps de changer l'Europe",
+      "subtitle": "Déclaration de la société civile",
+      "text": "<p>Conflits armés dans le voisinage, changement climatique et dégradation de l'environnement, instabilité économique, défis migratoires - l'Europe est passée d'une crise à l'autre au cours des deux dernières décennies. Si nous sommes parvenus à surmonter ensemble la plupart d'entre elles, nos réponses ont bien trop souvent consisté à traiter les symptômes plutôt que les causes profondes. Dans la plupart des cas, les solutions que nous trouvons sont des solutions temporaires dépendant de l'engagement hésitant de 27 gouvernements plutôt que des réformes et des politiques à long terme justes, durables et inclusives reflétant la volonté et répondant aux besoins des citoyens européens et de ceux qui vivent sur notre territoire.</p><p>La Conférence sur l'avenir de l'Europe (CoFoE) est l'occasion de changer cette approche et d'apporter enfin un changement systémique à la suite de la consultation sans précédent de milliers de citoyens européens au cours des douze derniers mois. Ils ont parlé et c'est maintenant aux décideurs de suivre leurs recommandations.</p><p>Conscients des défis, les citoyens européens proposent un ensemble concret de réformes qui peuvent permettre à l'Europe de mieux les servir. Une Constitution européenne, un processus décisionnel sans droit de veto, un meilleur accès et une meilleure protection des valeurs et des droits fondamentaux, une armée européenne, une politique migratoire fondée sur les droits, une convergence accrue vers des normes sociales européennes communes, une Union de la santé et des mesures ambitieuses en matière d'environnement et de climat - ce ne sont là que quelques exemples des demandes formulées par les panels de citoyens de la Conférence en faveur d'une Europe plus unie, démocratique, inclusive, durable et humaniste. Tout ce qui n'est pas une mise en œuvre complète de ces demandes ne sapera pas seulement la crédibilité démocratique de la Conférence, mais aussi celle de l'Union européenne dans son ensemble.</p><p>La portée des propositions faites par les citoyens appelle à une véritable réforme de l'UE qui doit être mise en œuvre par une Assemblée constituante européenne élaborant un nouveau traité de l'UE ou, au moins, modifiant en profondeur les traités existants. Nous nous engageons à faire de ce projet une réalité et à être un acteur clé de ce processus, en étant établi par et en rassemblant des millions de citoyens en Europe, en contrant toute tentative de saper, diminuer ou négliger les recommandations faites par les Européens tout au long de la Conférence. Alors que le slogan officiel de la Conférence est \"L'avenir vous appartient\", il est loin d'être acquis que la vision de l'avenir de l'Europe que nous avons exprimée devienne une réalité - à moins que nous ne nous battions pour cela ensemble !</p>Nous demandons :<p></p><ul><li>La mise en œuvre complète des 49 propositions faites dans le cadre de la Conférence sur l'avenir de l'Europe.</li><li>Au Parlement européen de prendre l'initiative d'initier la procédure de modification du traité.</li><li>La poursuite de l'engagement des citoyens en tant qu'individus et par le biais d'organisations représentatives de la société civile au sein d'une Convention constituante pour une Union politique ambitieuse.</li></ul>",
+      "signatories": "Signataires :",
+      "cta": {
+        "title": "Signez la déclaration"
+      }
+    },
     "Index": {
       "title": "Sommet de Strasbourg",
       "itIsTime1": "Il est temps de",
       "itIsTime2": "changer l’Europe",
       "description": "Strasbourg - 5 au 8 mai 2022",
+      "declaration": "Signez la déclaration",
       "content": {
         "lead": "<p>Avant que la Conférence sur l’avenir de l’Europe ne prenne fin, nous invitons tous les acteurs de la société civile européenne à prendre part au <bold>Sommet de Strasbourg du 5 au 8 mai 2022</bold>.</p><p>La prise en compte des propositions des citoyens faites dans la Conférence reste incertaine. Mobilisons-nous pour nous assurer que les attentes des citoyens ne restent pas sans suite et que les dirigeants européens les traduisent en actes.</p>",
         "text": "<p>Depuis le 9 mai 2021, tous les citoyens européens sont appelés à participer à la <bold>Conférence sur l’avenir de l’Europe</bold> pour débattre des priorités de l’Europe et réfléchir à l’avenir qu’ils souhaitent lui donner.</p><p>Si ce grand temps de débat est un moment inédit pour refonder l’Europe, plusieurs signaux inquiètent quant aux suites qui lui seront effectivement données. A ce jour, le calendrier et les modalités de prise en compte réelle des aspirations citoyennes restent incertains. Par ailleurs, les suites infructueuses réservées aux précédentes consultations citoyennes en Europe donnent peu d’espoir quant à la considération donnée aux propositions faites dans le cadre de la Conférence sur l’avenir de l’Europe.</p><p>En effet, si la parole a été de nombreuses fois donnée aux citoyens européens pour connaître leurs attentes, leurs contributions sont bien souvent restées consignées dans des rapports. <bold>Ne laissons pas une nouvelle fois notre parole sans suite !</bold></p><p>Loin de se résigner, la société civile européenne souhaite donc se mobiliser pour que ce moment de démocratie participative ne reste pas lettre morte. Les conclusions de la Conférence sur l’avenir de l’Europe en mai 2022 constituent une chance unique pour la société civile de définir l’Europe qu’elle veut et pour les dirigeants européens de la traduire en actes. Pour y parvenir, <bold>toutes les forces vives en Europe sont invitées à se mobiliser lors du Sommet de Strasbourg du 5 au 8 mai 2022</bold>.</p><p><bold>Les attentes sont fortes</bold>. La Conférence sur l’avenir de l’Europe peut déboucher sur une réforme sincère et en profondeur portée par les institutions européennes et impliquant ses citoyens, en particulier les plus jeunes. Elle peut enfin donner lieu aux <bold>changements qui donneront à l’Europe la capacité de relever les défis de notre siècle</bold> et qui nous concernent tous, au premier rang desquels le changement climatique.</p>"
