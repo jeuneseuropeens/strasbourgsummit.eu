@@ -7,7 +7,7 @@ export default function Legal() {
 
 	return (
 		<TemplateBase
-			title="{t('title')}"
+			title={t('title')}
 		>
 			<div className="relative py-16 overflow-hidden">
 				<BackgroundDots/>

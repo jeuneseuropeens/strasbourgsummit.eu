@@ -9,9 +9,10 @@
     "header": {
       "home": "Home",
       "programme": "Programme",
-      "organisations": "They're in",
+      "organisations": "They took part",
       "takePart": "Take part",
-      "map": "Map"
+      "map": "Map",
+      "declaration": "The declaration"
     },
     "footer": {
       "supportedBy": "Supported by",
@@ -36,11 +37,21 @@
     "description": ""
   },
   "pages": {
+    "Declaration": {
+      "title": "It’s time to change Europe",
+      "subtitle": "Civil society declaration",
+      "text": "<p>Armed conflicts in the neighbourhood, climate change and environmental degradation, economic instability, migratory challenges - Europe has been going from one crisis to another in the last two decades. While we have managed to overcome most of them together, far too often our responses have been focused on treating the symptoms rather than addressing the root causes. In most cases, the solutions we find are temporary fixes dependent on the wavering commitment of 27 governments rather than just, sustainable and inclusive long-term  reforms and policies reflecting the will and answering the needs of the European citizens and those who live on our territory.</p><p>The Conference on the Future of Europe (CoFoE) is the opportunity to change this approach and finally bring about a systemic change following the unprecedented consultation of thousands of EU citizens over the last year. The people have spoken and it’s now up to decision-makers to follow their guidance in a democratic manner.</p><p>Seeing the challenges around them, European citizens offer a concrete set of reforms that can make Europe serve them better. A European Constitution, veto-free decision-making, better access and protection of the fundamental rights and values, an EU army, a rights based  migration policy, upward convergence on common EU social standards, a Health Union and ambitious environmental and climate action - these are just a few examples of demands for a more united, democratic, inclusive, sustainable and people-centric Europe made by the CoFoE Citizens’ Panels. Anything less than a full implementation of these will not only undermine the democratic credentials of the Conference, but also the EU as a whole.</p><p>The scope of the proposals made by citizens calls for a genuine EU reform which can be implemented through a European Constituent Assembly developing a new EU treaty or at least comprehensively amending the existing ones. We are committed to making this a reality, and being a key actor of this process, being established by and gathering millions of citizens in Europe, countering any attempts to undermine, diminish or neglect the recommendations made by Europeans throughout the Conference. While the official Conference slogan is “The future is yours”, it is far from granted that the vision for Europe’s future we have expressed becomes a reality - unless we fight for it together!</p><p>We call for:</p><ul><li>The full implementation of  the 49 proposals made as part of the Conference on the Future of Europe.</li><li>The European Parliament to take the lead in initiating the Treaty modification procedure.</li><li>The continuation of citizens’ engagement as individuals and through representative civil society organisations within a Constituent Convention towards an ambitious political Union.</li></ul>",
+      "signatories": "Signatories:",
+      "cta": {
+        "title": "Sign the declaration"
+      }
+    },
     "Index": {
       "title": "Strasbourg Summit",
       "itIsTime1": "Time to",
       "itIsTime2": "change Europe",
       "description": "Strasbourg - May 5-8 2022",
+      "declaration": "Sign the declaration",
       "content": {
         "lead": "<p>Before the Conference on the Future of Europe comes to an end, we invite all European civil society members to take part in <bold>the Strasbourg Summit from May 5 to 8 2022</bold>.</p><p>It is still uncertain whether the citizens' proposals made in the Conference will be taken into account. We will strive to ensure citizens' expectations are not left unheard and that European leaders follow and take action.</p>",
         "text": "<p>Since May 9, 2021, all European citizens have been called upon to take part in the <bold>Conference on the Future of Europe</bold> to debate Europe's priorities and reflect on the future they wish to give it.</p><p>While this major debate is a unique opportunity to re-found Europe, there are a number of worrying signs as to what will actually happen. To date, the timetable and the ways in which aspirations will be taken into account remain uncertain. Furthermore, the unsuccessful follow-up to previous citizens' consultations in Europe gives little hope that the proposals made in the framework of the Conference on the Future of Europe will be taken into consideration.</p><p>Indeed, although European citizens have been given the floor many times to express their expectations, their contributions have often remained in the form of reports. <bold>Let's not let our words go unheard once again!</bold></p><p>Far from resigning, European civil society therefore wishes to mobilise so that this moment of democracy does not remain without follow-up. The conclusions of the Conference on the Future of Europe in May 2022 are <bold>a unique opportunity for civil society to define the Europe it wants</bold> and for European leaders to translate it into action. <bold>The Strasbourg Summit on 5-8 May 2022 will push for it</bold> with all European civil society organisations.</p><p><bold>Expectations are high.</bold> The Conference on the Future of Europe can lead to a sincere and in-depth reform carried out by the European institutions and involving its citizens, in particular the youngest. It can also bring about the changes that will <bold>give Europe the capacity to meet the challenges of our century</bold>, which concern us all, first and foremost climate change.</p>"
@@ -269,7 +280,7 @@
       }
     },
     "Organisations": {
-      "title": "They’re in",
+      "title": "They took part",
       "description": "A movement launched in 2021, the Strasbourg Summit is based on the involvement of multiple European civil society organisations, active across the whole continent.",
       "medias": "Media partners"
     },
